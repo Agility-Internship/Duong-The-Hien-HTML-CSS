@@ -1,10 +1,9 @@
 
-## readme
+## Overview
+Design a static blog page interface, display information related to marketing, sales and product market information
+
 - **Author**
-    - TheHien
-- **Overview**
-    
-    Design a static blog page interface, display information related to marketing, sales and product market information
+    - TheHien 
 - **Requirements**
     - Work fine on Chrome browser latest version
     - Use the right HTML tags
