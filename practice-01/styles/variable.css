@@ -1,22 +1,20 @@
 :root {
     /* --------------font-------------------- */
     --font-family: "Satoshi";
-  
+
     /* -------------color-------------------- */
-    --primary-color: #FFFFFF;
-    --secondary-color: #F4F4F4;
-    --title-color: #787878;
-    --button-color: #004050;
-    --CTA-rectangle-color : #004050;
-    --CTA-square-color :#FFE377;
-    --CTA-circle-color :#00CC61;
-    
+    --WHITE: #ffffff;
+    --LIGHTHOUSE: #f4f4f4;
+    --WESTCHESTER-GREY: #787878;
+    --CRAB-NEBULA: #004050;
+
+
     /* -------------font-weight-------------- */
     --font-weight-title: 700;
     --font-weight-button: 700;
     --font-weight-alphabet: 500;
-    --font-weight-footer : 400;
-  
+    --font-weight-footer: 400;
+
     /* -------------font-size---------------- */
     --font-size-small: 14px;
     --font-size-medium: 18px;
@@ -24,7 +22,7 @@
     --font-size-x-large: 32px;
     --font-size-xx-large: 64px;
     --font-size-datetime: 16px;
-  
+
     /* -------------line-height-------------- */
     --line-height-small: 19px;
     --line-height-medium: 24px;
@@ -32,9 +30,4 @@
     --line-height-x-large: 42px;
     --line-height-xx-large: 50px;
     --line-height-xxx-large: 74px;
-  }
-  
-  .container {
-    container-type: inline-size;
-    container-name: sidebar;
-  }
+}
