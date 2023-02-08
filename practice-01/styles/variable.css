@@ -3,17 +3,17 @@
     --font-family: "Satoshi";
 
     /* -------------color-------------------- */
-    --WHITE: #ffffff;
-    --LIGHTHOUSE: #f4f4f4;
-    --WESTCHESTER-GREY: #787878;
-    --CRAB-NEBULA: #004050;
+    --white: #ffffff;
+    --lighthouse: #f4f4f4;
+    --westchester-grey: #787878;
+    --crab-nebula: #004050;
 
 
     /* -------------font-weight-------------- */
-    --font-weight-title: 700;
-    --font-weight-button: 700;
-    --font-weight-alphabet: 500;
-    --font-weight-footer: 400;
+    
+    --font-weight-small: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
 
     /* -------------font-size---------------- */
     --font-size-small: 14px;
