@@ -2,15 +2,15 @@
 @import url(../styles/variable.css);
 @import url(../styles/font.css);
 
-html,body{
+html,
+body {
     font-family: var(--font-family);
     font-style: normal;
 }
+
 a {
     text-decoration: none;
 }
-
-
 
 .container {
     width: 80%;
@@ -22,21 +22,23 @@ a {
     background-color: var(--white);
     border: 1px solid var(--gainsboro);
     border-radius: 4px;
-    
-   
+
     padding-left: 12px;
     padding-right: 12px;
     padding-top: 6px;
     padding-bottom: 6px;
 
     cursor: pointer;
-    
+
 }
 
 
+
+
+
 /* header */
-header {
-    position: absolute;  
+.header--container {
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -53,47 +55,49 @@ header {
 }
 
 
-.header__content nav {
+.header__content .navbar--container {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-} 
+}
 
-.header__content .nav__menu ul {
+.header__content .nav__menu .menu__list {
     display: flex;
     width: 70%;
 }
 
-.nav__menu ul li a {
+.nav__menu .menu__list .menu--item .item--link {
+    font-family: var(--font-family);
     color: var(--black);
     margin-left: 40px;
-    font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-small) ;
-    line-height: var(--line-height-small);
+
 
 }
 
-.header__content .nav__button {
+.header__content .nav__option {
     display: flex;
 }
-.nav__button button:last-child {
+
+.nav__option .nav__button:last-child {
     background-color: var(--crab-nebula);
     color: white;
     margin-left: 16px;
 }
 
 
-.header__carousel{
+.header__carousel {
     padding-top: 70px;
-   
+
 }
-.header__carousel p {
+
+.header__carousel .carousel__content--above {
     letter-spacing: -0.888889px;
     color: var(--black);
 }
-.header__carousel span{
-    color: var(--westchester-grey) ;
+
+.header__carousel .carousel__content--below {
+    color: var(--westchester-grey);
 }
 
 .header__tab {
@@ -101,19 +105,24 @@ header {
     width: 100%;
     height: 54px;
 }
-.header__tab ul {
+
+.header__tab .tab__list {
     display: flex;
 }
-.header__tab ul li {
+
+.header__tab .tab__list .list--item {
     margin-right: 40px;
 }
-.header__tab ul li a {
+
+.header__tab .tab__list .list--item .item--link {
     color: var(--lucky-grey);
 }
-.header__tab ul li:nth-child(1) {
+
+.header__tab .tab__list .list--item:nth-child(1) {
     border-bottom: 3px solid var(--alienated);
     padding-bottom: 27px;
 }
-.header__tab ul li:nth-child(1) > a {
+
+.header__tab .tab__list .list--item:nth-child(1)>.item--link {
     color: black;
 }
