@@ -1,21 +1,25 @@
-    .font--nav {
-        font-weight: var(--font-weight-medium);
+    .small-text {
         font-size: var(--font-size-small);
+        font-weight: var(--font-weight-medium);
         line-height: var(--line-height-small);
     }
-    .font--tab {
-        font-weight: var(--font-size-medium);
-        font-size: var(--font-size-medium);
-        line-height: var(--line-height-medium);
-    }
-    .font--x-larger {
-        font-weight: var(--font-weight-bold);
+
+    .font-xxx-large {
         font-size: var(--font-size-xx-large);
+        font-weight: var(--font-weight-bold);
         line-height: var(--line-height-xxx-large);
     }
-    .font-title {
-        font-weight: var(--font-weight-bold);
-        font-size: var(--font-size-small);
-        line-height: var(--line-height-small);
+
+
+    .medium-text {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-medium);
     }
-    
+
+
+    /* .h6-b3-text {
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-small);
+    }  */

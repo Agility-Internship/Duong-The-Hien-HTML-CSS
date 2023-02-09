@@ -17,20 +17,20 @@
 
     /* -------------font-weight-------------- */
 
-    --font-weight-small: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700;
+    --font-weight-small: 400;  /*b1*/
+    --font-weight-medium: 500; /*b2*/
+    --font-weight-bold: 700; /*b3*/
 
     /* -------------font-size---------------- */
-    --font-size-small: 14px;
-    --font-size-medium: 18px;
-    --font-size-large: 24px;
-    --font-size-x-large: 32px;
-    --font-size-xx-large: 64px;
-    --font-size-datetime: 16px;
+    --font-size-small: 14px; /*h6*/
+    --font-size-datetime: 16px; /*h5*/
+    --font-size-medium: 18px; /*h4*/
+    --font-size-large: 24px; /*h3*/
+    --font-size-x-large: 32px; /*h2*/
+    --font-size-xx-large: 64px; /*h1*/
 
     /* -------------line-height-------------- */
-    --line-height-small: 19px;
+    --line-height-small: 19px; 
     --line-height-medium: 24px;
     --line-height-large: 34px;
     --line-height-x-large: 42px;
