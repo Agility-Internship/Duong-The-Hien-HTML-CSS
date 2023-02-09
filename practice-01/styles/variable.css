@@ -1,16 +1,22 @@
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
 :root {
     /* --------------font-------------------- */
-    --font-family: "Satoshi";
+    --font-family: 'Satoshi', sans-serif;
 
     /* -------------color-------------------- */
     --white: #ffffff;
+    --black: #000000;
     --lighthouse: #f4f4f4;
+    --gainsboro: #dcdcdc;
     --westchester-grey: #787878;
+    --lucky-grey: #777777;
     --crab-nebula: #004050;
+    --alienated: #00CC61;
 
 
     /* -------------font-weight-------------- */
-    
+
     --font-weight-small: 400;
     --font-weight-medium: 500;
     --font-weight-bold: 700;

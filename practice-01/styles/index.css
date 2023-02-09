@@ -1,3 +1,119 @@
-h1 {
-    color: red;
+@import url(../styles/reset.css);
+@import url(../styles/variable.css);
+@import url(../styles/font.css);
+
+html,body{
+    font-family: var(--font-family);
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--white);
+    border: 1px solid var(--gainsboro);
+    border-radius: 4px;
+    
+   
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    cursor: pointer;
+    
+}
+
+
+/* header */
+header {
+    position: absolute;  
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--lighthouse);
+}
+
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 29px 0;
+}
+
+
+.header__content nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.header__content .nav__menu ul {
+    display: flex;
+    width: 70%;
+}
+
+.nav__menu ul li a {
+    color: var(--black);
+    margin-left: 40px;
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-small) ;
+    line-height: var(--line-height-small);
+
+}
+
+.header__content .nav__button {
+    display: flex;
+}
+.nav__button button:last-child {
+    background-color: var(--crab-nebula);
+    color: white;
+    margin-left: 16px;
+}
+
+
+.header__carousel{
+    padding-top: 70px;
+   
+}
+.header__carousel p {
+    letter-spacing: -0.888889px;
+    color: var(--black);
+}
+.header__carousel span{
+    color: var(--westchester-grey) ;
+}
+
+.header__tab {
+    padding-top: 100px;
+    width: 100%;
+    height: 54px;
+}
+.header__tab ul {
+    display: flex;
+}
+.header__tab ul li {
+    margin-right: 40px;
+}
+.header__tab ul li a {
+    color: var(--lucky-grey);
+}
+.header__tab ul li:nth-child(1) {
+    border-bottom: 3px solid var(--alienated);
+    padding-bottom: 27px;
+}
+.header__tab ul li:nth-child(1) > a {
+    color: black;
 }
