@@ -41,7 +41,7 @@ a {
 
 
 /* header */
-.header--container {
+.header {
     position: absolute;
     top: 0;
     left: 0;
@@ -58,14 +58,14 @@ a {
     padding: 29px 0;
 }
 
-.header__content .navbar--container {
+.header__content .navbar {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.navbar--container .menu__list {
+.navbar .menu__list {
     display: flex;
     width: 70%;
 }
