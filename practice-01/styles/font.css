@@ -3,26 +3,22 @@
         font-size: var(--font-size-small);
         line-height: var(--line-height-small);
     }
-
-
     .font--tab {
         font-weight: var(--font-size-medium);
         font-size: var(--font-size-medium);
         line-height: var(--line-height-medium);
     }
-
     .font--button {
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-medium);
         line-height: var(--line-height-small);
     }
-
     .font--x-larger {
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-xx-large);
         line-height: var(--line-height-xxx-large);
     }
-    .title-tab {
+    .font-title {
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-small);
         line-height: var(--line-height-small);
