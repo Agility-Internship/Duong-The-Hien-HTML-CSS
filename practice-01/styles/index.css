@@ -2,6 +2,7 @@
 @import url(../styles/variable.css);
 @import url(../styles/font.css);
 
+/* Global */
 html,
 body {
     font-family: var(--font-family);
@@ -11,12 +12,10 @@ body {
 a {
     text-decoration: none;
 }
-
 .container {
     width: 80%;
     margin: auto;
 }
-
 .btn {
     display: inline-block;
     background-color: var(--white);
@@ -53,32 +52,26 @@ a {
 
     padding: 29px 0;
 }
-
-
 .header__content .navbar--container {
     width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.header__content .nav__menu .menu__list {
+.navbar--container .menu__list {
     display: flex;
     width: 70%;
 }
-
-.nav__menu .menu__list .menu--item .item--link {
+.menu__list .item--link {
     font-family: var(--font-family);
     color: var(--black);
     margin-left: 40px;
-
-
 }
+
 
 .header__content .nav__option {
     display: flex;
 }
-
 .nav__option .nav__button:last-child {
     background-color: var(--crab-nebula);
     color: white;
@@ -90,12 +83,10 @@ a {
     padding-top: 70px;
 
 }
-
 .header__carousel .carousel__content--above {
     letter-spacing: -0.888889px;
     color: var(--black);
 }
-
 .header__carousel .carousel__content--below {
     color: var(--westchester-grey);
 }
@@ -109,20 +100,16 @@ a {
 .header__tab .tab__list {
     display: flex;
 }
-
-.header__tab .tab__list .list--item {
+.tab__list .list--item {
     margin-right: 40px;
 }
-
-.header__tab .tab__list .list--item .item--link {
-    color: var(--lucky-grey);
-}
-
-.header__tab .tab__list .list--item:nth-child(1) {
+.tab__list .list--item:nth-child(1) {
     border-bottom: 3px solid var(--alienated);
     padding-bottom: 27px;
 }
-
-.header__tab .tab__list .list--item:nth-child(1)>.item--link {
+.tab__list .list--item:nth-child(1)>.item--link {
     color: black;
+}
+.list--item .item--link {
+    color: var(--lucky-grey);
 }

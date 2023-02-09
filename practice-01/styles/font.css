@@ -4,11 +4,6 @@
         line-height: var(--line-height-small);
     }
 
-    .font--nav__menu {
-        font-weight: var(--font-weight-medium);
-        font-size: var(--font-size-small);
-        line-height: var(--line-height-small);
-    }
 
     .font--tab {
         font-weight: var(--font-size-medium);
