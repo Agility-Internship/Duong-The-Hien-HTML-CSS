@@ -1,0 +1,25 @@
+    .small-text {
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-small);
+    }
+
+    .font-xxx-large {
+        font-size: var(--font-size-xx-large);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-xxx-large);
+    }
+
+
+    .medium-text {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-medium);
+    }
+
+
+    /* .h6-b3-text {
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-small);
+    }  */
