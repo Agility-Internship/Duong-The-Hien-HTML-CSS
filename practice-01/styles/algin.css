@@ -69,3 +69,17 @@
 .Blog_Article .container{
     margin-top: 120px;
 }
+
+
+
+
+
+
+/* cta */
+.cta {
+    margin-top: 180px;
+}
+.cta .container{
+    padding: 120px 150px;
+
+}

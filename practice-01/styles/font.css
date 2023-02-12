@@ -5,6 +5,18 @@
     line-height: var(--line-height-small);
     color: var(--black);
 }
+.title {
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xxx-large);
+    letter-spacing: -0,89px;
+}
+.text {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+    color: var(--white);
+}
 
 /* heading */
 .heading h1{
@@ -48,11 +60,7 @@
     color: var(--black);
 }
 
-.header__carousel {
-    font-size: var(--font-size-xx-large);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-xxx-large);
-}
+
 .header__carousel p {
     letter-spacing: -0.888889px;
     color: var(--black);
@@ -67,3 +75,13 @@
     color: var(--lucky-grey);
 }
 /* product */
+
+
+
+
+
+
+/* cta__blog */
+.cta__content .title{
+    color: var(--white);
+}
