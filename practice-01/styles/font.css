@@ -13,21 +13,26 @@
     line-height: var(--line-height-xx-large);
     padding-bottom: 120px;
 }
-.heading h3{
+.card-text{
     font-weight: var(--font-weight-bold);
     font-size:var(--font-size-large);
     line-height: var(--line-height-large);
     letter-spacing: -0.33px;
 }
-.heading h4{
+.card--medium .card-text{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-x-large);
+    line-height: var(--line-height-x-large);
+}
+.card-footer{
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-datetime);
     line-height: var(--line-height-x-small);
 }
-.heading h4>span{
+.card-footer>span{
     color: var(--westchester-grey);
 }
-.heading h5{
+.card-title{
     color: var(--westchester-grey);
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size-small);
