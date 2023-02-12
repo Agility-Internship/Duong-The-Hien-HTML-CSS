@@ -142,33 +142,37 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.product__content .product__item .pic {
+.product__content .card-body .card-pic {
     width: 100%;
     height: 242px;
-
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.product__item .product--bg1{
+ .product--bg1{
     background: url(../img/product__item1.png);
 
 }
-.product__item .product--bg2{
+ .product--bg2{
     background: url(../img/product__item2.png);
 
 }
-.product__item .product--bg3{
+ .product--bg3{
     background: url(../img/product__item3.png);
 
-}.product__item .product--bg4{
+} .product--bg4{
     background: url(../img/product__item4.png);
 
-}.product__item .product--bg5{
+} .product--bg5{
     background: url(../img/product__item5.png);
 
 }
-.product__item .product--bg6{
+ .product--bg6{
     background: url(../img/product__item6.png);
 
 }
+
+
+
+
+
