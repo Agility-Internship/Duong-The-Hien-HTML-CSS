@@ -1,6 +1,7 @@
 @import url(../styles/reset.css);
 @import url(../styles/variable.css);
 @import url(../styles/font.css);
+@import url(../styles/algin.css);
 
 /* Global */
 html,
@@ -13,6 +14,7 @@ a {
     text-decoration: none;
 }
 
+
 .container {
     width: 80%;
     margin: auto;
@@ -24,16 +26,6 @@ a {
     border: 1px solid var(--gainsboro);
     border-radius: 4px;
 
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-
-
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-medium);
-    line-height: var(--line-height-small);
-
 }
 
 
@@ -42,7 +34,7 @@ a {
 
 /* header */
 .header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -70,37 +62,18 @@ a {
     width: 70%;
 }
 
-.menu__list .item {
-    font-family: var(--font-family);
-    color: var(--black);
-    margin-left: 40px;
-}
-
-
 .header__content .nav__option {
     display: flex;
 }
-
-.nav__option .button:nth-child(2) {
+.nav__option .button--crab-nebula {
     background-color: var(--crab-nebula);
     color: white;
     margin-left: 16px;
 }
-
-
 .header__carousel {
     padding-top: 70px;
-
 }
 
-.header__carousel .carousel__content--above {
-    letter-spacing: -0.888889px;
-    color: var(--black);
-}
-
-.header__carousel .carousel__content--below {
-    color: var(--westchester-grey);
-}
 
 .header__tab {
     padding-top: 100px;
@@ -125,4 +98,35 @@ a {
 
 .tab__list .list__item {
     color: var(--lucky-grey);
+}
+
+/* Service */
+.service {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--white);
+}
+.service .container {
+    display: flex;
+}
+.service__left {
+    width: 47%;
+   
+    border-bottom: 1px solid var(--westchester-grey);
+    border-top: 1px solid var(--westchester-grey);
+}
+
+.service__left .service__left-title {
+    padding-top: 14px;
+    padding-bottom: 118px;
+}
+
+.service__right {
+    width: 50%;
+    height: 370px;
+    display: inline-block;
+    background: url(../img/service__img.png);
+    background-repeat: no-repeat;
 }

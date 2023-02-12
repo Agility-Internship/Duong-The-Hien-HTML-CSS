@@ -1,25 +1,69 @@
-    .small-text {
-        font-size: var(--font-size-small);
-        font-weight: var(--font-weight-medium);
-        line-height: var(--line-height-small);
-    }
-
-    .font-xxx-large {
-        font-size: var(--font-size-xx-large);
-        font-weight: var(--font-weight-bold);
-        line-height: var(--line-height-xxx-large);
-    }
+/* Global */
+.btn{
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-small);
+    color: var(--black);
+}
 
 
-    .medium-text {
-        font-size: var(--font-size-medium);
-        font-weight: var(--font-weight-medium);
-        line-height: var(--line-height-medium);
-    }
 
+/* Header */
+.navbar .menu__list .item   {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-small);
+    color: var(--black);
+}
 
-    /* .h6-b3-text {
-        font-size: var(--font-size-small);
-        font-weight: var(--font-weight-bold);
-        line-height: var(--line-height-small);
-    }  */
+.header__carousel {
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xxx-large);
+}
+.header__carousel p {
+    letter-spacing: -0.888889px;
+    color: var(--black);
+}
+.header__carousel span {
+    color: var(--westchester-grey);
+}
+.tab__list .list__item {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-medium);
+    color: var(--lucky-grey);
+}
+
+/* heading */
+.heading h1{
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-xx-large);
+    padding-bottom: 120px;
+}
+.heading h3{
+    font-weight: var(--font-weight-bold);
+    font-size:var(--font-size-large);
+    line-height: var(--line-height-large);
+    letter-spacing: -0.33px;
+}
+.heading h4{
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-datetime);
+    line-height: var(--line-height-x-small);
+}
+.heading h4>span{
+    color: var(--westchester-grey);
+}
+.heading h5{
+    color: var(--westchester-grey);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+}
+/* .h6-b3-text {
+    font-size: var(--font-size-small);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-small);
+}  */

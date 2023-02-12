@@ -1,0 +1,28 @@
+/* Global */
+.btn {
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+
+/* heading */
+.navbar .menu__list .item {
+    margin-left: 40px;
+}
+.header__carousel {
+    padding-top: 70px;
+}
+
+/* service */
+.service .container {
+    margin-top: 120px;
+}
+
+.service__left {
+    margin-right: 30px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+    
+}
