@@ -20,7 +20,7 @@
 
 
     /* Card */
-    .card--none-pic .card__text{
+    .card--none-pic .card__text--lg{
         font-size: var(--font-size-x-large);
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-xx-large);
