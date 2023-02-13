@@ -42,7 +42,7 @@ a {
 
 /* header */
 .header {
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -125,4 +125,42 @@ a {
 
 .tab__list .list__item {
     color: var(--lucky-grey);
+}
+
+
+
+
+/* service */
+.service {
+
+    background: var(--white);
+}
+.service .container {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.service__left {
+    width: 47%;
+    
+    border-bottom: 1px solid var(--westchester-grey);
+    border-top: 1px solid var(--westchester-grey);
+
+    margin-right: 30px;
+    padding-top: 24px;
+    padding-bottom: 21px;
+
+}
+.service__left .card-text {
+    padding-bottom: 120px;
+
+}
+.service__right {
+    width: 50%;
+    height: 370px;
+
+    background: url(../img/service__img.png);
+    background-repeat: no-repeat;
 }
