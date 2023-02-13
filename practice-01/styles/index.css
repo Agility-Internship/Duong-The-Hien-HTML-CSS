@@ -35,9 +35,22 @@ a {
     line-height: var(--line-height-small);
 
 }
-
-
-
+.card--img .card__pic{
+    width: 100%;
+    margin-bottom: 16px;
+    /* padding: -30px; background padding */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card__body .card__title {
+    padding-bottom: 14px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--westchester-grey);
+}
+.card__body .card__text {
+    padding-bottom: 24px;
+}
 
 
 /* header */
@@ -119,7 +132,8 @@ a {
     border-bottom: 3px solid var(--alienated);
     padding-bottom: 27px;
 }
-.tab__list .list--mark .list__item{
+
+.tab__list .list--mark .list__item {
     color: black;
 }
 
@@ -135,16 +149,17 @@ a {
 
     background: var(--white);
 }
+
 .service .container {
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .service__left {
     width: 47%;
-    
+
     border-bottom: 1px solid var(--westchester-grey);
     border-top: 1px solid var(--westchester-grey);
 
@@ -153,14 +168,66 @@ a {
     padding-bottom: 21px;
 
 }
+
 .service__left .card__text--lg {
     padding-bottom: 120px;
 
 }
+
 .service__right {
     width: 50%;
     height: 370px;
 
     background: url(../img/service__img.png);
     background-repeat: no-repeat;
+}
+
+
+
+
+/* product */
+.product .container {
+    margin-top: 120px;
+}
+.product__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product__content .card__body {
+    width: 30%;
+    margin-bottom: 120px;
+}
+.product__content .card__pic {
+    height: 242px;
+}
+
+.product--bg1 {
+    background: url(../img/product__item1.png);
+
+}
+
+.product--bg2 {
+    background: url(../img/product__item2.png);
+
+}
+
+.product--bg3 {
+    background: url(../img/product__item3.png);
+
+}
+
+.product--bg4 {
+    background: url(../img/product__item4.png);
+
+}
+
+.product--bg5 {
+    background: url(../img/product__item5.png);
+
+}
+
+.product--bg6 {
+    background: url(../img/product__item6.png);
+
 }
