@@ -20,29 +20,30 @@
 
 
     /* Card */
-    .card--none-pic .card-text{
+    .card--none-pic .card__text{
         font-size: var(--font-size-x-large);
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-xx-large);
+        letter-spacing: -0.33px;
+
     }
-    .card-title{
+    .card__title{
         color: var(--westchester-grey);
         font-weight: var(--font-weight-bold);
         font-size: var(--font-size-small);
         line-height: var(--line-height-small);
     }
-    .card-text{
+    .card__text{
         font-weight: var(--font-weight-bold);
         font-size:var(--font-size-large);
         line-height: var(--line-height-large);
-        letter-spacing: -0.33px;
     }
-    .card-footer{
+    .card__footer{
         font-weight: var(--font-weight-medium);
         font-size: var(--font-size-datetime);
         line-height: var(--line-height-x-small);
     }
-    .card-footer-gray {
+    .card__footer--gray {
         color: var(--westchester-grey);
     }
     /* .h6-b3-text {
