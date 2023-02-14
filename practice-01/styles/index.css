@@ -202,32 +202,32 @@ a {
 
 }
 
-.product__img1 {
+.card__pic--product1 {
     background: url(../img/product__item1.png);
 
 }
 
-.product__img2 {
+.card__pic--product2 {
     background: url(../img/product__item2.png);
 
 }
 
-.product__img3 {
+.card__pic--product3 {
     background: url(../img/product__item3.png);
 
 }
 
-.product__img4 {
+.card__pic--product4 {
     background: url(../img/product__item4.png);
 
 }
 
-.product__img5 {
+.card__pic--product5 {
     background: url(../img/product__item5.png);
 
 }
 
-.product__img6 {
+.card__pic--product6 {
     background: url(../img/product__item6.png);
 
 }
