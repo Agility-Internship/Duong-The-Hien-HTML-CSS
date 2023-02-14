@@ -35,19 +35,19 @@ a {
     line-height: var(--line-height-small);
 
 }
-.card--img__body .card__pic{
+.card__img__body .card__pic{
     width: 100%;
     /* padding: -30px; background padding */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-.card--img__body .card__title {
+.card__img__body .card__title {
     padding-bottom: 14px;
     margin-bottom: 24px;
     border-bottom: 1px solid var(--westchester-grey);
 }
-.card--img__body .card__text {
+.card__img__body .card__text {
     padding-bottom: 24px;
 }
 
@@ -192,7 +192,7 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.product__content .card--img__body {
+.product__content .card__img__body {
     width: 30%;
     margin-bottom: 120px;
 }
