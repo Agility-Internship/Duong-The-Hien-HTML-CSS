@@ -52,6 +52,7 @@ a {
 }
 
 
+
 /* header */
 .header {
     position: relative;
@@ -236,7 +237,7 @@ a {
 
 
 
-/* prodcut */
+/* marketing */
 .marketing__content {
     display: flex;
 }
@@ -247,8 +248,35 @@ a {
 .marketing__left .card--img__body{
     width: 100%;
 }
-.marketing__img {
+.card__pic--marketing {
     background: url(../img/marketing__img.png);
     height:370px;
+    margin-bottom: 24px;
+}
+
+.marketing__right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.marketing__right .card--none-pic__body {
+    display: flex;
+    align-items: flex-end;
+    padding-top: 16px;
+    border-top: 1px solid var(--westchester-grey);
+    margin-top: 33px;
+}
+.card--none-pic__body .card__text {
+    margin-bottom: 32px;
+}
+.card--none-pic__body--block1 {
+    width: 70%;
+}
+.card--none-pic__body--block2 {
+    width: 30%;
+    text-align: end;
     
 }
+
