@@ -35,7 +35,7 @@ a {
     line-height: var(--line-height-small);
 
 }
-.card--img__body .card__pic{
+.card--img .card__pic{
     width: 100%;
     /* padding: -30px; background padding */
     background-size: cover;
@@ -230,4 +230,25 @@ a {
 .product__img6 {
     background: url(../img/product__item6.png);
 
+}
+
+
+
+
+
+/* prodcut */
+.marketing__content {
+    display: flex;
+}
+
+.marketing__left , .marketing__right {
+    width: 50%;
+}
+.marketing__left .card--img__body{
+    width: 100%;
+}
+.marketing__img {
+    background: url(../img/marketing__img.png);
+    height:370px;
+    
 }
