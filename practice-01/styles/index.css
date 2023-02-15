@@ -335,7 +335,7 @@ a {
 .cta__button {
     text-align: center;
 }
-.cta__button .btn {
+.btn--chevron{
     border-radius: none;
     width: 198px;
     height: 64px;
