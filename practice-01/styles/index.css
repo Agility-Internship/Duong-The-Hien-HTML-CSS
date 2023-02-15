@@ -266,3 +266,29 @@ a {
 .card--horizontal-block:nth-child(2) {
     width: 30%;
 }
+
+
+
+
+
+/* article */
+.Blog_Article .container {
+    padding-top: 158px;
+
+}
+
+.article__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.article__content .card__img-body {
+    width: 30%;
+}
+
+.article__content .article__pic {
+    width: 100%;
+    height: 241px;
+    padding-bottom: 16px;
+}
