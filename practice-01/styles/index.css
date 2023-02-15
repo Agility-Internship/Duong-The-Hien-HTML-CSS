@@ -256,13 +256,13 @@ a {
     margin-bottom: 32px;
 }
 
-.card-block .card__title {
+.card--horizontal-block .card__title {
     text-align: right;
 }
 
-.card-block:nth-child(1) {
+.card--horizontal-block:nth-child(1) {
     width: 70%;
 }
-.card-block:nth-child(2) {
+.card--horizontal-block:nth-child(2) {
     width: 30%;
 }
