@@ -16,7 +16,14 @@
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-medium);
     }
-
+    
+    .title {
+        font-size: var(--font-size-xx-large);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-xxx-large);
+        letter-spacing: -0, 89px;
+        color: var(--white);
+    }
 
 
     /* Card */
