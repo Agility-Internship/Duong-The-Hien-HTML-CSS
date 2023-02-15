@@ -14,7 +14,8 @@ a {
 }
 
 .container {
-    width: 80%;
+    max-width: 1440px;
+    /* change : width: 8 */
     margin: auto;
 }
 
@@ -36,7 +37,7 @@ a {
 
 }
 
-.card__img .card__img--bg {
+.card__img .card__img-pic {
     width: 100%;
     /* padding: -30px; background padding */
     background-size: cover;
