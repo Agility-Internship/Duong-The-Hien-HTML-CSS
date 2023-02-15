@@ -1,17 +1,17 @@
-    .text--small {
+    .font--small {
         font-size: var(--font-size-small);
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-small);
     }
 
-    .text--medium {
+    .font--medium {
         font-size: var(--font-size-medium);
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-medium);
     }
 
 
-    .font-xxx-large {
+    .font--large {
         font-size: var(--font-size-xx-large);
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-xxx-large);
