@@ -1,7 +1,21 @@
-    .small-text {
+    .text--small {
         font-size: var(--font-size-small);
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-small);
+    }
+
+    .text--medium {
+        font-size: var(--font-size-medium);
+        font-weight: var(--font-weight-medium);
+        line-height: var(--line-height-medium);
+    }
+
+    .title {
+        font-size: var(--font-size-xx-large);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-xxx-large);
+        letter-spacing: -0, 89px;
+        color: var(--white);
     }
 
     .font-xxx-large {
@@ -11,21 +25,7 @@
     }
 
 
-    .medium-text {
-        font-size: var(--font-size-medium);
-        font-weight: var(--font-weight-medium);
-        line-height: var(--line-height-medium);
-    }
     
-    .title {
-        font-size: var(--font-size-xx-large);
-        font-weight: var(--font-weight-bold);
-        line-height: var(--line-height-xxx-large);
-        letter-spacing: -0, 89px;
-        color: var(--white);
-    }
-
-
     /* Card */
     .card__text--lg{
         font-size: var(--font-size-x-large);
