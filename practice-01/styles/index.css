@@ -292,3 +292,63 @@ a {
     height: 241px;
     padding-bottom: 16px;
 }
+
+
+
+
+
+/* CTA-section */
+.cta {
+    height: 468px;
+    background: url(../img/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-top: 180px;
+}
+.cta .container {
+    padding-top: 120px;
+
+}
+.cta__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+
+.cta__passage {
+    width: 60%;
+}
+.cta__passage .cta__text {
+    padding-top: 24px;
+    opacity: 72%;
+}
+.cta__title {
+    letter-spacing: -0,89px;
+    color: var(--white);
+}
+
+
+.cta__button {
+    text-align: center;
+}
+.btn--chevron{
+    border-radius: none;
+    width: 198px;
+    height: 64px;
+    background: var(--white);
+
+    filter: drop-shadow(0px 24px 32px rgba(0, 0, 0, 0.1));
+}
+.cta__text {
+    color: var(--white);
+    margin-top: 24px;
+}
+.btn__icon {
+    padding-left: 32px;
+    width: 8px;
+    height: 12px;
+}

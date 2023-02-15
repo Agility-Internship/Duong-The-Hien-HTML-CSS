@@ -1,24 +1,24 @@
-    .small-text {
+    .font--small {
         font-size: var(--font-size-small);
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-small);
     }
 
-    .font-xxx-large {
-        font-size: var(--font-size-xx-large);
-        font-weight: var(--font-weight-bold);
-        line-height: var(--line-height-xxx-large);
-    }
-
-
-    .medium-text {
+    .font--medium {
         font-size: var(--font-size-medium);
         font-weight: var(--font-weight-medium);
         line-height: var(--line-height-medium);
     }
 
 
+    .font--large {
+        font-size: var(--font-size-xx-large);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-xxx-large);
+    }
 
+
+    
     /* Card */
     .card__text--lg{
         font-size: var(--font-size-x-large);
