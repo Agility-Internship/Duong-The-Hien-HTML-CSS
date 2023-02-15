@@ -252,7 +252,7 @@ a {
     margin-top: 33px;
 }
 
-.card__body .card__text {
+.card--horizontal-block .card__text {
     margin-bottom: 32px;
 }
 
