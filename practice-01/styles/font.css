@@ -19,7 +19,7 @@
 /* Card */
 
 .card__title {
-  color: var(--westchester-grey);
+  color: var(--west_chester-grey);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
@@ -33,14 +33,13 @@
 
 .card__footer {
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-datetime);
+  font-size: var(--font-size-date_time);
   line-height: var(--line-height-x-small);
 }
 
-
-/* font color */
+/* font */
 .card__footer--gray {
-  color: var(--westchester-grey);
+  color: var(--west_chester-grey);
 }
 /* .h6-b3-text {
         font-size: var(--font-size-small);
