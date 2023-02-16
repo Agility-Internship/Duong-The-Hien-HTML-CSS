@@ -43,6 +43,8 @@ a {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    padding-bottom: 16px;
 }
 
 .card__img-body .card__title {
@@ -98,7 +100,6 @@ a {
     color: white;
     margin-left: 16px;
 }
-
 
 .header__carousel {
     padding-top: 70px;
@@ -226,7 +227,7 @@ a {
 .marketing__pic {
     width: 100% ;
     height: 370px;
-    margin-bottom: 24px;
+    padding-bottom: 24px;
 }
 
 .marketing__right {
@@ -286,7 +287,6 @@ a {
 .article__content .article__pic {
     width: 100%;
     height: 241px;
-    padding-bottom: 16px;
 }
 
 
