@@ -63,13 +63,6 @@ a {
 .card {
   cursor: pointer;
 }
-.service .card:hover {
-  border: 3px solid transparent;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
-
-}
 
 .card__body:hover .card__title:first-of-type{
   color: var(--black);
@@ -98,6 +91,7 @@ a {
 
 .card__body .card__text {
   padding-bottom: 24px;
+
 }
 /* menu__list */
 .menu__list {
@@ -106,7 +100,9 @@ a {
 .menu__list .item:hover {
   color: var(--crab-nebula);
 }
-
+.menu__list .item:active{
+  color: var(--alienated);
+}
 /*------------------------------------*\
   #Header-SECTION
 \*------------------------------------*/
@@ -230,9 +226,15 @@ a {
   padding-top: 24px;
   padding-bottom: 21px;
 }
-
+.service .card:hover {
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+}
 .service-left .font--large {
   padding-bottom: 120px;
+  padding-top: 14px;
   letter-spacing: -0.33px;
   /* design */
   font-size: var(--font-size-x-large);
@@ -401,8 +403,12 @@ a {
 .cta__text {
   color: var(--white);
   margin-top: 24px;
+  cursor: pointer;
 }
-
+.cta__text:hover {
+  color: var(--crab-nebula);
+  text-decoration: underline;
+}
 /*------------------------------------*\
   #footer-SECTION
 \*------------------------------------*/
@@ -453,9 +459,6 @@ a {
 
 .footer__menu .list__item {
   padding-bottom: 20px;
-}
-.footer__menu .item:hover {
-  color: var(--alienated);
 }
 
 /* <hr> line */
