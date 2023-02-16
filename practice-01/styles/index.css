@@ -331,7 +331,7 @@ a {
   width: 30%;
 }
 
-.content-left .font--small {
+.footer__content-left .font--small {
   margin-top: 24px;
   color: var(--bauhaus);
   line-height: var(--line-height-medium);
@@ -345,7 +345,7 @@ a {
   padding-top: 25px;
 }
 
-.footer__content .content-right {
+.footer__content-right {
   width: 70%;
   display: flex;
   justify-content: space-between;
@@ -386,7 +386,7 @@ a {
   letter-spacing: 0.2px;
 }
 
-.footer__rule .content-right {
+.footer__rule-right {
   width: 70%;
   display: flex;
   align-items: center;
