@@ -18,13 +18,6 @@
 
 /* Card */
 
-.card__text--lg {
-  font-size: var(--font-size-x-large);
-  font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-xx-large);
-  letter-spacing: -0.33px;
-}
-
 .card__title {
   color: var(--westchester-grey);
   font-weight: var(--font-weight-bold);
@@ -44,6 +37,8 @@
   line-height: var(--line-height-x-small);
 }
 
+
+/* font color */
 .card__footer--gray {
   color: var(--westchester-grey);
 }
