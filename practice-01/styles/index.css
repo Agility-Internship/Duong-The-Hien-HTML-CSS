@@ -93,11 +93,7 @@ a {
 }
 
 
-.header__content .nav__option {
-    display: flex;
-}
-
-.nav__option .button:nth-child(2) {
+.nav__button .btn--secondary {
     background-color: var(--crab-nebula);
     color: white;
     margin-left: 16px;
