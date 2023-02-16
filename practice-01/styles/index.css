@@ -335,6 +335,11 @@ a {
 .cta__button {
     text-align: center;
 }
+.cta__button .btn__icon {
+    padding-left: 32px;
+    width: 8px;
+    height: 12px;
+}
 .btn--chevron{
     border-radius: none;
     width: 198px;
@@ -346,11 +351,6 @@ a {
 .cta__text {
     color: var(--white);
     margin-top: 24px;
-}
-.btn__icon {
-    padding-left: 32px;
-    width: 8px;
-    height: 12px;
 }
 
 
@@ -451,4 +451,7 @@ a {
     align-items: center;
     border: none;
     padding-right: 55px;
+}
+.btn--group .btn__icon {
+    padding: 5px;
 }
