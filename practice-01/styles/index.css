@@ -86,7 +86,7 @@ a {
   /* padding: -30px; background padding */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 
   padding-bottom: 16px;
 }
@@ -105,7 +105,9 @@ a {
 .menu__list {
   display: flex;
 }
-
+.menu__list .item{
+  color: var(--black);
+}
 .menu__list .item:hover {
   color: var(--crab-nebula);
 }
@@ -203,7 +205,7 @@ a {
   padding-bottom: 27px;
 }
 
-#list--mark {
+.list--mark {
   color: var(--black);
 }
 
@@ -500,7 +502,7 @@ a {
   flex-direction: column;
 }
 
-.footer__menu #list--mark {
+.footer__menu .list--mark {
   font-weight: var(--font-weight-bold);
 }
 
