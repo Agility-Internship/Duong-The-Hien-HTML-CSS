@@ -86,7 +86,7 @@ a {
   /* padding: -30px; background padding */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
 
   padding-bottom: 16px;
 }
@@ -205,7 +205,7 @@ a {
   padding-bottom: 27px;
 }
 
-#list--mark {
+.list--mark {
   color: var(--black);
 }
 
@@ -502,7 +502,7 @@ a {
   flex-direction: column;
 }
 
-.footer__menu #list--mark {
+.footer__menu .list--mark {
   font-weight: var(--font-weight-bold);
 }
 
