@@ -20,6 +20,7 @@ a {
   /* change : width: 8 */
   margin: auto;
 }
+
 /* button */
 .btn {
   display: inline-block;
@@ -37,9 +38,11 @@ a {
   font-size: var(--font-size-medium);
   line-height: var(--line-height-small);
 }
+
 .btn--primary {
   color: var(--black);
 }
+
 .btn--primary:hover {
   border-color: var(--crab-nebula);
   opacity: 0.8;
@@ -54,11 +57,13 @@ a {
 .btn--secondary:hover {
   opacity: 0.8;
 }
+
 .btn--secondary:active {
   background-color: var(--white);
   transform: translateY(2px);
   color: var(--black);
 }
+
 /* card */
 .card {
   cursor: pointer;
@@ -533,6 +538,7 @@ a {
   align-items: center;
   justify-content: space-between;
 }
+
 .rule__menu {
   justify-content: space-around;
 }
