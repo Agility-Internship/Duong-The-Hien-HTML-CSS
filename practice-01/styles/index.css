@@ -502,6 +502,8 @@ a {
 }
 .btn--flex {
   border: none;
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-medium);
 }
 
 
