@@ -13,12 +13,6 @@ Design a static blog page interface, display information related to marketing, s
 ## Design
 - [Yoora CMS - Blog](https://www.figma.com/file/vxpGwXCoCTOmemQ77z9UYB/Yoora-CMS?node-id=0%3A1988&t=T90XuWtTxa5ltOub-0)
 
-## Technical stack
-- HTML/CSS - design and build websites (3 days)
-- Flexbox in CSS (2 days)
-- Practice 1 (3 days)
-- Responsive Web Design (4 days)
-- Practice 2 (2 days)
 ## Development Environment
 - Node:"v18.12.1"
 - NPM :"v8.19.2"
@@ -27,3 +21,9 @@ Design a static blog page interface, display information related to marketing, s
 - Team size: Personal
 - Editor: Visual Studio Code.
 - Supported browser: Chrome latest
+## Technical stack
+- HTML/CSS - design and build websites (3 days)
+- Flexbox in CSS (2 days)
+- Practice 1 (3 days)
+- Responsive Web Design (4 days)
+- Practice 2 (2 days)
