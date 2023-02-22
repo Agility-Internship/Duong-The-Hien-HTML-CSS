@@ -1,4 +1,4 @@
-#intern-training
+# Intern-training
 ## Overview
 Design a static blog page interface, display information related to marketing, sales and product market information
 
