@@ -4,13 +4,13 @@ Design a static blog page interface, display information related to marketing, s
 
 
 ## Author
-    - TheHien
+- TheHien
 ## Requirements
-    - Work fine on Chrome browser latest version
-    - Use the right HTML tags
-    - Apply Flexbox
-    - Apply [CSS Guideline](https://cssguidelin.es/)
-    - Use validate tools: https://validator.w3.org/
+- Work fine on Chrome browser latest version
+- Use the right HTML tags
+- Apply Flexbox
+- Apply [CSS Guideline](https://cssguidelin.es/)
+- Use validate tools: https://validator.w3.org/
 ## Targets
     - Understand HTML/CSS properties and use them correctly
     - Slice from Sketch to HTML/CSS
