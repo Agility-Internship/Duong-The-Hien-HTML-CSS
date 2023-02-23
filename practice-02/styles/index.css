@@ -72,7 +72,6 @@ a {
 .card {
   cursor: pointer;
   border: none;
-  flex-direction: unset;
 }
 
 .card__body:hover .card__title:first-of-type {
@@ -283,7 +282,9 @@ a {
 .product .container {
   margin-top: 120px;
 }
-
+.product .card {
+  flex-direction: unset;
+}
 .product__content {
   display: flex;
   flex-wrap: wrap;
