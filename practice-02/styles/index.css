@@ -72,6 +72,7 @@ a {
 .card {
   cursor: pointer;
   border: none;
+  border-radius: unset;
 }
 
 .card__body:hover .card__title:first-of-type {
