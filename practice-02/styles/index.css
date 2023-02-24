@@ -19,6 +19,7 @@ a {
   max-width: 1440px;
   /* change : width: 8 */
   margin: auto;
+  padding: 30px;
 }
 
 /* button */
@@ -39,9 +40,6 @@ a {
   line-height: var(--line-height-small);
 }
 
-.btn--primary {
-  color: var(--black);
-}
 
 .btn--primary:hover {
   border-color: var(--crab-nebula);
@@ -51,6 +49,8 @@ a {
 .btn--primary:active {
   background-color: var(--crab-nebula);
   transform: translateY(2px);
+}
+.btn--primary:active .text--black {
   color: var(--white);
 }
 
@@ -67,6 +67,8 @@ a {
 /* card */
 .card {
   cursor: pointer;
+  border: none;
+  border-radius: unset;
 }
 
 .card__body:hover .card__title:first-of-type {
@@ -86,7 +88,7 @@ a {
   /* padding: -30px; background padding */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 
   padding-bottom: 16px;
 }
@@ -105,7 +107,7 @@ a {
 .menu__list {
   display: flex;
 }
-.menu__list .item{
+.menu__list .item {
   color: var(--black);
 }
 .menu__list .item:hover {
@@ -133,7 +135,6 @@ a {
   justify-content: space-between;
   align-items: center;
 
-  padding: 29px 0;
 }
 
 /* nav */
@@ -145,7 +146,7 @@ a {
 }
 
 .nav__menu .list__item {
-  padding: 0 20px;
+  margin-left: 40px;
 }
 
 .nav__menu .item {
@@ -191,16 +192,16 @@ a {
 
 /* header__tab */
 .header__tab {
-  padding-top: 100px;
-  width: 100%;
-  height: 54px;
+  margin-top: 100px;
 }
 
 .header__tab .tab__menu {
-  width: 40%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
-
+.header__tab .item {
+  margin-right: 40px;
+}
+  /*padding item :before  */
 .tab__menu .item {
   padding-bottom: 27px;
 }
@@ -274,10 +275,13 @@ a {
 /*------------------------------------*\
   #Product-SECTION
 \*------------------------------------*/
+
 .product .container {
   margin-top: 120px;
 }
-
+.product .card {
+  flex-direction: unset;
+}
 .product__content {
   display: flex;
   flex-wrap: wrap;
@@ -559,3 +563,12 @@ a {
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-medium);
 }
+
+
+
+
+
+
+/* ------------------------------------*\
+  @media queries
+\*------------------------------------*/
