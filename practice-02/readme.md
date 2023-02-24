@@ -1,6 +1,5 @@
 # Practice-02
 ## Overview
-Update practice 1 to become responsive and can adapt multiple screen size
 ## Author
 - TheHien
 ## Targets
