@@ -1,0 +1,61 @@
+.font--small {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-small);
+}
+
+.font--medium {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-medium);
+}
+
+.font--large {
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-xxx-large);
+}
+
+/* text */
+.text--grey {
+  color: var(--west_chester-grey);
+}
+
+.text--white {
+  color: var(--white);
+}
+
+.text--black {
+  color: var(--black);
+}
+
+/* Card */
+
+.card__title {
+  color: var(--west_chester-grey);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+  /* transform */
+  text-transform: uppercase;
+}
+
+.card__text {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  line-height: var(--line-height-large);
+}
+
+.card__footer {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-date_time);
+  line-height: var(--line-height-x-small);
+}
+
+/* font */
+
+/* .h6-b3-text {
+        font-size: var(--font-size-small);
+        font-weight: var(--font-weight-bold);
+        line-height: var(--line-height-small);
+    }  */
