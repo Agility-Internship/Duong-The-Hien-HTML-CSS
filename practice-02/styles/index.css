@@ -89,7 +89,7 @@ a {
   /* padding: -30px; background padding */
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 
   padding-bottom: 16px;
 }
@@ -108,7 +108,7 @@ a {
 .menu__list {
   display: flex;
 }
-.menu__list .item{
+.menu__list .item {
   color: var(--black);
 }
 .menu__list .item:hover {
@@ -199,7 +199,31 @@ a {
   width: 100%;
   height: 54px;
 }
-
+.bars {
+  background: var(--black);
+  opacity: 70%;
+  /* content: " "; */
+  display: none;
+  height: 2px;
+  position: relative;
+  width: 18px;
+}
+.bars::before,
+.bars::after {
+  background: var(--black);
+  opacity: 70%;
+  content: " ";
+  display: inline-block;
+  height: 2px;
+  position: absolute;
+  width: 18px;
+}
+.bars::before {
+  top: 5px;
+}
+.bars::after {
+  top: -5px;
+}
 .header__tab .tab__menu {
   justify-content: flex-start;
 }
@@ -564,10 +588,6 @@ a {
   font-size: var(--font-size-medium);
 }
 
-
-
-
-
 /************** Responsive **************/
 /* Breakpoint */
 /*
@@ -588,12 +608,11 @@ a {
     padding: 0 150px;
   }
 }
-@media screen and (min-width: 64em ) and ( max-width : 75em) {
+@media screen and (min-width: 64em) and (max-width: 75em) {
   /* 1024px < 1200 px */
-  .container{
-  padding : 0 60px;
+  .container {
+    padding: 0 60px;
   }
-
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
   /* 768px < 1024px */
@@ -601,9 +620,27 @@ a {
     padding: 0 40px;
   }
 }
+@media screen and (max-width: 64em) {
+  /* < 1200px */
+  .navbar {
+    justify-content: flex-end;
+  }
+  .navbar .nav__menu {
+    display: none;
+  }
+  .bars {
+    display: inline-block;
+    margin-left: 30px;
+  }
+}
 @media screen and (max-width: 48em) {
   /*  < 768px */
   .container {
     padding: 0 25px;
+  }
+}
+@media screen and (max-width: 30em) {
+  .navbar .nav__button {
+    display: none;
   }
 }
