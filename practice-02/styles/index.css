@@ -201,12 +201,12 @@ a {
 }
 
 .header__tab .tab__menu {
-  width: 55%;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .tab__menu .item {
   padding-bottom: 27px;
+  margin-right: 40px;
 }
 
 .list--mark {
@@ -593,10 +593,17 @@ a {
   .container{
   padding : 0 60px;
   }
+
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
   /* 768px < 1024px */
+  .container {
+    padding: 0 40px;
+  }
 }
-@media screen and (min-width: 30em) and (max-width: 48em) {
-  /* 480px < 768px */
+@media screen and (max-width: 48em) {
+  /*  < 768px */
+  .container {
+    padding: 0 25px;
+  }
 }
