@@ -5,6 +5,9 @@
 /*------------------------------------*\
   #Global
 \*------------------------------------*/
+*{
+  box-sizing: border-box;
+}
 html,
 body {
   font-family: var(--font-family);
@@ -128,15 +131,66 @@ a {
 }
 
 /* header__content */
-.header__content {
+/* .header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 29px 0;
-}
+} */
 
 /* nav */
+.nav__menu .item .text--black{
+  display: block;
+}
+/* mobile menu */
+  .nav__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .item.item__toggle {
+    order: 1;
+  }
+  /*! .item.btn <X> .item .btn  */
+  .item.btn {
+    order: 3;
+  }
+  .item{
+    width: 100%;
+    text-align: center;
+    order: 2;
+    display: none;
+  }
+  .item.active{
+    display: block;
+  }
+  .item__toggle{
+    cursor: pointer;
+  }
+  .bars {
+    background: var(--crab-nebula);
+    /* content: " "; */
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+  }
+  .bars::before, .bars::after{
+    background: var(--crab-nebula);
+    content: " ";
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 18px;
+  }
+  .bars::before {
+    top: 5px;
+  }
+  .bars::after {
+    top:-5px;
+  }
 .navbar {
   width: 80%;
   display: flex;
@@ -572,14 +626,38 @@ a {
     padding-right: 150px;
   }
 }
-@media screen and (max-width: 1235px) {
-  .header__content {
-    flex-direction: column;
+/* Tablet menu */
+@media screen and (min-width : 468px) {
+  .nav__menu{
+    justify-content: center;
   }
-  .header__content .navbar {
-    flex-direction: column;
+  .logo {
+    flex: 1;
   }
-  .header__content .nav__menu {
-    margin: 25px 0;
+  .item.btn {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .item__toggle{
+    order: 2;
+  }
+}
+@media screen and (min-width : 768px ){
+  .item{
+    display: block;
+    width: auto;
+  }
+  .item__toggle{
+    display: none;
+  }
+  .logo{
+    order: 0;
+  }
+  .item{
+    order: 1;
+  }
+  .item.btn{
+    order: 2;
   }
 }
