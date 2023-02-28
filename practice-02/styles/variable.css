@@ -27,14 +27,15 @@
   --font-size-x-small: 16px; /*h5*/
   --font-size-medium: 18px; /*h4*/
   --font-size-large: 24px; /*h3*/
-  --font-size-x-large: 40px; /*h2*/
-  --font-size-xx-large: 64px; /*h1*/
+  --font-size-x-large: 36px;
+  --font-size-xx-large: 40px; /*h2*/
+  --font-size-xxx-large: 64px; /*h1*/
 
   /* -------------line-height-------------- */
   --line-height-small: 19px;
   --line-height-medium: 24px;
   --line-height-large: 34px;
-  --line-height-x-large: 42px;
+  --line-height-x-large: 46px;
   --line-height-xx-large: 50px;
   --line-height-xxx-large: 74px;
 }

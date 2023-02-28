@@ -11,7 +11,7 @@
 }
 
 .font--large {
-  font-size: var(--font-size-xx-large);
+  font-size: var(--font-size-xxx-large);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-xxx-large);
 }
@@ -48,7 +48,7 @@
 
 .card__footer {
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-date_time);
+  font-size: var(--font-size-x-small);
   line-height: var(--line-height-x-small);
 }
 
@@ -59,3 +59,26 @@
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-small);
     }  */
+
+/************** Responsive **************/
+/* Breakpoint */
+/*
+** Vertical screen for small smartphone : 20em < 30em // [320px < 480px]
+** Horizontal screen for small smartphones : 30em < 40em // [480px < 640px]
+** Horizontal screen for medium smartphones : 40em < 48em //[640px < 768px ]
+** Screen horizontally for tablets (eg iPad) : 48em < 64 em // [768px < 1024px ]
+** Large screens and Desktops                 :  64em < 75 em [1024px < 1200px]
+** Extra large                                  : > 75em
+*/
+
+/* ------------------------------------*\
+  @media queries -font.css
+\*------------------------------------*/
+/* header */
+@media screen and (max-width: 48em) {
+  /* < 768px */
+  .font--large {
+    font-size: var(--font-size-x-large);
+    line-height: var(--line-height-x-large);
+  }
+}
