@@ -78,6 +78,13 @@
 @media screen and (max-width: 48em) {
   /* < 768px */
   .font--large {
+    font-size: var(--font-size-xx-large);
+    line-height: var(--line-height-xx-large);
+  }
+}
+@media screen and (max-width: 30em) {
+  /* < 480px */
+  .font--large {
     font-size: var(--font-size-x-large);
     line-height: var(--line-height-x-large);
   }
