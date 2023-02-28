@@ -720,13 +720,11 @@ a {
     height: auto;
   }
 }
-@media screen and (min-width: 768px) {
-  .service-left .font--large {
-    font-size: var(--font-size-x-large);
-    line-height: var(--line-height-xx-large);
-  }
-}
+
 @media screen and (max-width: 768px) {
+  .service .container {
+    margin-top: 70px;
+  }
   .service-left .font--large {
     line-height: var(--line-height-x-large);
     font-size: var(--font-size-medium);
