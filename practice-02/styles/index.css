@@ -111,10 +111,10 @@ a {
 .menu__list .item {
   color: var(--black);
 }
+
 .menu__list .item:hover {
   color: var(--crab-nebula);
 }
-
 .menu__list .item:active {
   color: var(--alienated);
 }
@@ -160,6 +160,7 @@ a {
   color: var(--white);
   margin-left: 16px;
 }
+
 .bars {
   background: var(--black);
   opacity: 70%;
@@ -169,6 +170,7 @@ a {
   position: relative;
   width: 18px;
 }
+
 .bars::before,
 .bars::after {
   background: var(--black);
@@ -179,12 +181,14 @@ a {
   position: absolute;
   width: 18px;
 }
+
 .bars::before {
   top: 5px;
 }
 .bars::after {
   top: -5px;
 }
+
 .navbar .item {
   font-family: var(--font-family);
   text-align: center;
@@ -232,9 +236,11 @@ a {
   padding-bottom: 27px;
   margin-right: 40px;
 }
+
 .shape {
   display: none;
 }
+
 .list--mark {
   color: var(--black);
 }
@@ -630,6 +636,7 @@ a {
   .navbar .nav__menu {
     display: none;
   }
+
   .bars {
     display: inline-block;
     margin-left: 30px;
@@ -653,6 +660,7 @@ a {
   .header .container {
     padding-bottom: 24px;
   }
+
   .header__tab {
     margin-top: 32px;
   }
@@ -665,7 +673,7 @@ a {
   }
   .header__tab .tab__menu .list--mark {
     width: 100%;
-    padding: 14px ;
+    padding: 14px;
     background-color: var(--white);
     border: 1px solid var(--gainsboro);
     border-radius: 8px;
@@ -673,12 +681,15 @@ a {
     align-items: center;
     justify-content: space-between;
   }
+
   .menu__list {
     display: block;
   }
+
   .shape {
     display: inline;
   }
+
   .tab__menu .item {
     display: none;
   }

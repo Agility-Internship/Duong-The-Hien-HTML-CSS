@@ -1,458 +1,565 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <!-- index CSS -->
     <link rel="stylesheet" href="./styles/index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <!-------------------
      Header
     --------------------->
     <header class="header">
-        <div class="container">
-            <div class="header__content">
-                <a href="#" class="logo">
-                    <img src="./img/logo.png" alt="logo">
-
-                </a>
-                <nav class="navbar text--black">
-                    <div class="nav__menu">
-                        <ul class="menu__list">
-                            <li class="list__item">
-                                <a class="item font--small" href="#">Product</a>
-                            </li>
-                            <li class="list__item">
-                                <a class="item font--small" href="#">Company</a>
-                            </li>
-                            <li class="list__item">
-                                <a class="item font--small" href="#">Pricing</a>
-                            </li>
-                            <li class="list__item">
-                                <a class="item font--small" href="#">Recourses</a>
-                            </li>
-                            <li class="list__item">
-                                <a class="item font--small" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="nav__button">
-                        <a href="__blank" class="btn btn--primary">Login</a>
-                        <button class="btn btn--secondary">Try for Free</button>
-
-                    </div>
-                    <div class="nav__toggle">
-                        <span class="bars"></span>
-                    </div>
-                </nav>
+      <div class="container">
+        <div class="header__content">
+          <a href="#" class="logo">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <nav class="navbar text--black">
+            <div class="nav__menu">
+              <ul class="menu__list">
+                <li class="list__item">
+                  <a class="item font--small" href="#">Product</a>
+                </li>
+                <li class="list__item">
+                  <a class="item font--small" href="#">Company</a>
+                </li>
+                <li class="list__item">
+                  <a class="item font--small" href="#">Pricing</a>
+                </li>
+                <li class="list__item">
+                  <a class="item font--small" href="#">Recourses</a>
+                </li>
+                <li class="list__item">
+                  <a class="item font--small" href="#">Contact</a>
+                </li>
+              </ul>
             </div>
-            <div class="header__carousel">
-                <p class="carousel__content--above text--black font--large">New and insights <br>
-                    <span class="carousel__content--below text--grey">form our experts</span>
-                </p>
+            <div class="nav__button">
+              <a href="__blank" class="btn btn--primary">Login</a>
+              <button class="btn btn--secondary">Try for Free</button>
             </div>
-            <div class="header__tab nav__menu">
-                <ul class="tab__menu  menu__list ">
-                    <li>
-                        <a class="list--mark item font--medium" href="#">
-                            All Articles
-                        <img class=shape src="./img/header__Shape.png" alt="icon shape">
-                        </a>
-
-                    </li>
-                    <li><a class="item font--medium" href="#">Sales</a></li>
-                    <li><a class="item font--medium" href="#">Marketing</a></li>
-                    <li><a class="item font--medium" href="#">Service</a></li>
-                    <li><a class="item font--medium" href="#">Product</a></li>
-                    <li><a class="item font--medium" href="#">News</a></li>
-                </ul>
+            <div class="nav__toggle">
+              <span class="bars"></span>
             </div>
+          </nav>
         </div>
+        <div class="header__carousel">
+          <p class="carousel__content--above text--black font--large">
+            New and insights <br />
+            <span class="carousel__content--below text--grey"
+              >form our experts</span
+            >
+          </p>
+        </div>
+        <div class="header__tab nav__menu">
+          <ul class="tab__menu menu__list">
+            <li>
+              <a class="list--mark item font--medium" href="#">
+                All Articles
+                <img class="shape"src="./img/header__Shape.png" alt="icon shape"/>
+              </a>
+            </li>
+            <li><a class="item font--medium" href="#">Sales</a></li>
+            <li><a class="item font--medium" href="#">Marketing</a></li>
+            <li><a class="item font--medium" href="#">Service</a></li>
+            <li><a class="item font--medium" href="#">Product</a></li>
+            <li><a class="item font--medium" href="#">News</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
     <!-------------------
      Header end
     --------------------->
 
-
-
-
-
     <!-------------------
      Service section
     --------------------->
     <section class="service">
-        <div class="container">
-            <div class="service-left card" >
-                <div class="card__body">
-                    <h5 class="card__title">SERVICE</h5>
-                    <h1 class="card__text font--large">CRM insights: Selecting <br>
-                        the Right One for Your <br>
-                        Organization</h1>
-                    <h4 class="card__footer">05 Sep 2022, <span class="text--grey">by Joshua Nash</span> </h4>
-                </div>
-            </div>
-            <div class="service-right">
-                <img src="./img/service__img.png" alt="This is the service's photo" class="service__img">
-            </div>
+      <div class="container">
+        <div class="service-left card">
+          <div class="card__body">
+            <h5 class="card__title">SERVICE</h5>
+            <h1 class="card__text font--large">
+              CRM insights: Selecting <br />
+              the Right One for Your <br />
+              Organization
+            </h1>
+            <h4 class="card__footer">
+              05 Sep 2022, <span class="text--grey">by Joshua Nash</span>
+            </h4>
+          </div>
         </div>
-
-
+        <div class="service-right">
+          <img
+            src="./img/service__img.png"
+            alt="This is the service's photo"
+            class="service__img"
+          />
+        </div>
+      </div>
     </section>
 
     <!-------------------
      Service end
     --------------------->
 
-
-
-
-
     <!-------------------
      Product section
     --------------------->
     <section class="product">
-        <div class="container">
-            <div class="product__content  card card__img">
-                <div class="card__body">
-                    <h5 class="card__title">News</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item1.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text">How To Deliver a Successful Product Launch</h3>
-                    <h4 class="card__footer">29 Jun 2022,<span class="text--grey">by joshua Nash</span> </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">Sales</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item2.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text">The best cities for sales careers in 2022</h3>
-                    <h4 class="card__footer">20 Mar 2022, <span class="text--grey">by Bill Holloway</span></h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">Sales</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item3.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text">How to use 360 feedback to improve sales performance</h3>
-                    <h4 class="card__footer">07 Jun 2022, <span class="text--grey">by Stephen Henderson</span>
-                    </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">Sales</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item4.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text">The Challenger Sale model: How to lead the conversation</h3>
-                    <h4 class="card__footer">09 Jan 2022,<span class="text--grey">by joshua Nash</span> </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">Product</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item5.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text">3 ways To automate your lead generation process with Yoora</h3>
-                    <h4 class="card__footer">08 Jul 2022, <span class="text--grey"> Leroy Figueroa</span> </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">Product</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/product__item6.png" alt="Here is a photo of the product title above"
-                            class="product__pic">
-                    </div>
-                    <h3 class="card__text"> Marketplace Monthly Apps Spotlight: Aug 2022</h3>
-                    <h4 class="card__footer">05 Aug 2022,<span class="text--grey">by joshua Nash</span> </h4>
-                </div>
+      <div class="container">
+        <div class="product__content card card__img">
+          <div class="card__body">
+            <h5 class="card__title">News</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item1.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
             </div>
+            <h3 class="card__text">
+              How To Deliver a Successful Product Launch
+            </h3>
+            <h4 class="card__footer">
+              29 Jun 2022,<span class="text--grey">by joshua Nash</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">Sales</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item2.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              The best cities for sales careers in 2022
+            </h3>
+            <h4 class="card__footer">
+              20 Mar 2022, <span class="text--grey">by Bill Holloway</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">Sales</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item3.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              How to use 360 feedback to improve sales performance
+            </h3>
+            <h4 class="card__footer">
+              07 Jun 2022, <span class="text--grey">by Stephen Henderson</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">Sales</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item4.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              The Challenger Sale model: How to lead the conversation
+            </h3>
+            <h4 class="card__footer">
+              09 Jan 2022,<span class="text--grey">by joshua Nash</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">Product</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item5.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              3 ways To automate your lead generation process with Yoora
+            </h3>
+            <h4 class="card__footer">
+              08 Jul 2022, <span class="text--grey"> Leroy Figueroa</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">Product</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/product__item6.png"
+                alt="Here is a photo of the product title above"
+                class="product__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              Marketplace Monthly Apps Spotlight: Aug 2022
+            </h3>
+            <h4 class="card__footer">
+              05 Aug 2022,<span class="text--grey">by joshua Nash</span>
+            </h4>
+          </div>
         </div>
+      </div>
     </section>
     <!-------------------
      Product end
     --------------------->
 
-
-
-
     <!-------------------
      Marketing section
     --------------------->
     <section class="marketing">
-        <div class="container">
-            <div class="marketing__content">
-                <div class="marketing-left card card__img">
-                    <div class="card__body">
-                        <h5 class="card__title">Marketing</h5>
-                        <div class="card__img-pic">
-                            <img src="./img/marketing__img.png" alt="Here is a photo of the marketing title above"
-                                class="marketing__pic">
-                        </div>
-                        <h3 class="card__text">
-                            Email marketing best practices: 10 experts share their email tips
-                        </h3>
-                        <h4 class="card__footer">
-                            23 Nov 2022,
-                            <span class="text--grey">by joshua Nash</span>
-                        </h4>
-                    </div>
-                </div>
-                <div class="marketing-right card card--horizontal">
-                    <div class="card__body">
-                        <div class="card--horizontal-block">
-                            <h3 class="card__text">
-                                Access Yoora’s leads features on your mobile
-                            </h3>
-                            <h4 class="card__footer">
-                                11 Aug 2022,
-                                <span class="text--grey">by joshua Nash</span>
-                            </h4>
-                        </div>
-                        <div class="card--horizontal-block">
-                            <h5 class="card__title">PRODUCT</h5>
-                        </div>
-                    </div>
-                    <div class="card__body">
-                        <div class="card--horizontal-block">
-                            <h3 class="card__text">
-                                Sales presentations: templates, examples and ideas on how to present like a pro
-                            </h3>
-                            <h4 class="card__footer">
-                                11 Oct 2022,
-                                <span class="text--grey"> by Laura Ryan</span>
-                            </h4>
-                        </div>
-                        <div class="card--horizontal-block">
-                            <h5 class="card__title">SALES</h5>
-                        </div>
-                    </div>
-                    <div class="card__body">
-                        <div class="card--horizontal-block">
-                            <h3 class="card__text"> How To Deliver a Successful <br>
-                                Product Launch</h3>
-                            <h4 class="card__footer">
-                                30 Jan 2022,
-                                <span class="text--grey"> by Alice Washington</span>
-                            </h4>
-                        </div>
-                        <div class="card--horizontal-block">
-                            <h5 class="card__title">NEWS</h5>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="marketing__content">
+          <div class="marketing-left card card__img">
+            <div class="card__body">
+              <h5 class="card__title">Marketing</h5>
+              <div class="card__img-pic">
+                <img
+                  src="./img/marketing__img.png"
+                  alt="Here is a photo of the marketing title above"
+                  class="marketing__pic"
+                />
+              </div>
+              <h3 class="card__text">
+                Email marketing best practices: 10 experts share their email
+                tips
+              </h3>
+              <h4 class="card__footer">
+                23 Nov 2022,
+                <span class="text--grey">by joshua Nash</span>
+              </h4>
             </div>
-
+          </div>
+          <div class="marketing-right card card--horizontal">
+            <div class="card__body">
+              <div class="card--horizontal-block">
+                <h3 class="card__text">
+                  Access Yoora’s leads features on your mobile
+                </h3>
+                <h4 class="card__footer">
+                  11 Aug 2022,
+                  <span class="text--grey">by joshua Nash</span>
+                </h4>
+              </div>
+              <div class="card--horizontal-block">
+                <h5 class="card__title">PRODUCT</h5>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card--horizontal-block">
+                <h3 class="card__text">
+                  Sales presentations: templates, examples and ideas on how to
+                  present like a pro
+                </h3>
+                <h4 class="card__footer">
+                  11 Oct 2022,
+                  <span class="text--grey"> by Laura Ryan</span>
+                </h4>
+              </div>
+              <div class="card--horizontal-block">
+                <h5 class="card__title">SALES</h5>
+              </div>
+            </div>
+            <div class="card__body">
+              <div class="card--horizontal-block">
+                <h3 class="card__text">
+                  How To Deliver a Successful <br />
+                  Product Launch
+                </h3>
+                <h4 class="card__footer">
+                  30 Jan 2022,
+                  <span class="text--grey"> by Alice Washington</span>
+                </h4>
+              </div>
+              <div class="card--horizontal-block">
+                <h5 class="card__title">NEWS</h5>
+              </div>
+            </div>
+          </div>
         </div>
-
+      </div>
     </section>
     <!-------------------
      Marketing end
     --------------------->
 
-
-
-
     <!-------------------
      BlogArticle section
     --------------------->
     <section class="Blog_Article">
-        <div class="container">
-            <div class="article__content card card__img">
-                <div class="card__body">
-                    <h5 class="card__title">SERVICE</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/article__img1.png" alt="Here is a photo of the article title above"
-                            class="article__pic">
-                    </div>
-                    <h3 class="card__text">Sales Funnels: Definition, Process, Stages and Examples</h3>
-                    <h4 class="card__footer">
-                        29 Jun 2022,
-                        <span class="text--grey">by joshua Nash</span>
-                    </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">SALES</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/article__img2.png" alt="Here is a photo of the article title above"
-                            class="article__pic">
-                    </div>
-                    <h3 class="card__text">What is a sales Yoora and how do you build one?</h3>
-                    <h4 class="card__footer">
-                        29 Mar 2022,
-                        <span class="text--grey"> by Amanda Brooks</span>
-                    </h4>
-                </div>
-                <div class="card__body">
-                    <h5 class="card__title">SERVICE</h5>
-                    <div class="card__img-pic">
-                        <img src="./img/article__img3.png" alt="Here is a photo of the article title above"
-                            class="article__pic">
-                    </div>
-                    <h3 class="card__text">10 real estate cold calling scripts to increase lead generation</h3>
-                    <h4 class="card__footer">
-                        27 Dec 2022,
-                        <span class="text--grey"> by Roxie Sandoval</span>
-                    </h4>
-                </div>
+      <div class="container">
+        <div class="article__content card card__img">
+          <div class="card__body">
+            <h5 class="card__title">SERVICE</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/article__img1.png"
+                alt="Here is a photo of the article title above"
+                class="article__pic"
+              />
             </div>
+            <h3 class="card__text">
+              Sales Funnels: Definition, Process, Stages and Examples
+            </h3>
+            <h4 class="card__footer">
+              29 Jun 2022,
+              <span class="text--grey">by joshua Nash</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">SALES</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/article__img2.png"
+                alt="Here is a photo of the article title above"
+                class="article__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              What is a sales Yoora and how do you build one?
+            </h3>
+            <h4 class="card__footer">
+              29 Mar 2022,
+              <span class="text--grey"> by Amanda Brooks</span>
+            </h4>
+          </div>
+          <div class="card__body">
+            <h5 class="card__title">SERVICE</h5>
+            <div class="card__img-pic">
+              <img
+                src="./img/article__img3.png"
+                alt="Here is a photo of the article title above"
+                class="article__pic"
+              />
+            </div>
+            <h3 class="card__text">
+              10 real estate cold calling scripts to increase lead generation
+            </h3>
+            <h4 class="card__footer">
+              27 Dec 2022,
+              <span class="text--grey"> by Roxie Sandoval</span>
+            </h4>
+          </div>
         </div>
+      </div>
     </section>
     <!-------------------
      BlogArticle end
     --------------------->
 
-
-
-
     <!-------------------
     CTA section
     --------------------->
     <section class="cta">
-        <div class="container">
-            <div class="cta__content">
-                <div class="cta__passage">
-                    <p class="cta__title text--white font--large">Ready to supercharge your business?</p>
-                    <p class="cta__text text--white font--medium">
-                        Ask about Yoora products, pricing, implementation, or anything else.
-                        <br> Our highly trained reps are standing by, ready to help.
-                    </p>
-                </div>
-                <div class="cta__button">
-                    <button class="btn btn--chevron"> Try For Free
-                        <img class="btn__icon" src="./img/button__icon.png"
-                            alt="This is the chevron-right icon of the button">
-                    </button>
-                    <p class="cta__text text--white font--small">Full access. No credit card required.</p>
-                </div>
-            </div>
-
+      <div class="container">
+        <div class="cta__content">
+          <div class="cta__passage">
+            <p class="cta__title text--white font--large">
+              Ready to supercharge your business?
+            </p>
+            <p class="cta__text text--white font--medium">
+              Ask about Yoora products, pricing, implementation, or anything
+              else.
+              <br />
+              Our highly trained reps are standing by, ready to help.
+            </p>
+          </div>
+          <div class="cta__button">
+            <button class="btn btn--chevron">
+              Try For Free
+              <img
+                class="btn__icon"
+                src="./img/button__icon.png"
+                alt="This is the chevron-right icon of the button"
+              />
+            </button>
+            <p class="cta__text text--white font--small">
+              Full access. No credit card required.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
     <!-------------------
     CTA end
     --------------------->
 
-
-
-
     <!-------------------
     Footer
     --------------------->
     <footer class="footer">
-        <div class="footer__content container">
-            <div class="footer__content-left">
-                <a href="#" class="logo">
-                    <img src="./img/logo.png" alt="logo">
-                </a>
-                    <p class="font--small">
-                        We built an elegant solution.<br>
-                        Our team created a fully integrated sales<br>
-                        and marketing solution for SMBs</p>
-                 <ul class="media menu__list">
-                        <li>
-                            <a class="item" href="https://twitter.com/"><img src="./img/Twitter.png" alt="Here is a logo of the media above" class="media-icon"></a>
-                        </li>
-                        <li>
-                            <a class="item" href="https://www.facebook.com/"> <img src="./img/Facebook.png" alt="Here is a logo of the media above" class="media-icon"></a>
-                        </li>
-                        <li>
-                            <a class="item" href="https://www.linkedin.com/"> <img src="./img/Linkedin.png" alt="Here is a logo of the media above" class="media-icon"></a>                        </li>
-                    </ul>
-
-            </div>
-            <div class="footer__content-right">
-                <div class="footer__menu">
-                    <ul class="menu__list ">
-                        <li class="list__item"><a class="list--mark item " href="#">Company</a></li>
-                        <li class="list__item"><a class="item" href="#">About</a></li>
-                        <li class="list__item"><a class="item" href="#">Pricing</a></li>
-                        <li class="list__item"><a class="item" href="#">Jobs</a></li>
-                        <li class="list__item"><a class="item" href="#">Blog</a></li>
-                        <li class="list__item"><a class="item" href="#">Careers</a></li>
-                    </ul>
-                </div>
-                <div class="footer__menu">
-                    <ul class="menu__list">
-                        <li class="list__item"><a class="list--mark item" href="#">Product</a></li>
-                        <li class="list__item"><a class="item" href="#">Sales software</a></li>
-                        <li class="list__item"><a class="item" href="#">Features</a></li>
-                        <li class="list__item"><a class="item" href="#">Privacy and security</a></li>
-                        <li class="list__item"><a class="item" href="#">Marketplace</a></li>
-                        <li class="list__item"><a class="item" href="#">Status</a></li>
-                        <li class="list__item"><a class="item" href="#">API</a></li>
-                    </ul>
-                </div>
-                <div class="footer__menu">
-                    <ul class="menu__list">
-                        <li class="list__item"><a class="list--mark item" href="#">Discover</a></li>
-                        <li class="list__item"><a class="item" href="#">Partner Program</a></li>
-                        <li class="list__item"><a class="item" href="#">Get our newsletter</a></li>
-                        <li class="list__item"><a class="item" href="#">Sales Pipeline Course</a></li>
-                        <li class="list__item"><a class="item" href="#">What is CRM?</a></li>
-                        <li class="list__item"><a class="item" href="#">CRM Comparison</a></li>
-                        <li class="list__item"><a class="item" href="#">Resources</a></li>
-                    </ul>
-                </div>
-                <div class="footer__menu">
-                    <ul class="menu__list">
-                        <li class="list__item"><a class="list--mark item" href="#">Help Center</a></li>
-                        <li class="list__item"><a class="item" href="#">Community</a></li>
-                        <li class="list__item"><a class="item" href="#">Knowledge Base</a></li>
-                        <li class="list__item"><a class="item" href="#">Academy</a></li>
-                        <li class="list__item"><a class="item" href="#">Support</a></li>
-                    </ul>
-                </div>
-            </div>
-
+      <div class="footer__content container">
+        <div class="footer__content-left">
+          <a href="#" class="logo">
+            <img src="./img/logo.png" alt="logo" />
+          </a>
+          <p class="font--small">
+            We built an elegant solution.<br />
+            Our team created a fully integrated sales<br />
+            and marketing solution for SMBs
+          </p>
+          <ul class="media menu__list">
+            <li>
+              <a class="item" href="https://twitter.com/"
+                ><img
+                  src="./img/Twitter.png"
+                  alt="Here is a logo of the media above"
+                  class="media-icon"
+              /></a>
+            </li>
+            <li>
+              <a class="item" href="https://www.facebook.com/">
+                <img
+                  src="./img/Facebook.png"
+                  alt="Here is a logo of the media above"
+                  class="media-icon"
+              /></a>
+            </li>
+            <li>
+              <a class="item" href="https://www.linkedin.com/">
+                <img
+                  src="./img/Linkedin.png"
+                  alt="Here is a logo of the media above"
+                  class="media-icon"
+              /></a>
+            </li>
+          </ul>
         </div>
-
-        <hr class="footer__line">
-
-        <div class="footer__rule text--black container ">
-            <a class="rule__copyright" href="__blank">&#169;Copyright 2022 Yoora, Inc.</a>
-
-            <div class="footer__rule-right">
-                <ul class="rule__menu menu__list">
-                    <li><a class="item" href="#">Terms of Service</a></li>
-                    <li><a class="item" href="#">Privacy Police</a></li>
-                    <li><a class="item" href="#">Cookies</a></li>
-                </ul>
-                <div class="rule__locale">
-                        <img src="./img/Shape.png" alt=" this is the icon for the change language button"
-                            class="btn__icon">
-                        <select class="btn--flex" name="language" id="language">
-                            <option value="volvo">English</option>
-                            <option value="saab">Vietnamese</option>
-                        </select>
-                </div>
-            </div>
-
+        <div class="footer__content-right">
+          <div class="footer__menu">
+            <ul class="menu__list">
+              <li class="list__item">
+                <a class="list--mark item" href="#">Company</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">About</a></li>
+              <li class="list__item"><a class="item" href="#">Pricing</a></li>
+              <li class="list__item"><a class="item" href="#">Jobs</a></li>
+              <li class="list__item"><a class="item" href="#">Blog</a></li>
+              <li class="list__item"><a class="item" href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <ul class="menu__list">
+              <li class="list__item">
+                <a class="list--mark item" href="#">Product</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">Sales software</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">Features</a></li>
+              <li class="list__item">
+                <a class="item" href="#">Privacy and security</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">Marketplace</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">Status</a></li>
+              <li class="list__item"><a class="item" href="#">API</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <ul class="menu__list">
+              <li class="list__item">
+                <a class="list--mark item" href="#">Discover</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">Partner Program</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">Get our newsletter</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">Sales Pipeline Course</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">What is CRM?</a>
+              </li>
+              <li class="list__item">
+                <a class="item" href="#">CRM Comparison</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="footer__menu">
+            <ul class="menu__list">
+              <li class="list__item">
+                <a class="list--mark item" href="#">Help Center</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">Community</a></li>
+              <li class="list__item">
+                <a class="item" href="#">Knowledge Base</a>
+              </li>
+              <li class="list__item"><a class="item" href="#">Academy</a></li>
+              <li class="list__item"><a class="item" href="#">Support</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
 
+      <hr class="footer__line" />
+
+      <div class="footer__rule text--black container">
+        <a class="rule__copyright" href="__blank"
+          >&#169;Copyright 2022 Yoora, Inc.</a
+        >
+
+        <div class="footer__rule-right">
+          <ul class="rule__menu menu__list">
+            <li><a class="item" href="#">Terms of Service</a></li>
+            <li><a class="item" href="#">Privacy Police</a></li>
+            <li><a class="item" href="#">Cookies</a></li>
+          </ul>
+          <div class="rule__locale">
+            <img
+              src="./img/Shape.png"
+              alt=" this is the icon for the change language button"
+              class="btn__icon"
+            />
+            <select class="btn--flex" name="language" id="language">
+              <option value="volvo">English</option>
+              <option value="saab">Vietnamese</option>
+            </select>
+          </div>
+        </div>
+      </div>
     </footer>
-
-
-
-
-
 
     <!-- Script -->
 
     <!-- jquery/thu vien ho tro -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
