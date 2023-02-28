@@ -214,6 +214,7 @@ a {
 /* header__carousel */
 .header__carousel {
   padding-top: 70px;
+  /* width: 60%; */
 }
 
 .carousel__content--above {
@@ -630,6 +631,9 @@ a {
 }
 @media screen and (max-width: 64em) {
   /* < 1200px */
+  /* .header__carousel {
+    width: 70%;
+  } */
   .navbar {
     justify-content: flex-end;
   }
@@ -650,6 +654,8 @@ a {
   .header__carousel {
     margin-top: 23px;
     padding-top: 0;
+    /* width: 80%; */
+
   }
   .header__tab {
     margin-top: 50px;
