@@ -647,6 +647,13 @@ a {
   .container {
     padding: 0 25px;
   }
+  .header__carousel{
+    margin-top: 23px;
+    padding-top: 0;
+  }
+  .header__tab {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 30em) {
   /*  < 480 */
