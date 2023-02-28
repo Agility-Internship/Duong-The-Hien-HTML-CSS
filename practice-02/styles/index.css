@@ -701,3 +701,17 @@ a {
     display: none;
   }
 }
+/* service  */
+@media screen and (max-width: 58.375em) {
+  /* 934px */
+  .service .container {
+    display: block;
+  }
+  .service-left,
+  .service-right {
+    width: 100%;
+  }
+  .service-left {
+    margin-bottom: 30px;
+  }
+}
