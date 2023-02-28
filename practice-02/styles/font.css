@@ -81,6 +81,7 @@
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
+
   .font--medium {
     font-size: var(--font-size-x-small);
     line-height: var(--line-height-small);

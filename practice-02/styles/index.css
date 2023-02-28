@@ -290,12 +290,12 @@ a {
 }
 
 .service-left .font--large {
-  padding-bottom: 120px;
+  margin-bottom: 120px;
   padding-top: 14px;
   letter-spacing: -0.33px;
   /* design */
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-xx-large);
+  /* font-size: var(--font-size-x-large);
+  line-height: var(--line-height-xx-large); */
   letter-spacing: -0.555556px;
 }
 
@@ -647,7 +647,7 @@ a {
   .container {
     padding: 0 25px;
   }
-  .header__carousel{
+  .header__carousel {
     margin-top: 23px;
     padding-top: 0;
   }
@@ -713,5 +713,29 @@ a {
   }
   .service-left {
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 30em) {
+  .service__img {
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .service-left .font--large {
+    font-size: var(--font-size-x-large);
+    line-height: var(--line-height-xx-large);
+  }
+}
+@media screen and (max-width: 768px) {
+  .service-left .font--large {
+    line-height: var(--line-height-x-large);
+    font-size: var(--font-size-medium);
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .service-left .font--large {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-large);
   }
 }
