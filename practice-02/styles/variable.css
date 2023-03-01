@@ -18,18 +18,18 @@
 
   /* -------------font-weight-------------- */
 
-  --font-weight-small: 400; /*b1*/
-  --font-weight-medium: 500; /*b2*/
-  --font-weight-bold: 700; /*b3*/
+  --font-weight-small: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 
   /* -------------font-size---------------- */
   --font-size-base : 1rem;
-  --font-size-small: 0.875rem; /*h6*/
-  --font-size-medium: 1.125rem; /*h4*/
-  --font-size-large: 1.5rem; /*h3*/
+  --font-size-small: 0.875rem;
+  --font-size-medium: 1.125rem;
+  --font-size-large: 1.5rem;
   --font-size-x-large: 2.25rem;
-  --font-size-xx-large: 2.5rem; /*h2*/
-  --font-size-xxx-large: 4rem; /*h1*/
+  --font-size-xx-large: 2.5rem;
+  --font-size-xxx-large: 4rem;
 
   /* -------------line-height-------------- */
   --line-height-small: 1.1875rem;
