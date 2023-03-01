@@ -73,8 +73,13 @@ a {
   border: none;
   border-radius: unset;
   flex-direction: unset;
-}
 
+}
+.card__body {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
 .card__body:hover .card__title:first-of-type {
   color: var(--black);
 }
