@@ -166,7 +166,7 @@ a {
   opacity: 70%;
   /* content: " "; */
   display: none;
-  height: 2px;
+  height: 1px;
   position: relative;
   width: 18px;
 }
@@ -177,7 +177,7 @@ a {
   opacity: 70%;
   content: " ";
   display: inline-block;
-  height: 2px;
+  height: 1px;
   position: absolute;
   width: 18px;
 }
