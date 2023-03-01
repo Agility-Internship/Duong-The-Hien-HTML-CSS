@@ -41,7 +41,7 @@
 
 .card__text {
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-xx-medium);
   line-height: var(--line-height-large);
 }
 
@@ -84,9 +84,12 @@
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
-
   .font--medium {
     line-height: var(--line-height-small);
+  }
+  .card__text {
+    font-size: var(--font-size-x-medium);
+    line-height: var(--line-height-x-medium);
   }
 }
 
