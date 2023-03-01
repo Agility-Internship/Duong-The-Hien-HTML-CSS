@@ -5,6 +5,7 @@
 }
 
 .font--medium {
+  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-medium);
 }
@@ -41,7 +42,7 @@
 
 .card__text {
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-xx-medium);
   line-height: var(--line-height-large);
 }
 
@@ -72,21 +73,25 @@
 /* ------------------------------------*\
   @media queries -font.css
 \*------------------------------------*/
-/* header */
-@media screen and (min-width: 48em) {
-  .font--medium {
-    font-size: var(--font-size-medium);
-  }
+/* Desktop */
+@media screen and (min-width: 768px) {
 }
-@media screen and (max-width: 48em) {
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
   /* < 768px */
   .font--large {
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
-
   .font--medium {
+    font-size: var(--font-size-base);
     line-height: var(--line-height-small);
+  }
+  .card__text {
+    font-size: var(--font-size-x-medium);
+    line-height: var(--line-height-x-medium);
   }
 }
 
