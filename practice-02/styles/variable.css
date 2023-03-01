@@ -23,10 +23,12 @@
   --font-weight-bold: 700; /*b3*/
 
   /* -------------font-size---------------- */
-  --font-size-small: 14px; /*h6*/
+  --font-size-small-x: 14px; /*h6*/
   --font-size-x-small: 16px; /*h5*/
   --font-size-medium: 18px; /*h4*/
-  --font-size-large: 24px; /*h3*/
+  --font-size-x-medium: 20px;
+  --font-size-xx-medium: 24px; /*h3*/
+  --font-size-large : 32px
   --font-size-x-large: 36px;
   --font-size-xx-large: 40px; /*h2*/
   --font-size-xxx-large: 64px; /*h1*/
