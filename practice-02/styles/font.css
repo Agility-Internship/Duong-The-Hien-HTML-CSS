@@ -5,7 +5,6 @@
 }
 
 .font--medium {
-  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-medium);
 }
@@ -75,6 +74,11 @@
   @media queries -font.css
 \*------------------------------------*/
 /* header */
+@media screen and (min-width: 48em) {
+  .font--medium {
+    font-size: var(--font-size-medium);
+  }
+}
 @media screen and (max-width: 48em) {
   /* < 768px */
   .font--large {
@@ -82,7 +86,6 @@
     line-height: var(--line-height-xx-large);
   }
   .font--medium {
-    font-size: var(--font-size-x-small);
     line-height: var(--line-height-small);
   }
 }

@@ -214,6 +214,7 @@ a {
 /* header__carousel */
 .header__carousel {
   padding-top: 70px;
+  width: 60%;
 }
 
 .carousel__content--above {
