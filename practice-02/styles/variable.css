@@ -3,7 +3,6 @@
 :root {
   /* --------------font-------------------- */
   --font-family: "Satoshi", sans-serif;
-  --font-size-base : 1rem;
 
   /* -------------color-------------------- */
   /* https://colornamer.robertcooper.me/  */
@@ -24,6 +23,7 @@
   --font-weight-bold: 700; /*b3*/
 
   /* -------------font-size---------------- */
+  --font-size-base : 1rem;
   --font-size-small: 0.875rem; /*h6*/
   --font-size-medium: 1.125rem; /*h4*/
   --font-size-large: 1.5rem; /*h3*/
