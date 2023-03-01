@@ -48,7 +48,7 @@
 
 .card__footer {
   font-weight: var(--font-weight-medium);
-  font-size: var(--font-size-x-small);
+  font-size: var(--font-size-base);
   line-height: var(--line-height-x-small);
 }
 
