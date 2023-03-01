@@ -614,25 +614,32 @@ a {
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
-@media screen and (min-width: 75rem) {
-  /* 1200px */
+@media screen and (min-width: 1200px) {
+  /* > 1200px */
   .container {
     padding: 0 9.375rem;
   }
 }
-@media screen and (min-width: 64rem) and (max-width: 75rem) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   /* 1024px < 1200 px */
   .container {
     padding: 0 3.75rem;
   }
 }
-@media screen and (min-width: 48rem) and (max-width: 64rem) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   /* 768px < 1024px */
   .container {
     padding: 0 2.5rem;
   }
 }
-@media screen and (max-width: 64rem) {
+@media screen and (max-width : 768px) {
+  /* < 768px  */
+  .container {
+    padding: 0 1.56rem;
+  }
+}
+/* header */
+@media screen and (max-width: 1200px) {
   /* < 1200px */
   .navbar {
     justify-content: flex-end;
@@ -646,11 +653,8 @@ a {
     margin-left: 1.875rem;
   }
 }
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 768px) {
   /*  < 768px */
-  .container {
-    padding: 0 1.56rem;
-  }
   .header__carousel{
     margin-top: 1.4375rem;
     padding-top: 0;
@@ -659,14 +663,14 @@ a {
     margin-top: 3.125rem;
   }
 }
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 480px) {
   /*  < 480px */
   .navbar .nav__button {
     display: none;
   }
 }
 /* dropdown */
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 640px) {
   /* < 640px */
   .header .container {
     padding-bottom: 1.5rem;
