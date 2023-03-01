@@ -18,24 +18,26 @@
 
   /* -------------font-weight-------------- */
 
-  --font-weight-small: 400; /*b1*/
-  --font-weight-medium: 500; /*b2*/
-  --font-weight-bold: 700; /*b3*/
+  --font-weight-small: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 
   /* -------------font-size---------------- */
-  --font-size-small: 14px; /*h6*/
-  --font-size-x-small: 16px; /*h5*/
-  --font-size-medium: 18px; /*h4*/
-  --font-size-large: 24px; /*h3*/
-  --font-size-x-large: 36px;
-  --font-size-xx-large: 40px; /*h2*/
-  --font-size-xxx-large: 64px; /*h1*/
+  --font-size-small: 0.875rem;
+  --font-size-base : 1rem;
+  --font-size-medium: 1.125rem;
+  --font-size-x-medium: 1.25rem;
+  --font-size-xx-medium:1.5rem;
+  --font-size-large: 2rem;
+  --font-size-x-large: 2.25rem;
+  --font-size-xx-large: 2.5rem;
+  --font-size-xxx-large: 4rem;
 
   /* -------------line-height-------------- */
-  --line-height-small: 19px;
-  --line-height-medium: 24px;
-  --line-height-large: 34px;
-  --line-height-x-large: 46px;
-  --line-height-xx-large: 50px;
-  --line-height-xxx-large: 74px;
+  --line-height-small: 1.1875rem;
+  --line-height-medium: 1.5rem;
+  --line-height-large: 2.125rem;
+  --line-height-x-large: 2.875rem;
+  --line-height-xx-large: 3.125rem;
+  --line-height-xxx-large: 4.625rem;
 }
