@@ -285,6 +285,9 @@ a {
   padding-top: 24px;
   padding-bottom: 21px;
 }
+.service-left .card__body {
+  width: 80%;
+}
 
 .service .card:hover {
   border: 3px solid transparent;
