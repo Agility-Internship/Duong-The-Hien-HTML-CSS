@@ -90,7 +90,7 @@
     line-height: var(--line-height-small);
   }
 }
-
+/* mobile */
 @media screen and (max-width: 480px) {
   /* < 480px */
   .font--large {
