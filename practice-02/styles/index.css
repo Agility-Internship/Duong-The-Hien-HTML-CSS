@@ -762,6 +762,9 @@ a {
   .service-left .card__text {
     padding-bottom: 30px;
   }
+  .service__img {
+    height: auto;
+  }
 }
 @media screen and (min-width: 768px) {
   .service-left .card__text {
