@@ -90,8 +90,12 @@
     line-height: var(--line-height-small);
   }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 30rem) {
+=======
+@media screen and (max-width: 30em) {
+>>>>>>> parent of 72f8b88 (PERF: Optimized formatting and spacing .)
   /* < 480px */
   .font--large {
     font-size: var(--font-size-x-large);

@@ -114,10 +114,10 @@ a {
 .menu__list .item {
   color: var(--black);
 }
-
 .menu__list .item:hover {
   color: var(--crab-nebula);
 }
+
 .menu__list .item:active {
   color: var(--alienated);
 }
@@ -163,7 +163,6 @@ a {
   color: var(--white);
   margin-left: 16px;
 }
-
 .bars {
   background: var(--black);
   opacity: 70%;
@@ -173,7 +172,6 @@ a {
   position: relative;
   width: 18px;
 }
-
 .bars::before,
 .bars::after {
   background: var(--black);
@@ -184,14 +182,12 @@ a {
   position: absolute;
   width: 18px;
 }
-
 .bars::before {
   top: 5px;
 }
 .bars::after {
   top: -5px;
 }
-
 .navbar .item {
   font-family: var(--font-family);
   text-align: center;
@@ -240,11 +236,9 @@ a {
   padding-bottom: 27px;
   margin-right: 40px;
 }
-
 .shape {
   display: none;
 }
-
 .list--mark {
   color: var(--black);
 }
@@ -647,7 +641,6 @@ a {
   .navbar .nav__menu {
     display: none;
   }
-
   .bars {
     display: inline-block;
     margin-left: 1.875rem;
@@ -675,7 +668,6 @@ a {
   .header .container {
     padding-bottom: 1.5rem;
   }
-
   .header__tab {
     margin-top: 2rem;
   }
@@ -697,15 +689,12 @@ a {
     align-items: center;
     justify-content: space-between;
   }
-
   .menu__list {
     display: block;
   }
-
   .shape {
     display: inline;
   }
-
   .tab__menu .item {
     display: none;
   }
