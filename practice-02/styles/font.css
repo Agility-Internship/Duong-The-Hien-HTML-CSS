@@ -31,7 +31,7 @@
 
 /* Card */
 
-.card__title {
+.card-header {
   color: var(--west_chester-grey);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-small);
@@ -40,13 +40,13 @@
   text-transform: uppercase;
 }
 
-.card__text {
+.card-text {
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-xx-medium);
   line-height: var(--line-height-large);
 }
 
-.card__footer {
+.card-footer {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
 }
@@ -88,6 +88,10 @@
   .nav-text {
     font-size: var(--font-size-base);
     line-height: var(--line-height-small);
+  }
+  .card-text {
+    font-size: var(--font-size-x-medium);
+    line-height: var(--line-height-x-medium);
   }
 }
 /* mobile */
