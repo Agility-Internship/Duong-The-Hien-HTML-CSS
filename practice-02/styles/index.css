@@ -22,6 +22,12 @@ a {
   max-width: 1440px;
   /* change : width: 8 */
   margin: auto;
+  padding-right: unset;
+  padding-left: unset;
+}
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* button */
@@ -108,17 +114,17 @@ a {
 }
 
 /* menu__list */
-.menu__list {
+.nav-menu {
   display: flex;
 }
-.menu__list .item {
+.nav-menu .item {
   color: var(--black);
 }
-.menu__list .item:hover {
+.nav-menu .item:hover {
   color: var(--crab-nebula);
 }
 
-.menu__list .item:active {
+.nav-menu .item:active {
   color: var(--alienated);
 }
 
@@ -133,20 +139,19 @@ a {
   background: var(--lighthouse);
 }
 
-/* header__content */
-.header__content {
+/* header-navbar */
+.header-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   padding: 29px 0;
 }
-
 .logo {
   margin-right: 60px;
 }
 
-.header__content .nav__menu .item::before {
+.header-navbar .nav-menu .item::before {
   content: "";
   width: 0px;
   height: 3px;
@@ -157,7 +162,7 @@ a {
   transition: all 0.5s;
 }
 
-.nav__menu .item:hover::before {
+.nav-menu .item:hover::before {
   width: 100%;
 }
 
@@ -174,10 +179,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0;
-}
+
 .nav-link {
   padding: unset;
   color: unset;
@@ -186,11 +188,11 @@ a {
   color: unset;
 }
 
-.nav__menu .list__item {
-  padding: 0 20px;
+.nav-menu .nav-item {
+  margin-right: 40px;
 }
 
-.nav__menu .item {
+.nav-menu .item {
   position: relative;
 }
 
@@ -242,7 +244,7 @@ a {
   color: var(--west_chester-grey);
   background-color: transparent;
 }
-.nav__menu .nav-pills .nav-link{
+.nav-menu .nav-pills .nav-link{
   padding-bottom: 30px;
   position: relative;
 }
@@ -257,7 +259,7 @@ a {
   transition: all 0.5s;
 }
 
-.nav__menu .nav-pills .nav-link.active {
+.nav-menu .nav-pills .nav-link.active {
   color: black;
 }
 .tab__menu .item {
@@ -698,7 +700,7 @@ a {
     align-items: center;
     justify-content: space-between;
   }
-  .menu__list {
+  .nav-menu {
     display: block;
   }
   .shape {
@@ -707,7 +709,7 @@ a {
   .tab__menu .item {
     display: none;
   }
-  .nav__menu .nav-pills .nav-link{
+  .nav-menu .nav-pills .nav-link{
     padding: unset;
   }
 }
