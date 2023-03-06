@@ -127,6 +127,8 @@ a {
   block-size: auto;
   inline-size: 100%;
 
+  margin-bottom: 16px;
+
   border-radius: unset;
   /* padding: -30px; background padding */
   background-size: cover;
@@ -368,64 +370,38 @@ a {
   border-bottom: 1px solid var(--west_chester-grey);
 }
 
-.product-content .card-img-top {
-  margin-bottom: 16px;
 
-}
 
 /*------------------------------------*\
   #marketing-SECTION
 \*------------------------------------*/
-.marketing__content {
-  display: flex;
+.marketing-content {
+  display: block;
 }
 
-.marketing-left,
-.marketing-right {
-  width: 50%;
-}
-
-.marketing__pic {
+.marketing  {
   width: 100%;
-  height: 370px;
   padding-bottom: 24px;
-
-  object-fit: cover;
 }
 
-/* marketing-right */
-.marketing-right {
+.marketing-right .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-left: 31px;
-}
-
-.marketing-right .card__body {
-  width: 100%;
-  display: flex;
   align-items: flex-end;
+
   padding-top: 16px;
-  border-top: 1px solid var(--west_chester-grey);
-  margin-top: 33px;
+  border-top: 1px solid var(--west_chester-grey) ;
+}
+.card-horizontal{
+  width: 80%;
 }
 
-.card--horizontal-block .card__text {
+.marketing-right .card-header {
+  margin-bottom: 24px ;
+}
+.card-horizontal .card-text {
   margin-bottom: 32px;
-}
-
-.card--horizontal-block .card__title {
-  text-align: right;
-}
-
-.card--horizontal-block:nth-child(1) {
-  width: 70%;
-}
-
-.card--horizontal-block:nth-child(2) {
-  width: 30%;
 }
 
 /*------------------------------------*\
