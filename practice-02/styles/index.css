@@ -200,7 +200,6 @@ a {
   background-color: var(--crab-nebula);
   color: var(--white);
   margin-left: 16px;
-  width: max-content;
   display: inline;
 }
 .navbar .item {
@@ -652,16 +651,19 @@ a {
   }
 }
 /* header */
+@media screen and (min-width: 1100px) {
+  .nav-button .btn-secondary {
+    width: max-content;
+  }
+}
 @media screen and (max-width: 1100px) and (min-width: 992px){
   .header-navbar {
     padding-bottom: 0;
   }
-
   .header-navbar .container-fluid {
     display: flex;
     flex-direction: column;
   }
-  
   .header-navbar .nav-menu {
     width: 100%;
   }
@@ -680,7 +682,7 @@ a {
     margin-top: 3.125rem;
   }
 }
-@media screen and (max-width: 905px) {
+@media screen and (max-width: 955px) {
   /*  < 905px */
   .header-carousel {
     width: 100%;
