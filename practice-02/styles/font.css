@@ -4,7 +4,7 @@
   line-height: var(--line-height-small);
 }
 
-.navbar-text {
+.nav-text {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-medium);
@@ -85,7 +85,7 @@
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
-  .font--medium {
+  .nav-text {
     font-size: var(--font-size-base);
     line-height: var(--line-height-small);
   }
