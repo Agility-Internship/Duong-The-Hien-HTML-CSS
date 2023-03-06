@@ -123,6 +123,10 @@ a {
 }
 
 .card-img-top  {
+  max-inline-size: 100%;
+  block-size: auto;
+  inline-size: 100%;
+
   border-radius: unset;
   /* padding: -30px; background padding */
   background-size: cover;
@@ -366,6 +370,7 @@ a {
 
 .product-content .card-img-top {
   margin-bottom: 16px;
+
 }
 
 /*------------------------------------*\
