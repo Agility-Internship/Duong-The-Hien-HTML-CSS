@@ -4,13 +4,13 @@
   line-height: var(--line-height-small);
 }
 
-.font--medium {
+.nav-text {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-medium);
 }
 
-.font--large {
+.heading-lg {
   font-size: var(--font-size-xxx-large);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-xxx-large);
@@ -31,7 +31,7 @@
 
 /* Card */
 
-.card__title {
+.card-header {
   color: var(--west_chester-grey);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-small);
@@ -40,13 +40,13 @@
   text-transform: uppercase;
 }
 
-.card__text {
+.card-text {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xx-medium);
   line-height: var(--line-height-large);
 }
 
-.card__footer {
+.card-footer {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
 }
@@ -81,23 +81,23 @@
 /* Tablet */
 @media screen and (max-width: 768px) {
   /* < 768px */
-  .font--large {
+  .heading-lg {
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
-  .font--medium {
+  .nav-text {
     font-size: var(--font-size-base);
     line-height: var(--line-height-small);
   }
-  .card__text {
+  .card-text {
     font-size: var(--font-size-x-medium);
     line-height: var(--line-height-x-medium);
   }
 }
-
-@media screen and (max-width: 30rem) {
+/* mobile */
+@media screen and (max-width: 480px) {
   /* < 480px */
-  .font--large {
+  .heading-lg {
     font-size: var(--font-size-x-large);
     line-height: var(--line-height-x-large);
   }
