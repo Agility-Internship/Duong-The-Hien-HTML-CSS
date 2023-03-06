@@ -10,7 +10,7 @@
   line-height: var(--line-height-medium);
 }
 
-.font--large {
+.heading-lg {
   font-size: var(--font-size-xxx-large);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-xxx-large);
@@ -81,7 +81,7 @@
 /* Tablet */
 @media screen and (max-width: 768px) {
   /* < 768px */
-  .font--large {
+  .heading-lg {
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
@@ -93,7 +93,7 @@
 /* mobile */
 @media screen and (max-width: 480px) {
   /* < 480px */
-  .font--large {
+  .heading-lg {
     font-size: var(--font-size-x-large);
     line-height: var(--line-height-x-large);
   }
