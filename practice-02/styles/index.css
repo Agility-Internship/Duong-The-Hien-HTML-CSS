@@ -657,15 +657,6 @@ a {
   }
 }
 /* header */
-@media screen and (max-width: 1200px) {
-  /* < 1200px */
-  /* .header__carousel {
-    width: 70%;
-  } */
-  .navbar {
-    justify-content: flex-end;
-  }
-}
 @media screen and (min-width: 1100px) {
   .nav-button .btn-secondary {
     width: max-content;
