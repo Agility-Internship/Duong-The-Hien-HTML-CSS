@@ -32,15 +32,13 @@ a {
 
 /* button */
 .btn {
-  display: inline-block;
+  display: inline;
   background-color: var(--white);
   border: 1px solid var(--gainsboro);
   border-radius: 4px;
+  
 
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-top: 6px;
-  padding-bottom: 6px;
+  padding: 6px 12px;
   cursor: pointer;
 
   font-weight: var(--font-weight-bold);
@@ -195,11 +193,15 @@ a {
 .nav-menu .item {
   position: relative;
 }
-
+.nav-button {
+  display: inline;
+}
 .nav-button .btn-secondary {
   background-color: var(--crab-nebula);
   color: var(--white);
   margin-left: 16px;
+  width: max-content;
+  display: inline;
 }
 .navbar .item {
   font-family: var(--font-family);
@@ -650,7 +652,24 @@ a {
   }
 }
 /* header */
+@media screen and (max-width: 1100px) and (min-width: 992px){
+  .header-navbar {
+    padding-bottom: 0;
+  }
 
+  .header-navbar .container-fluid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header-navbar .nav-menu {
+    width: 100%;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+}
 @media screen and (max-width: 768px) {
   /*  < 768px */
   .header-carousel {
@@ -665,6 +684,14 @@ a {
   /*  < 905px */
   .header-carousel {
     width: 100%;
+  }
+}
+@media screen and (max-width: 991px) {
+  .header-navbar .nav-menu .nav-item {
+    margin-right: 0;
+  }
+  .nav-button .btn-secondary {
+    margin-left: 0;
   }
 }
 
@@ -707,5 +734,6 @@ a {
   }
   .nav-tabs .item {
     display: none;
+    margin-right: 0;
   }
 }
