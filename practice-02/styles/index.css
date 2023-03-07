@@ -376,9 +376,19 @@ a {
   #marketing-SECTION
 \*------------------------------------*/
 .marketing-content {
-  display: block;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
 }
-
+.marketing-right, .marketing-left {
+  width: 49%;
+}
+.marketing-right {
+  padding-top: 33px;
+}
 .marketing  {
   width: 100%;
   padding-bottom: 24px;
@@ -390,11 +400,11 @@ a {
   justify-content: space-between;
   align-items: flex-end;
 
-  padding-top: 16px;
+  padding-top: 17px;
   border-top: 1px solid var(--west_chester-grey) ;
 }
 .card-horizontal{
-  width: 80%;
+  width: 85%;
 }
 
 .marketing-right .card-header {
@@ -625,6 +635,7 @@ a {
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
+/* container */
 @media screen and (min-width: 1200px) {
   /* > 1200px */
   .container {
@@ -649,10 +660,13 @@ a {
     padding: 0 1.56rem;
   }
   .service .container {
-    margin-top: 70px;
+    margin-top: 4.375rem;
   }
   .product .container {
-    margin-top: 80px;
+    margin-top: 5rem;
+  }
+  .marketing .container {
+    margin-top: 5rem;
   }
 }
 /* header */
@@ -815,4 +829,34 @@ a {
     grid-template-columns: repeat(1,1fr);
   }
 
+}
+
+
+
+
+
+/* marketing */
+@media screen and (max-width: 932px) {
+  /* 934px */
+  .marketing-content {
+    display: block;
+  }
+  .marketing-left,
+  .marketing-right {
+    width: 100%;
+  }
+  .marketing-left {
+    margin-bottom: 30px;
+  }
+  .marketing-right .card {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .marketing-left,
+  .marketing-right .card {
+    margin-bottom: 30px;
+  }
 }
