@@ -16,19 +16,6 @@
   line-height: var(--line-height-xxx-large);
 }
 
-/* text */
-.text--grey {
-  color: var(--west_chester-grey);
-}
-
-.text--white {
-  color: var(--white);
-}
-
-.text--black {
-  color: var(--black);
-}
-
 /* Card */
 
 .card-header {
@@ -44,6 +31,7 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-xx-medium);
   line-height: var(--line-height-large);
+  color: var(--black);
 }
 
 .card-footer {
