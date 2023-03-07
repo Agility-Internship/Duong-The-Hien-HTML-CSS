@@ -77,6 +77,7 @@ a {
   cursor: pointer;
   border: none;
   border-radius: unset;
+  background: transparent;
 }
 .card-header,
 .card-body,
@@ -414,8 +415,7 @@ a {
   #CTA-SECTION
 \*------------------------------------*/
 .cta {
-  height: 468px;
-  background: url(../img/BG.png);
+  background: var(--crab-nebula);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -423,40 +423,44 @@ a {
   margin-top: 180px;
 }
 
-.cta .container {
-  padding-top: 120px;
-}
-
-.cta__content {
+.cta-content {
+  width: 100%;
+  padding: 120px 0;
   display: flex;
+  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  align-items: center;
+  column-gap: 104px;
 }
 
-/* cta__passage */
-.cta__passage {
+.cta-content .card-body {
   width: 60%;
 }
 
-.cta__passage .cta__text {
-  padding-top: 24px;
-  opacity: 72%;
-}
-
-.cta__title {
+.cta-content .card-title{
   letter-spacing: -0, 89px;
+  margin-bottom: 24px;
+}
+.cta-content .card-text{
+  width: 70%;
 }
 
-/* cta__button */
-.cta__button {
-  text-align: center;
+.cta-content .card-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.cta__button .btn__icon {
-  padding-left: 32px;
-  width: 8px;
-  height: 12px;
+/* Cta__card-footer */
+/* button */
+.cta-content .card-footer .btn {
+  margin-bottom: 24px;
+}
+
+.cta-content .card-footer .btn:active {
+  background: var(--white);
+  transform: translateY(5px);
+  color: var(--black);
 }
 
 .btn--chevron {
@@ -468,26 +472,17 @@ a {
   filter: drop-shadow(0px 24px 32px rgba(0, 0, 0, 0.1));
 }
 
-.cta__text {
-  margin-top: 24px;
-  cursor: pointer;
-}
-
-.cta__button .cta__text:hover {
-  color: var(--crab-nebula);
-  text-decoration: underline;
-}
-
-.cta__button .btn--chevron:hover {
+.btn--chevron:hover {
   background-color: var(--crab-nebula);
   color: var(--white);
   border: none;
 }
 
-.cta__button .btn--chevron:active {
-  transform: translateY(5px);
-  color: var(--white);
+/* span */
+.cta-content .card-footer .text-white:hover {
+  text-decoration: underline var(--crab-nebula);
 }
+
 
 /*------------------------------------*\
   #footer-SECTION
@@ -832,5 +827,16 @@ a {
   .marketing-left,
   .marketing-right .card {
     margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+/* CTA */
+@media screen and (max-width: 920px) {
+  .cta-content {
+    display:block;
   }
 }
