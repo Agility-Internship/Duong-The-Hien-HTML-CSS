@@ -352,7 +352,8 @@ a {
   margin-top: 120px;
 }
 
-.product-content {
+.product-content,
+.article-content {
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between; */
@@ -363,12 +364,6 @@ a {
   margin-bottom: 120px;
 }
 
-
-.product .card-title {
-  padding-bottom: 14px;
-  margin-bottom: 24px;
-  border-bottom: 1px solid var(--west_chester-grey);
-}
 
 
 
@@ -391,7 +386,7 @@ a {
 }
 .marketing  {
   width: 100%;
-  padding-bottom: 24px;
+  margin-bottom: 120px;
 }
 
 .marketing-right .card {
@@ -414,27 +409,6 @@ a {
   margin-bottom: 32px;
 }
 
-/*------------------------------------*\
-  #article-SECTION
-\*------------------------------------*/
-.Blog_Article .container {
-  padding-top: 158px;
-}
-
-.article__content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.article__content .card__body {
-  width: 30%;
-}
-
-.article__content .article__pic {
-  width: 100%;
-  height: 241px;
-}
 
 /*------------------------------------*\
   #CTA-SECTION
