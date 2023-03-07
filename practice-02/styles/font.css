@@ -77,7 +77,7 @@
     font-size: var(--font-size-base);
     line-height: var(--line-height-small);
   }
-  .card-text {
+  .card-title {
     font-size: var(--font-size-x-medium);
     line-height: var(--line-height-x-medium);
   }

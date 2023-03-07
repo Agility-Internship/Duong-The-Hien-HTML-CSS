@@ -92,11 +92,11 @@ a {
   color: var(--black);
 }
 
-.card:active .card-body .card-text {
+.card:active .card-body .card-title {
   color: var(--alienated);
 }
 
-.card-body:hover .card-text {
+.card-body:hover .card-title {
   color: var(--crab-nebula);
 }
 
@@ -331,7 +331,7 @@ a {
   padding: 20px;
 }
 
-.service-left .card-text {
+.service-left .card-title {
   margin-bottom: 120px;
   margin-top: 14px;
   letter-spacing: -0.555556px;
@@ -405,7 +405,7 @@ a {
 .marketing-right .card-header {
   margin-bottom: 24px ;
 }
-.card-horizontal .card-text {
+.card-horizontal .card-title {
   margin-bottom: 32px;
 }
 
@@ -754,12 +754,12 @@ a {
   .service .container {
     margin-top: 70px;
   }
-  .service-left .card-text {
+  .service-left .card-title {
   margin-bottom: 60px;
   }
 }
 @media screen and (max-width: 480px) {
-  .service-left .card-text {
+  .service-left .card-title {
     margin-bottom: 30px;
   }
   .service-img {
@@ -767,7 +767,7 @@ a {
   }
 }
 @media screen and (min-width: 768px) {
-  .service-left .card-text {
+  .service-left .card-title {
     font-size: var(--font-size-large);
     line-height: var(--line-height-xx-large);
   }
