@@ -334,9 +334,7 @@ a {
 }
 
 .service .container {
-  /* margin-top: 120px; */
-  /* display: flex; */
-  /* justify-content: space-between; */
+  margin-bottom: 5rem;
 }
 
 .service-left,
@@ -349,10 +347,10 @@ a {
   border-bottom: 1px solid var(--west_chester-grey);
   border-top: 1px solid var(--west_chester-grey);
 
-  margin-right: 30px;
-  padding-top: 24px;
-  padding-bottom: 21px;
+  padding-top: 1.5rem;
+  margin-bottom: 1rem;
 }
+
 .service-left .card-body {
   width: 90%;
 }
@@ -362,12 +360,11 @@ a {
   border-radius: 8px;
   background-color: var(--white);
   box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
-  padding: 20px;
 }
 
 .service-left .card-text {
-  margin-bottom: 120px;
-  margin-top: 14px;
+  margin-bottom: 2rem;
+  margin-top: 0.875rem;
   letter-spacing: -0.555556px;
 }
 
@@ -678,16 +675,28 @@ a {
 @media screen and (min-width: 320px) {}
 
 /*Tablet nhỏ(480 x 640)*/
-@media screen and (min-width: 480px) {}
+@media screen and (min-width: 480px) {
+  .service-img {
+    height: 45vh;
+  }
+}
 
 /*Ipad dọc(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .container {
     padding: 2rem 2.5rem;
   }
+
+  .service-left .card-text {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-xx-large);
+    letter-spacing: -0.555556px;
+  }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 990px) {
+
+  /* header */
   .header .container {
     padding-bottom: 0;
   }
@@ -743,6 +752,23 @@ a {
   .header-tab .nav-menu {
     display: flex;
   }
+
+  /***********************/
+  /* service */
+  .service .container {
+    display: flex;
+    gap: 30px;
+  }
+
+  .service-img {
+    height: 100%;
+  }
+
+  .service-left,
+  .service-right {
+    width: 50%;
+    margin: 0;
+  }
 }
 
 /*Ipad ngang(1024 x 768)*/
@@ -753,7 +779,12 @@ a {
   }
 
   .header .container {
-    padding-top: 2rem ;
+    padding-top: 2rem;
+    margin-bottom: 7.5rem;
+  }
+
+  .service .container {
+    margin-bottom: 7.5rem;
   }
 }
 
@@ -761,5 +792,9 @@ a {
   .container {
     padding-left: 9.375rem;
     padding-right: 9.375rem;
+  }
+
+  .service-left .card-text {
+    width: 90%;
   }
 }
