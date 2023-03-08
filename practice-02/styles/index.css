@@ -435,48 +435,54 @@ a {
 /*------------------------------------*\
   #CTA-SECTION
 \*------------------------------------*/
-.cta {
-  background: var(--crab-nebula);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  margin-top: 180px;
+.cta-content {
+  background-color: var(--crab-nebula);
 }
 
 .cta-content {
   width: 100%;
-  padding: 120px 0;
-  display: flex;
+  padding: 4.5rem 0;
+  /* display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  column-gap: 104px;
+  column-gap: 104px; */
+}
+.cta-content .card-text .heading-lg {
+  margin-bottom: 1rem;
 }
 
-.cta-content .card-body {
-  width: 60%;
-}
 
 .cta-content .card-text{
   letter-spacing: -0, 89px;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
+  margin-bottom: 3rem;
 }
-.cta-content .card-text{
-  width: 70%;
-}
+
 
 .cta-content .card-footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* justify-content: center; */
 }
+
+.cta .card-footer {
+  background-image: url(../img/BG.png);
+  background-position: -1000px;
+  height: 358px;
+  width: 100%;
+  object-fit: cover;
+  max-inline-size: 100%;
+}
+
 
 /* Cta__card-footer */
 /* button */
 .cta-content .card-footer .btn {
   margin-bottom: 24px;
 }
+
 
 .cta-content .card-footer .btn:active {
   background: var(--white);
