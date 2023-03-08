@@ -5,15 +5,15 @@
 }
 
 .nav-text {
-  font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-medium);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-small);
 }
 
 .heading-lg {
-  font-size: var(--font-size-xxx-large);
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
   font-weight: var(--font-weight-bold);
-  line-height: var(--line-height-xxx-large);
 }
 
 /* Card */
@@ -29,8 +29,9 @@
 
 .card-text {
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-xx-medium);
-  line-height: var(--line-height-large);
+  font-size: var(--font-size-x-medium);
+  line-height: var(--line-height-x-medium);
+
   color: var(--black);
 }
 
@@ -61,32 +62,31 @@
 /* ------------------------------------*\
   @media queries -font.css
 \*------------------------------------*/
-/* Desktop */
-@media screen and (min-width: 768px) {
-}
 
-
-/* Tablet */
-@media screen and (max-width: 768px) {
-  /* < 768px */
+/* mobile */
+@media screen and (min-width: 480px) {
   .heading-lg {
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
-  .nav-text {
-    font-size: var(--font-size-base);
-    line-height: var(--line-height-small);
-  }
-  .card-text {
-    font-size: var(--font-size-x-medium);
-    line-height: var(--line-height-x-medium);
-  }
 }
-/* mobile */
-@media screen and (max-width: 480px) {
-  /* < 480px */
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+
+  /* < 768px */
   .heading-lg {
-    font-size: var(--font-size-x-large);
-    line-height: var(--line-height-x-large);
+    font-size: var(--font-size-xxx-large);
+    line-height: var(--line-height-xxx-large);
+  }
+
+  .nav-text {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+  }
+
+  .card-text {
+    font-size: var(--font-size-xx-medium);
+    line-height: var(--line-height-large);
   }
 }
