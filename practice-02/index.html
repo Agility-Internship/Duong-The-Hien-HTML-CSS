@@ -144,7 +144,7 @@
                     </button>
                   </li>
                 </ul>
-              </div>
+            </div>
         </div>
     </header>
     <!-------------------
@@ -192,8 +192,15 @@
         <div class="container">
             <div class="product-content">
                 <div class="card card-img">
-                    <h5 class="card-header">News</h5>
-                    <img src="./img/product__item1.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw ">
+                    <h5 class="card-header">New</h5>
+                    <picture>
+                        <!-- mobile -->
+                        <source media="(max-width:768px)" srcset="./img/product-img1@0.5.jpg ">
+                        <!-- desktop -->
+                        <source media="(min-width:768px)" srcset="./img/product-img1@1.5.jpg ">
+                        <img src="./img/product-img1@1.5x.jpg" alt="Here is a photo of the product title above"
+                            class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                    </picture>
                     <div class="card-body">
                         <h3>
                             <a class="card-text" href="#">
@@ -206,7 +213,14 @@
 
                 <div class="card card-img">
                     <h5 class="card-header">Sales</h5>
-                    <img src="./img/product__item2.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw ">
+                    <picture>
+                        <!-- mobile -->
+                        <source media="(max-width:768px)" srcset="./img/product-img2@0.5.jpg">
+                        <!-- desktop -->
+                        <source media="(min-width:768px)" srcset="./img/product-img2@1.5.jpg ">
+                        <img src="./img/product-img2@1.5.jpg" alt="Here is a photo of the product title above"
+                            class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                    </picture>
                     <div class="card-body">
                         <h3>
                             <a class="card-text" href="#">
@@ -219,7 +233,15 @@
 
                 <div class="card card-img">
                     <h5 class="card-header">Sales</h5>
-                    <img src="./img/product__item3.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw ">
+                    <picture>
+                        <!-- mobile -->
+                        <source media="(max-width:768px)" srcset="./img/product-img3@0.5.jpg ">
+                        <!-- desktop -->
+                        <source media="(min-width:768px)" srcset="./img/product-img3@1.5.jpg ">
+                        <img src="./img/product-img1@1.5.jpg" alt="Here is a photo of the product title above"
+                            class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                    </picture>
+
                     <div class="card-body">
                         <h3>
                             <a class="card-text" href="#">
@@ -232,46 +254,68 @@
 
                 <div class="card card-img">
                     <h5 class="card-header">Sales</h5>
-                    <img src="./img/product__item4.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw ">
+                    <picture>
+                        <!-- mobile -->
+                        <source media="(max-width:768px)" srcset="./img/product-img4@0.5.jpg ">
+                        <!-- desktop -->
+                        <source media="(min-width:768px)" srcset="./img/product-img4@1.5.jpg ">
+                        <img src="./img/product-img4@1.5.jpg" alt="Here is a photo of the product title above"
+                            class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                    </picture>
                     <div class="card-body">
                         <h3>
                             <a class="card-text" href="#">
                                 The Challenger Sale model: How to lead the conversation
                             </a>
                         </h3>
-                    </div>
-                    <h4 class="card-footer">09 Jan 2022,<span class="text-black-50">by joshua Nash</span> </h4>
                 </div>
-
-                <div class="card card-img">
-                    <h5 class="card-header">Product</h5>
-                    <img src="./img/product__item5.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 33vw,  (min-width: 44em) 50vw, 100vw ">
-                    <div class="card-body">
-                        <h3>
-                            <a class="card-text" href="#">
-                                3 ways To automate your lead generation process with Yoora
-                            </a>
-                        </h3>
-                    </div>
-                    <h4 class="card-footer">08 Jul 2022, <span class="text-black-50"> Leroy Figueroa</span> </h4>
-                </div>
-
-                <div class="card card-img">
-                    <h5 class="card-header">Product</h5>
-                    <img src="./img/product__item6.png" alt="Here is a photo of the product title above" class="card-img-top" sizes="(min-width: 66em) 100vw,  (min-width: 44em) 20vw, 100vw ">
-                    <div class="card-body">
-                        <h3>
-                            <a class="card-text" href="#">
-                                Marketplace Monthly Apps Spotlight: Aug 2022
-                            </a>
-                        </h3>
-                    </div>
-                    <h4 class="card-footer">05 Aug 2022,<span class="text-black-50">by joshua Nash</span> </h4>
-                </div>
-
+                <h4 class="card-footer">09 Jan 2022,<span class="text-black-50">by joshua Nash</span> </h4>
             </div>
+
+            <div class="card card-img">
+                <h5 class="card-header">Product</h5>
+                <picture>
+                    <!-- mobile -->
+                    <source media="(max-width:768px)" srcset="./img/product-img5@0.5.jpg ">
+                    <!-- desktop -->
+                    <source media="(min-width:768px)" srcset="./img/product-img5@1.5.jpg ">
+                    <img src="./img/product-img1@1.5.jpg" alt="Here is a photo of the product title above"
+                        class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                </picture>
+
+                <div class="card-body">
+                    <h3>
+                        <a class="card-text" href="#">
+                            3 ways To automate your lead generation process with Yoora
+                        </a>
+                    </h3>
+                </div>
+                <h4 class="card-footer">08 Jul 2022, <span class="text-black-50"> Leroy Figueroa</span> </h4>
             </div>
-            </section>
+
+            <div class="card card-img">
+                <h5 class="card-header">Product</h5>
+                <picture>
+                    <!-- mobile -->
+                    <source media="(max-width:768px)" srcset="./img/product-img6@0.5.jpg ">
+                    <!-- desktop -->
+                    <source media="(min-width:768px)" srcset="./img/product-img6@1.5.jpg ">
+                    <img src="./img/product-img6@1.5.jpg" alt="Here is a photo of the product title above"
+                        class="card-img-top" sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+                </picture>
+                <div class="card-body">
+                    <h3>
+                        <a class="card-text" href="#">
+                            Marketplace Monthly Apps Spotlight: Aug 2022
+                        </a>
+                    </h3>
+                </div>
+                <h4 class="card-footer">05 Aug 2022,<span class="text-black-50">by joshua Nash</span> </h4>
+            </div>
+
+        </div>
+        </div>
+    </section>k
     <!-------------------
      Product end
     --------------------->
