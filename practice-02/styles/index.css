@@ -22,8 +22,7 @@ a {
   max-width: 1440px;
   /* change : width: 8 */
   margin: auto;
-  padding-right: unset;
-  padding-left: unset;
+  padding: 1.625rem 1.5rem;
 }
 .container-fluid {
   padding-left: 0;
@@ -43,6 +42,11 @@ a {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-medium);
   line-height: var(--line-height-small);
+}
+.btn:first-child:active {
+  background-color: unset;
+  border-color: unset;
+  color: var(--black);
 }
 
 .btn-primary {
@@ -719,7 +723,7 @@ a {
   }
   .header .shape {
     display: none;
-}
+  }
   .header-tab .nav-tabs .nav-item {
     display: flex;
     padding-bottom: 30px;
@@ -727,77 +731,17 @@ a {
   .header-tab .nav-menu {
     display: flex;
   }
-  }
-
-  .service-img {
-    height: 50vh;
-  }
-
-
-  /*********************/
-  /* marketing */
-
-  .marketing-content {
-    display: block;
-  }
-
-  .marketing-left,
-  .marketing-right {
-    width: 100%;
-  }
-
-  .marketing-left {
-    margin-bottom: 30px;
-  }
-
-  .marketing-right .card {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-    margin-bottom: 2.5rem;
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px){
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
-
-@media screen and (max-width: 480px) {
-
-  /* service */
-  .service-left .card-text {
-    margin-bottom: 30px;
+@media screen and (min-width: 1240px) {
+  .container {
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
   }
-
-  .service-img {
-    height: auto;
-  }
-
-  /*********************/
-  /* marketing */
-
-  .marketing-left,
-  .marketing-right .card {
-    margin-bottom: 30px;
-  }
-  }
-
-@media screen and (min-width: 768px) {
-  .service-left .card-text {
-    font-size: var(--font-size-large);
-    line-height: var(--line-height-xx-large);
-  }
-}
-
-
-/* product */
-@media screen and (max-width: 1024px) {
-  .product-content {
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 80px;
-  }
-}
-
-@media screen and (max-width: 680px) {
-
-  /* < 640px  */
-  .product-content {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
 }
