@@ -428,28 +428,6 @@ a {
   align-items: flex-start;
 }
 /*------------------------------------*\
-  #article-SECTION
-\*------------------------------------*/
-.Blog_Article .container {
-  padding-top: 158px;
-}
-
-.article__content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.article__content .card__body {
-  width: 30%;
-}
-
-.article__content .article__pic {
-  width: 100%;
-  height: 241px;
-}
-
-/*------------------------------------*\
   #CTA-SECTION
 \*------------------------------------*/
 .cta {
@@ -672,7 +650,7 @@ a {
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .container {
-    padding: 2rem 2.5rem;
+    padding: 0 2.5rem;
   }
 
   .service-left .card-text {
@@ -807,6 +785,10 @@ a {
   }
 
   .product .container {
+    margin-bottom: 7.5rem;
+  }
+
+  .marketing .container {
     margin-bottom: 7.5rem;
   }
 }
