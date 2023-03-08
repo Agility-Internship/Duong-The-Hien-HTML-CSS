@@ -656,7 +656,7 @@ a {
 /* container */
 
 /* default */
-/*Smart phone nhỏ*/
+/*Small smartphone*/
 
 /*Iphone(480 x 640)*/
 @media screen and (min-width: 320px) {}
@@ -680,7 +680,7 @@ a {
     }
 }
 
-/*Ipad dọc(768 x 1024)*/
+/*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .container {
     padding: 2rem 2.5rem;
@@ -795,13 +795,13 @@ a {
     width: 20%;
     text-align: end;
   }
- 
+
   .marketing-content .card.card-img{
     grid-row: 1/4;
   }
 }
 
-/*Ipad ngang(1024 x 768)*/
+/*Tablet(1024 x 768)*/
 @media screen and (min-width: 1024px) {
   .container {
     padding-left: 5rem;
