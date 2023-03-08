@@ -118,9 +118,8 @@ a {
 
 .card-img
 .card-header,
-.card-body,
-.card-footer{
-  margin-bottom: 24px;
+.card-body{
+  margin-bottom: 1rem;
 }
 .card-img .card-header {
   padding-bottom: 14px;
@@ -348,6 +347,7 @@ a {
   border-top: 1px solid var(--west_chester-grey);
 
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -380,7 +380,7 @@ a {
   #Product-SECTION
 \*------------------------------------*/
 .product .container {
-  margin-top: 120px;
+  margin-bottom: 5rem;
 }
 
 .product-content {
@@ -388,10 +388,8 @@ a {
   flex-wrap: wrap;
   justify-content: space-between; */
   display: grid;
-  column-gap: 30px;
-  row-gap: 120px;
-  grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 120px;
+  row-gap:  2.875rem;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 
@@ -679,6 +677,18 @@ a {
   .service-img {
     height: 45vh;
   }
+
+  /******************/
+  /* products */
+  .product-content {
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    row-gap: 7.5rem;
+  }
+    .card-header,
+    .card-body {
+      margin-bottom: 1.5rem;
+    }
 }
 
 /*Ipad dọc(768 x 1024)*/
@@ -727,7 +737,8 @@ a {
 
   /* __carousel */
   .header-carousel {
-    margin: 6.25rem 0;
+    margin-bottom: 6.25rem;
+    margin-top: 4.375rem;
   }
 
   /* __tab */
@@ -769,6 +780,11 @@ a {
     width: 50%;
     margin: 0;
   }
+  /******************/
+  /* products */
+  .product-content {
+    grid-template-columns: repeat(3,1fr);
+  }
 }
 
 /*Ipad ngang(1024 x 768)*/
@@ -784,6 +800,10 @@ a {
   }
 
   .service .container {
+    margin-bottom: 7.5rem;
+  }
+
+  .product .container {
     margin-bottom: 7.5rem;
   }
 }
