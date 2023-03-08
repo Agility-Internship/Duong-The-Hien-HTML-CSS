@@ -672,73 +672,84 @@ a {
 /*Smart phone nhỏ*/
 
 /*Iphone(480 x 640)*/
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {}
 
-}
 /*Tablet nhỏ(480 x 640)*/
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {}
 
-}
 /*Ipad dọc(768 x 1024)*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .container {
     padding: 2rem 2.5rem;
   }
 }
+
 @media screen and (min-width: 992px) {
   .header .container {
     padding-bottom: 0;
   }
+
   /* -navbar */
   .header-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
   .logo {
     margin-right: 3.75rem;
   }
-  .header-navbar .nav-menu .navbar-nav{
+
+  .header-navbar .nav-menu .navbar-nav {
     margin-bottom: 0rem;
   }
+
   .nav-menu .nav-item {
     margin-right: 2.5rem;
   }
+
   .header-navbar .btn-secondary {
-    margin-left : 1rem;
+    margin-left: 1rem;
     width: max-content;
   }
+
   /* __carousel */
   .header-carousel {
     margin: 6.25rem 0;
   }
+
   /* __tab */
-  .header-tab .nav-tabs .nav-mark{
+  .header-tab .nav-tabs .nav-mark {
     width: unset;
-    padding:unset;
+    padding: unset;
     background-color: unset;
     border: unset;
     border-radius: unset;
     display: none;
   }
+
   .header .shape {
     display: none;
   }
+
   .header-tab .nav-tabs .nav-item {
     display: flex;
     padding-bottom: 30px;
   }
+
   .header-tab .nav-menu {
     display: flex;
   }
 }
+
 /*Ipad ngang(1024 x 768)*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .container {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
+
 @media screen and (min-width: 1240px) {
   .container {
     padding-left: 9.375rem;
