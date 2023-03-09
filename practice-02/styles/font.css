@@ -33,10 +33,6 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-x-medium);
   line-height: var(--line-height-x-medium);
-<<<<<<< HEAD
-=======
-
->>>>>>> Fix/Clear@media-responsive
   color: var(--black);
 }
 .card-footer {
@@ -63,10 +59,6 @@
 /* ------------------------------------*\
   @media queries -font.css
 \*------------------------------------*/
-<<<<<<< HEAD
-=======
-
->>>>>>> Fix/Clear@media-responsive
 /* mobile */
 @media screen and (min-width: 480px) {
   .heading-lg {
@@ -83,18 +75,10 @@
     font-size: var(--font-size-xxx-large);
     line-height: var(--line-height-xxx-large);
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> Fix/Clear@media-responsive
   .nav-text {
     font-size: var(--font-size-medium);
     line-height: var(--line-height-medium);
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> Fix/Clear@media-responsive
   .card-text {
     font-size: var(--font-size-xx-medium);
     line-height: var(--line-height-large);
