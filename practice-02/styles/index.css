@@ -130,7 +130,7 @@ a {
   block-size: auto;
   inline-size: 100%;
 
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 
   border-radius: unset;
   /* padding: -1.875rem; background padding */
