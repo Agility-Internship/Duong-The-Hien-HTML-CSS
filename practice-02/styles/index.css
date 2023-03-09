@@ -793,7 +793,7 @@ a {
 }
 
 /*Tablet(1024 x 768)*/
-@media screen and (min-width: 101.5rem) {
+@media screen and (min-width: 1024px) {
   .container {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -813,7 +813,7 @@ a {
   }
 }
 
-@media screen and (min-width: 122.5rem) {
+@media screen and (min-width: 1240px) {
   .container {
     padding-left: 9.375rem;
     padding-right: 9.375rem;
