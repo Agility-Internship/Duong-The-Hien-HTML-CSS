@@ -402,56 +402,33 @@ a {
 /*------------------------------------*\
   #marketing-SECTION
 \*------------------------------------*/
-.marketing__content {
-  display: flex;
+.marketing .container {
+  margin-bottom: 5rem;
 }
-
-.marketing-left,
-.marketing-right {
-  width: 50%;
+.marketing-content {
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  row-gap: 46px;
+  /* display: flex;
+  justify-content: space-between; */
+  /* align-items: center; */
 }
-
-.marketing__pic {
+.marketing .card {
   width: 100%;
-  height: 370px;
-  padding-bottom: 24px;
-
-  object-fit: cover;
 }
+.marketing-content .card.card-horizontal {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
 
-/* marketing-right */
-.marketing-right {
+  padding-top: 17px;
+  border-top: 1px solid var(--west_chester-grey) ;
+}
+.card .card-horizontal-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-left: 31px;
-}
-
-.marketing-right .card__body {
-  width: 100%;
-  display: flex;
-  align-items: flex-end;
-  padding-top: 16px;
-  border-top: 1px solid var(--west_chester-grey);
-  margin-top: 33px;
-}
-
-.card--horizontal-block .card__text {
-  margin-bottom: 32px;
-}
-
-.card--horizontal-block .card__title {
-  text-align: right;
-}
-
-.card--horizontal-block:nth-child(1) {
-  width: 70%;
-}
-
-.card--horizontal-block:nth-child(2) {
-  width: 30%;
+  align-items: flex-start;
 }
 /*------------------------------------*\
   #article-SECTION
@@ -788,6 +765,31 @@ a {
   .product-content {
     grid-template-columns: repeat(3,1fr);
   }
+  /***********************/
+  /* marketing */
+  .marketing-content {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    column-gap: 30px;
+    row-gap: 0;
+    align-items: start;
+  }
+  .marketing-content .card.card-horizontal{
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .card-horizontal {
+    margin-top: 2rem;
+  }
+  .card-horizontal .card-header {
+    margin-bottom: 0;
+    width: 20%;
+    text-align: end;
+  }
+
+  .marketing-content .card.card-img{
+    grid-row: 1/4;
+  }
 }
 
 /*Tablet(1024 x 768)*/
@@ -795,15 +797,6 @@ a {
   .container {
     padding-left: 5rem;
     padding-right: 5rem;
-  }
-
-  .header .container {
-    padding-top: 2rem;
-    margin-bottom: 7.5rem;
-  }
-
-  .service .container {
-    margin-bottom: 7.5rem;
   }
 
   .header .container {
