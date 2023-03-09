@@ -578,24 +578,27 @@ a {
 }
 
 /* footer__fuel */
-.footer-rule {
+.footer-about {
   display: grid;
   /* flex-direction: column;
   align-items: flex-start;
   justify-content: space-between; */
 
-  padding: 40px 0px;
+  /* padding: 40px 0px; */
 }
 
-.footer-rule .menu-list>.item {
+.footer-about .menu-list>.item {
   color: var(--bauhaus);
   letter-spacing: 0.2px;
+  padding: 0;
+  margin-bottom: 1.875rem;
 }
 
 .footer-locale {
   width: 70%;
   display: flex;
   justify-content: flex-start;
+  margin-top: 1.875rem;
 }
 
 .btn--flex {
