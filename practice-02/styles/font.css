@@ -8,6 +8,21 @@
   font-size: var(--font-size-base);
   line-height: var(--line-height-small);
 }
+
+.heading-lg {
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Card */
+
+.card-header {
+  color: var(--west_chester-grey);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
 .heading-lg {
   font-size: var(--font-size-x-large);
   line-height: var(--line-height-x-large);
@@ -23,6 +38,7 @@
 .card-footer {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
+  font-size: var(--font-size-base);
 }
 /* font */
 /* .h6-b3-text {
@@ -50,8 +66,10 @@
     line-height: var(--line-height-xx-large);
   }
 }
+
 /* Tablet */
 @media screen and (min-width: 768px) {
+
   /* < 768px */
   .heading-lg {
     font-size: var(--font-size-xxx-large);
