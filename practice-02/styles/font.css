@@ -3,7 +3,6 @@
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
 }
-
 .nav-text {
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-base);
@@ -23,18 +22,19 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
-  /* transform */
-  text-transform: uppercase;
 }
-
+.heading-lg {
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
+  font-weight: var(--font-weight-bold);
+}
+/* Card */
 .card-text {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-x-medium);
   line-height: var(--line-height-x-medium);
-
   color: var(--black);
 }
-
 .card-footer {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
@@ -56,13 +56,11 @@
 
 
 /* font */
-
 /* .h6-b3-text {
         font-size: var(--font-size-small);
         font-weight: var(--font-weight-bold);
         line-height: var(--line-height-small);
     }  */
-
 /************** Responsive **************/
 /* Breakpoint */
 /*
@@ -73,11 +71,9 @@
 ** Large screens and Desktops                 :  64rem < 75 rem [1024px < 1200px]
 ** Extra large                                  : > 75rem
 */
-
 /* ------------------------------------*\
   @media queries -font.css
 \*------------------------------------*/
-
 /* mobile */
 @media screen and (min-width: 480px) {
   .heading-lg {
@@ -94,12 +90,10 @@
     font-size: var(--font-size-xxx-large);
     line-height: var(--line-height-xxx-large);
   }
-
   .nav-text {
     font-size: var(--font-size-medium);
     line-height: var(--line-height-medium);
   }
-
   .card-text {
     font-size: var(--font-size-xx-medium);
     line-height: var(--line-height-large);

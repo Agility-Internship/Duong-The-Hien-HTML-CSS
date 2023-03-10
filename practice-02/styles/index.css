@@ -123,7 +123,7 @@ a {
   margin-bottom: 1rem;
 }
 .card-img .card-header {
-  padding-bottom: 14px;
+  padding-bottom: 0.875rem;
 }
 
 .card-img-top  {
@@ -131,10 +131,10 @@ a {
   block-size: auto;
   inline-size: 100%;
 
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 
   border-radius: unset;
-  /* padding: -30px; background padding */
+  /* padding: -1.875rem; background padding */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -168,7 +168,6 @@ a {
 .header .container {
   padding-top: 1rem;
   padding-bottom: 1rem;
-
   margin-bottom: 4.5rem;
 }
 
@@ -203,7 +202,7 @@ a {
 }
 
 .header-navbar .nav-menu .navbar-nav {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 .header-navbar .navbar-toggler{
   border: none;
@@ -217,7 +216,7 @@ a {
 }
 
 /* .nav-menu .nav-item {
-  margin-right: 40px;
+  margin-right: 2.5rem;
 } */
 
 .nav-menu .item {
@@ -235,12 +234,12 @@ a {
   font-family: var(--font-family);
   text-align: center;
 
-  padding: 20px 0;
+  padding: 1.25rem 0;
 }
 
 /* header-carousel */
 .header-carousel {
-  margin-top: 50px;
+  margin-top: 3.125rem;
   margin-bottom: 2rem;
   width: 100%;
 }
@@ -263,7 +262,7 @@ a {
   background-color: transparent;
 }
 .nav-menu .nav-pills .nav-link {
-  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
   position: relative;
 }
 .header-tab .nav-pills ::before {
@@ -291,7 +290,6 @@ a {
   text-align: center;
   align-items: center;
 }
-
 .header-tab .nav-tabs .nav-mark {
   width: 100%;
   padding: 0.875rem;
@@ -364,7 +362,7 @@ a {
   border: 3px solid transparent;
   border-radius: 8px;
   background-color: var(--white);
-  box-shadow: 1px 0 50px rgb(0 0 0 / 10%);
+  box-shadow: 1px 0 3.125rem rgb(0 0 0 / 10%);
 }
 
 .service-left .card-text {
@@ -399,6 +397,12 @@ a {
 }
 
 
+.product .card-title {
+  padding-bottom: 0.875rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--west_chester-grey);
+}
+
 
 
 /*------------------------------------*\
@@ -410,7 +414,7 @@ a {
 .marketing-content {
   display: grid;
   grid-template-columns: repeat(1,1fr);
-  row-gap: 46px;
+  row-gap: 2.875rem;
   /* display: flex;
   justify-content: space-between; */
   /* align-items: center; */
@@ -424,7 +428,7 @@ a {
   align-items: flex-start;
   justify-content: space-between;
 
-  padding-top: 17px;
+  padding-top: 1rem;
   border-top: 1px solid var(--west_chester-grey) ;
 }
 .card .card-horizontal-left {
@@ -437,19 +441,17 @@ a {
 \*------------------------------------*/
 .cta-content {
   background-color: var(--crab-nebula);
-}
-
-.cta-content {
+  background-repeat: no-repeat;
   width: 100%;
   padding: 4.5rem 0;
-  /* display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  column-gap: 104px; */
+  padding-bottom: 0;
 }
 .cta-content .card-text .heading-lg {
   margin-bottom: 1rem;
+}
+
+.cta-content .card-body {
+  margin: 0 2rem;
 }
 
 
@@ -464,25 +466,24 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .cta .card-footer {
   background-image: url(../img/BG.png);
-  background-position: right;
+  background-position: -1000px;
   background-repeat: no-repeat;
-  background-size: 2000px;
+  /* background-position-x: right; */
+  background-position-y: -1rem;
   height: 358px;
-  width: 100%;
-  object-fit: cover;
-  max-inline-size: 100%;
+  /* width: 100%; */
 }
 
 
 /* Cta__card-footer */
 /* button */
 .cta-content .card-footer .btn {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 
@@ -498,7 +499,7 @@ a {
   height: 64px;
   background: var(--white);
 
-  filter: drop-shadow(0px 24px 32px rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
 }
 
 .btn--chevron:hover {
@@ -617,7 +618,34 @@ a {
   @media queries
 \*------------------------------------*/
 /* container */
-
+/* Cta */
+@media screen and (min-width: 400px) {
+  .cta .card-footer {
+    background-position: -900px;
+    background-position-y: -1rem;
+  }
+}
+@media screen and (min-width:550px) {
+  .cta .card-footer {
+    background-size: 2000px;
+    background-position: -1300px;
+    background-position-y: -2rem;
+  }
+}
+@media screen and (min-width:700px) {
+  .cta .card-footer {
+    background-size: 2500px;
+    background-position: -1600px;
+    background-position-y: -4rem;
+  }
+}
+@media screen and (min-width :900px) {
+  .cta .card-footer {
+    background-size: 3000px;
+    background-position: -1950px;
+    background-position-y: -6rem;
+  }
+}
 /*Small tablet(480 x 640)*/
 @media screen and (min-width: 480px) {
   .service-img {
@@ -628,10 +656,10 @@ a {
   /* products */
   .product-content {
     grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+    gap: 1.875rem;
     row-gap: 7.5rem;
   }
-    .product-content .card-header,
+    .card-header,
     .card-body {
       margin-bottom: 1.5rem;
     }
@@ -661,13 +689,23 @@ a {
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .container {
-    padding: 0 2.5rem;
+    padding: 2rem 2.5rem 0 2.5rem;
   }
 
   .service-left .card-text {
     font-size: var(--font-size-large);
     line-height: var(--line-height-xx-large);
     letter-spacing: -0.555556px;
+  }
+
+  /***********************/
+  /* CTA */
+  .cta-content {
+    padding-top: 5rem;
+  }
+  .cta .cta-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -724,7 +762,7 @@ a {
 
   .header-tab .nav-tabs .nav-item {
     display: flex;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
   }
 
   .header-tab .nav-menu {
@@ -735,7 +773,7 @@ a {
   /* service */
   .service .container {
     display: flex;
-    gap: 30px;
+    gap: 1.875rem;
   }
 
   .service-img {
@@ -757,7 +795,7 @@ a {
   .marketing-content {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3, 1fr) ;
-    column-gap: 30px;
+    column-gap: 1.875rem;
     row-gap: 0;
     align-items: start;
   }
@@ -838,6 +876,18 @@ a {
   .marketing .container {
     margin-bottom: 7.5rem;
   }
+
+  .cta .container {
+    margin-bottom: 7.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .cta .cta-content {
+    align-items: center;
+  }
+  .cta .card-body {
+    margin:0;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -849,15 +899,9 @@ a {
   .service-left .card-text {
     width: 90%;
   }
-}
-
-
-
-
-
-/* CTA */
-@media screen and (max-width: 920px) {
-  .cta-content {
-    display:block;
+  .cta .container {
+    margin-bottom: 7.5rem;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
   }
 }
