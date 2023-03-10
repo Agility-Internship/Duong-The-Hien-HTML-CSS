@@ -89,7 +89,6 @@ a {
   border: unset;
   padding: unset;
   position: relative;
-
 }
 
 .card:hover .card-header {
@@ -118,14 +117,14 @@ a {
 
 .card-img,
 .card-header,
-.card-body{
+.card-body {
   margin-bottom: 1rem;
 }
 .card-img .card-header {
   padding-bottom: 0.875rem;
 }
 
-.card-img-top  {
+.card-img-top {
   max-inline-size: 100%;
   block-size: auto;
   inline-size: 100%;
@@ -138,7 +137,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 /* menu__list */
 
@@ -171,7 +169,7 @@ a {
 }
 
 /* header-navbar */
-  /*@Hover::before */
+/*@Hover::before */
 .header-navbar .nav-menu .item::before {
   content: "";
   width: 0px;
@@ -203,7 +201,7 @@ a {
 .header-navbar .nav-menu .navbar-nav {
   margin-bottom: 1rem;
 }
-.header-navbar .navbar-toggler{
+.header-navbar .navbar-toggler {
   border: none;
 }
 .nav-link {
@@ -386,18 +384,15 @@ a {
   flex-wrap: wrap;
   justify-content: space-between; */
   display: grid;
-  row-gap:  2.875rem;
+  row-gap: 2.875rem;
   grid-template-columns: repeat(1, 1fr);
 }
-
 
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--west_chester-grey);
 }
-
-
 
 /*------------------------------------*\
   #marketing-SECTION
@@ -407,7 +402,7 @@ a {
 }
 .marketing-content {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   row-gap: 2.875rem;
   /* display: flex;
   justify-content: space-between; */
@@ -423,7 +418,7 @@ a {
   justify-content: space-between;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--west_chester-grey) ;
+  border-top: 1px solid var(--west_chester-grey);
 }
 .card .card-horizontal-left {
   display: flex;
@@ -470,13 +465,11 @@ a {
   margin: 0 2rem;
 }
 
-
-.cta-content .card-text{
+.cta-content .card-text {
   letter-spacing: -0, 89px;
   /* margin-bottom: 24px; */
   margin-bottom: 3rem;
 }
-
 
 .cta-content .card-footer {
   display: flex;
@@ -495,13 +488,11 @@ a {
   /* width: 100%; */
 }
 
-
 /* Cta__card-footer */
 /* button */
 .cta-content .card-footer .btn {
   margin-bottom: 24px;
 }
-
 
 .cta-content .card-footer .btn:active {
   background: var(--white);
@@ -654,21 +645,21 @@ a {
     background-position-y: -1rem;
   }
 }
-@media screen and (min-width:550px) {
+@media screen and (min-width: 550px) {
   .cta .card-footer {
     background-size: 125rem;
     background-position: -82rem;
     background-position-y: -2rem;
   }
 }
-@media screen and (min-width:700px) {
+@media screen and (min-width: 700px) {
   .cta .card-footer {
     background-size: 155rem;
     background-position: -100rem;
     background-position-y: -4rem;
   }
 }
-@media screen and (min-width :900px) {
+@media screen and (min-width: 900px) {
   .cta .card-footer {
     background-size: 185rem;
     background-position: -120rem;
@@ -685,14 +676,14 @@ a {
   /******************/
   /* products */
   .product-content {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.875rem;
     row-gap: 7.5rem;
   }
-    .card-header,
-    .card-body {
-      margin-bottom: 1.5rem;
-    }
+  .card-header,
+  .card-body {
+    margin-bottom: 1.5rem;
+  }
 }
 
 /*Vertical iPad(768 x 1024)*/
@@ -719,9 +710,7 @@ a {
   }
 }
 
-
 @media screen and (min-width: 990px) {
-
   /* header */
   .header .container {
     padding-bottom: 0;
@@ -799,18 +788,18 @@ a {
   /******************/
   /* products */
   .product-content {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   /***********************/
   /* marketing */
   .marketing-content {
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 1.875rem;
     row-gap: 0;
     align-items: start;
   }
-  .marketing-content .card.card-horizontal{
+  .marketing-content .card.card-horizontal {
     flex-direction: row;
     align-items: flex-end;
   }
@@ -823,7 +812,7 @@ a {
     text-align: end;
   }
 
-  .marketing-content .card.card-img{
+  .marketing-content .card.card-img {
     grid-row: 1/4;
   }
   /***********************/
@@ -876,7 +865,7 @@ a {
     align-items: center;
   }
   .cta .card-body {
-    margin:0;
+    margin: 0;
   }
 }
 
