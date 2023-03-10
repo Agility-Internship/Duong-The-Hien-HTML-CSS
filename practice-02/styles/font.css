@@ -15,6 +15,18 @@
   font-weight: var(--font-weight-bold);
 }
 
+.heading-sm {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-small);
+}
+
+.heading-md {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-medium);
+}
+
 /* Card */
 
 .card-header {
@@ -23,18 +35,14 @@
   font-size: var(--font-size-small);
   line-height: var(--line-height-small);
 }
-.heading-lg {
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-x-large);
-  font-weight: var(--font-weight-bold);
-}
-/* Card */
+
 .card-text {
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-x-medium);
   line-height: var(--line-height-x-medium);
   color: var(--black);
 }
+
 .card-footer {
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
