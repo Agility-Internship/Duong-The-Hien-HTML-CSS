@@ -49,9 +49,6 @@
   font-size: var(--font-size-base);
 }
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 .heading-sm {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-medium);
@@ -64,17 +61,6 @@
 }
 
 
-
-
-/* font */
-/* .h6-b3-text {
-        font-size: var(--font-size-small);
-        font-weight: var(--font-weight-bold);
-        line-height: var(--line-height-small);
-    }  */
-=======
->>>>>>> practice-02
->>>>>>> feature/footer-responsive
 /************** Responsive **************/
 /* Breakpoint */
 /*
