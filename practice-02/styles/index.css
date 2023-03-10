@@ -820,6 +820,7 @@ a {
     flex-direction: row;
     align-items: flex-end;
   }
+  .marketing-content .card.card-img {
   .card-horizontal {
     margin-top: 2rem;
   }
@@ -862,15 +863,18 @@ a {
   }
 
   .footer-about .menu-list {
+    flex-direction: row;
     margin-bottom: 2rem;
     align-items: center;
   }
   .footer-about .list-item {
     padding-bottom: 0;
   }
-  .footer-locale{
+
+  .footer-locale {
+    grid-area: 1/3;
     justify-content: flex-end;
-  /***********************/
+
   }
   /* cta*/
   .cta-content {
@@ -917,7 +921,11 @@ a {
   .footer-about .list-item {
     padding-bottom: 0;
   }
-  .footer-locale{
+
+  .footer-locale {
+    grid-area: 1/3;
+  }
+  .footer-locale {
     justify-content: flex-end;
   }
 }
