@@ -650,28 +650,28 @@ a {
 \*------------------------------------*/
 @media screen and (min-width: 400px) {
   .cta .card-footer {
-    background-position: -900px;
+    background-position: -56.25rem;
     background-position-y: -1rem;
   }
 }
 @media screen and (min-width:550px) {
   .cta .card-footer {
-    background-size: 2000px;
-    background-position: -1300px;
+    background-size: 125rem;
+    background-position: -82rem;
     background-position-y: -2rem;
   }
 }
 @media screen and (min-width:700px) {
   .cta .card-footer {
-    background-size: 2500px;
-    background-position: -1600px;
+    background-size: 155rem;
+    background-position: -100rem;
     background-position-y: -4rem;
   }
 }
 @media screen and (min-width :900px) {
   .cta .card-footer {
-    background-size: 3000px;
-    background-position: -1950px;
+    background-size: 185rem;
+    background-position: -120rem;
     background-position-y: -6rem;
   }
 }
@@ -889,7 +889,7 @@ a {
   .service-left .card-text {
     width: 90%;
   }
-  
+
   .cta .container {
     margin-bottom: 7.5rem;
     padding-left: 9.375rem;
