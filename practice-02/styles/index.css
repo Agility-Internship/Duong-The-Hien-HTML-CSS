@@ -599,7 +599,11 @@ a {
   margin-bottom: 1.875rem;
 }
 
-.footer-about .nav-menu .item,
+.footer-about {
+  padding-top: 2rem;
+}
+
+.footer-about .item,
 .footer-locale{
   margin-bottom: 2rem;
 }
@@ -853,10 +857,13 @@ a {
       grid-area: 1/3;
     }
     .footer-about .nav-menu .item {
-      /* margin-bottom: ; */
+      margin-right: 1.25rem;
+      text-align: center;
   }
+
   .footer-about .menu-list {
     margin-bottom: 2rem;
+    align-items: center;
   }
   .footer-about .list-item {
     padding-bottom: 0;
