@@ -49,16 +49,8 @@
   font-size: var(--font-size-base);
 }
 
-.heading-sm {
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-small);
-}
-.heading-md {
-  font-size: var(--font-size-medium);
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-medium);
-}
+
+
 
 
 /************** Responsive **************/
