@@ -437,19 +437,17 @@ a {
 \*------------------------------------*/
 .cta-content {
   background-color: var(--crab-nebula);
-}
-
-.cta-content {
+  background-repeat: no-repeat;
   width: 100%;
   padding: 4.5rem 0;
-  /* display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-  column-gap: 104px; */
+  padding-bottom: 0;
 }
 .cta-content .card-text .heading-lg {
   margin-bottom: 1rem;
+}
+
+.cta-content .card-body {
+  margin: 0 2rem;
 }
 
 
@@ -464,16 +462,17 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .cta .card-footer {
   background-image: url(../img/BG.png);
   background-position: -1000px;
+  background-repeat: no-repeat;
+  /* background-position-x: right; */
+  background-position-y: -1rem;
   height: 358px;
-  width: 100%;
-  object-fit: cover;
-  max-inline-size: 100%;
+  /* width: 100%; */
 }
 
 
@@ -632,7 +631,34 @@ a {
   @media queries
 \*------------------------------------*/
 /* container */
-
+/* Cta */
+@media screen and (min-width: 400px) {
+  .cta .card-footer {
+    background-position: -900px;
+    background-position-y: -1rem;
+  }
+}
+@media screen and (min-width:550px) {
+  .cta .card-footer {
+    background-size: 2000px;
+    background-position: -1300px;
+    background-position-y: -2rem;
+  }
+}
+@media screen and (min-width:700px) {
+  .cta .card-footer {
+    background-size: 2500px;
+    background-position: -1600px;
+    background-position-y: -4rem;
+  }
+}
+@media screen and (min-width :900px) {
+  .cta .card-footer {
+    background-size: 3000px;
+    background-position: -1950px;
+    background-position-y: -6rem;
+  }
+}
 /*Small tablet(480 x 640)*/
 @media screen and (min-width: 480px) {
   .service-img {
@@ -662,6 +688,16 @@ a {
     font-size: var(--font-size-large);
     line-height: var(--line-height-xx-large);
     letter-spacing: -0.555556px;
+  }
+
+  /***********************/
+  /* CTA */
+  .cta-content {
+    padding-top: 5rem;
+  }
+  .cta .cta-content {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -771,6 +807,20 @@ a {
   .marketing-content .card.card-img{
     grid-row: 1/4;
   }
+  /***********************/
+  /* service*/
+
+  .cta-content {
+    flex-direction: row;
+    background-image: url(../img/BG.png);
+    background-position: center;
+    padding: 7.5rem 0;
+    height: 468px;
+  }
+  .cta-content .card-footer {
+    background-image: none;
+    width: 60%;
+  }
 }
 
 /*Tablet(1024 x 768)*/
@@ -796,6 +846,18 @@ a {
   .marketing .container {
     margin-bottom: 7.5rem;
   }
+
+  .cta .container {
+    margin-bottom: 7.5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .cta .cta-content {
+    align-items: center;
+  }
+  .cta .card-body {
+    margin:0;
+  }
 }
 
 @media screen and (min-width: 1240px) {
@@ -806,6 +868,11 @@ a {
 
   .service-left .card-text {
     width: 90%;
+  }
+  .cta .container {
+    margin-bottom: 7.5rem;
+    padding-left: 9.375rem;
+    padding-right: 9.375rem;
   }
 }
 
