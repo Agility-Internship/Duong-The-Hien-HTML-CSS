@@ -471,7 +471,7 @@ a {
 
 .cta .card-footer {
   background-image: url(../img/BG.png);
-  background-position: -1000px;
+  background-position: -62.5rem;
   background-repeat: no-repeat;
   /* background-position-x: right; */
   background-position-y: -1rem;
@@ -498,7 +498,6 @@ a {
   width: 198px;
   height: 64px;
   background: var(--white);
-
   filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
 }
 
@@ -618,6 +617,33 @@ a {
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
+@media screen and (min-width: 400px) {
+  .cta .card-footer {
+    background-position: -56.25rem;
+    background-position-y: -1rem;
+  }
+}
+@media screen and (min-width:550px) {
+  .cta .card-footer {
+    background-size: 125rem;
+    background-position: -82rem;
+    background-position-y: -2rem;
+  }
+}
+@media screen and (min-width:700px) {
+  .cta .card-footer {
+    background-size: 155rem;
+    background-position: -100rem;
+    background-position-y: -4rem;
+  }
+}
+@media screen and (min-width :900px) {
+  .cta .card-footer {
+    background-size: 185rem;
+    background-position: -120rem;
+    background-position-y: -6rem;
+  }
+}
 /* container */
 /* Cta */
 @media screen and (min-width: 400px) {
@@ -706,6 +732,7 @@ a {
     padding-right: 0;
   }
 }
+
 
 @media screen and (min-width: 990px) {
 
@@ -848,6 +875,19 @@ a {
   }
   .footer-locale{
     justify-content: flex-end;
+  /***********************/
+  }
+  /* cta*/
+  .cta-content {
+    flex-direction: row;
+    background-image: url(../img/BG.png);
+    background-position: center;
+    padding: 7.5rem 0;
+    height: 468px;
+  }
+  .cta-content .card-footer {
+    background-image: none;
+    width: 60%;
   }
 }
 
@@ -875,6 +915,8 @@ a {
     margin-bottom: 7.5rem;
   }
 
+  /************************/
+  /* cta */
   .cta .container {
     margin-bottom: 7.5rem;
     padding-left: 5rem;
@@ -897,6 +939,7 @@ a {
   .service-left .card-text {
     width: 90%;
   }
+
   .cta .container {
     margin-bottom: 7.5rem;
     padding-left: 9.375rem;
