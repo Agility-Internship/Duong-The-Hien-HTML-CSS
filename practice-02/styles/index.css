@@ -487,7 +487,7 @@ a {
 
 .cta .card-footer {
   background-image: url(../img/BG.png);
-  background-position: 62.5rem;
+  background-position: -62.5rem;
   background-repeat: no-repeat;
   /* background-position-x: right; */
   background-position-y: -1rem;
@@ -499,7 +499,7 @@ a {
 /* Cta__card-footer */
 /* button */
 .cta-content .card-footer .btn {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 
@@ -537,99 +537,83 @@ a {
 }
 
 /* footer__content */
-.footer__content {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  margin-top: 7.5rem;
-  margin-bottom: 7.5rem;
+.footer-content {
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: stretch; */
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
+
+  display: grid;
+  row-gap: 2rem;
 }
 
-.footer__content .item {
-  color: var(--black);
-}
-
-.content-left {
-  width: 30%;
-}
-
-.footer__content-left .font--small {
+.footer-content .font--small {
   color: var(--bauhaus);
   line-height: var(--line-height-medium);
-
-  margin-top: 1.5rem;
 }
 
-.media-icon {
-  margin-right: 1rem;
-  padding-top: 1.625rem;
-}
-
-/* footer__content-right */
-.footer__content-right {
-  width: 70%;
+.footer-content .menu-list{
   display: flex;
-  justify-content: space-between;
+}
+.footer-content .media {
+  margin-bottom: 1rem;
+}
+.footer-content .card-body {
+  flex: unset;
+}
+.media.menu-list .item{
+  margin-right: 1rem;
+}
+.footer .card .media{
+ flex-direction: row;
 }
 
-.footer__menu .menu__list {
+/* footer */
+.footer .menu-list {
+  display: flex;
   flex-direction: column;
 }
-
-.footer__menu .nav-mark {
+.footer .menu-list>.item{
+  padding-bottom: 20px;
   font-weight: var(--font-weight-bold);
 }
-
-.footer__menu .list__item {
-  padding-bottom: 1.25rem;
+.footer .list-item {
+  padding-bottom: 15px;
 }
 
 /* <hr> line */
-.footer__line {
-  width: 94%;
+.line {
+  margin: 0 2rem;
   height: 1px;
   background: var(--lucky-grey);
   mix-blend-mode: normal;
   opacity: 0.24;
-}
-
-/* footer__fuel */
-.footer__rule {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: nowrap;
-
-  padding: 2.5rem 0px;
 }
 
-.rule__copyright {
+.footer-about .menu-list>.item {
   color: var(--bauhaus);
   letter-spacing: 0.2px;
+  padding: 0;
+  margin-bottom: 1.875rem;
 }
 
-.footer__rule-right {
+.footer-about .nav-menu .item,
+.footer-locale{
+  margin-bottom: 2rem;
+}
+
+.footer-locale {
   width: 70%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.rule__menu {
-  justify-content: space-around;
-}
-
-.rule__menu .item {
-  padding-right: 3rem;
-}
-
-.rule__locale {
-  display: flex;
-  align-items: center;
+  justify-content: flex-start;
+  margin-top: 1.875rem;
 }
 
 .btn--flex {
   border: none;
+  width: 85px;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-medium);
 }
@@ -718,10 +702,7 @@ a {
 
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
-  .container {
-    padding: 2rem 2.5rem 0 2.5rem;
-  }
-
+  
   .service-left .card-text {
     font-size: var(--font-size-large);
     line-height: var(--line-height-xx-large);
@@ -847,9 +828,44 @@ a {
   .marketing-content .card.card-img{
     grid-row: 1/4;
   }
-  /***********************/
-  /* cta*/
 
+  /******************/
+  /* footer */
+  .footer-content {
+    grid-template-columns: repeat(6,1fr);
+  }
+  .footer-content .card{
+    grid-column: 1/3;
+  }
+    .footer-about .menu-list {
+      flex-direction: row;
+    }
+
+    .footer-about .nav-menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: unset;
+      justify-items: start;
+      align-items: end;
+      padding-bottom: 0;
+    }
+    .footer-locale {
+      grid-area: 1/3;
+    }
+    .footer-about .nav-menu .item {
+      /* margin-bottom: ; */
+  }
+  .footer-about .menu-list {
+    margin-bottom: 2rem;
+  }
+  .footer-about .list-item {
+    padding-bottom: 0;
+  }
+  .footer-locale{
+    justify-content: flex-end;
+  /***********************/
+  }
+  /* cta*/
   .cta-content {
     flex-direction: row;
     background-image: url(../img/BG.png);
@@ -922,6 +938,7 @@ a {
   .marketing .container {
     margin-bottom: 7.5rem;
   }
+
   /************************/
   /* cta */
   .cta .container {
