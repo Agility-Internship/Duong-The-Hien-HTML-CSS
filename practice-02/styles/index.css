@@ -604,20 +604,23 @@ a {
 }
 
 .footer-rule .item,
-.footer-locale{
+.dropdown{
   margin-bottom: 2rem;
 }
 
-.footer-locale {
+.dropdown {
   width: 70%;
   display: flex;
   justify-content: flex-start;
   margin-top: 1.875rem;
 }
+.dropdown .btn {
+  padding: 0;
+  width: auto;
+}
 
-.btn--flex {
+.dropdown-toggle {
   border: none;
-  width: 85px;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-medium);
 }
@@ -702,7 +705,7 @@ a {
     align-items: end;
     padding-bottom: 0;
   }
-  .footer-locale {
+  .dropdown {
     grid-area: 1/2;
   }
 
@@ -889,7 +892,7 @@ a {
     padding-bottom: 0;
   }
 
-  .footer-locale {
+  .dropdown {
     grid-area: 1/3;
     justify-content: flex-end;
   }
