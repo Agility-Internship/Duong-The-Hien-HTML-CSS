@@ -1,31 +1,27 @@
-.font--small {
-  font-size: var(--font-size-small);
-  font-weight: var(--font-weight-medium);
-  line-height: var(--line-height-small);
-}
 .nav-text {
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-base);
   line-height: var(--line-height-small);
 }
 
-.heading-lg {
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-x-large);
-  font-weight: var(--font-weight-bold);
-}
-
-.heading-sm {
+.text-sm {
   font-size: var(--font-size-small);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-small);
 }
 
-.heading-md {
+.text-md {
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-medium);
   line-height: var(--line-height-medium);
 }
+
+.text-lg {
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
+  font-weight: var(--font-weight-bold);
+}
+
 
 /* Card */
 
@@ -64,7 +60,7 @@
 \*------------------------------------*/
 /* mobile */
 @media screen and (min-width: 480px) {
-  .heading-lg {
+  .text-lg {
     font-size: var(--font-size-xx-large);
     line-height: var(--line-height-xx-large);
   }
@@ -74,7 +70,7 @@
 @media screen and (min-width: 768px) {
 
   /* < 768px */
-  .heading-lg {
+  .text-lg {
     font-size: var(--font-size-xxx-large);
     line-height: var(--line-height-xxx-large);
   }
