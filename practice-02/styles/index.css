@@ -548,7 +548,7 @@ a {
   row-gap: 2rem;
 }
 
-.footer-content .font--small {
+.footer-content .heading-sm {
   color: var(--bauhaus);
   line-height: var(--line-height-medium);
 }
