@@ -564,7 +564,7 @@ a {
   flex-direction: column;
 }
 
-.footer .menu-list>.item {
+.footer .menu-list > .item {
   padding-bottom: 1.25rem;
   font-weight: var(--font-weight-bold);
 }
@@ -610,7 +610,7 @@ a {
   opacity: 0.24;
 }
 
-.footer-rule .menu-list>.item {
+.footer-rule .menu-list > .item {
   color: var(--bauhaus);
   letter-spacing: 0.2px;
   padding: 0;
@@ -755,7 +755,6 @@ a {
 }
 
 @media screen and (min-width: 990px) {
-
   /* header */
   .header .container {
     padding-bottom: 0;
