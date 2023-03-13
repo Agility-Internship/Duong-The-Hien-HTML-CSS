@@ -22,7 +22,6 @@
   font-weight: var(--font-weight-bold);
 }
 
-
 /* Card */
 
 .card-header {
@@ -68,7 +67,6 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) {
-
   /* < 768px */
   .text-lg {
     font-size: var(--font-size-xxx-large);
