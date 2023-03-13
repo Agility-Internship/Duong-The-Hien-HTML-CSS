@@ -89,7 +89,6 @@ a {
   border: unset;
   padding: unset;
   position: relative;
-
 }
 
 .card:hover .card-header {
@@ -118,14 +117,14 @@ a {
 
 .card-img,
 .card-header,
-.card-body{
+.card-body {
   margin-bottom: 1rem;
 }
 .card-img .card-header {
   padding-bottom: 0.875rem;
 }
 
-.card-img-top  {
+.card-img-top {
   max-inline-size: 100%;
   block-size: auto;
   inline-size: 100%;
@@ -138,7 +137,6 @@ a {
   background-position: center;
   background-repeat: no-repeat;
 }
-
 
 /* menu__list */
 
@@ -171,7 +169,7 @@ a {
 }
 
 /* header-navbar */
-  /*@Hover::before */
+/*@Hover::before */
 .header-navbar .nav-menu .item::before {
   content: "";
   width: 0px;
@@ -203,7 +201,7 @@ a {
 .header-navbar .nav-menu .navbar-nav {
   margin-bottom: 1rem;
 }
-.header-navbar .navbar-toggler{
+.header-navbar .navbar-toggler {
   border: none;
 }
 .nav-link {
@@ -386,18 +384,15 @@ a {
   flex-wrap: wrap;
   justify-content: space-between; */
   display: grid;
-  row-gap:  2.875rem;
+  row-gap: 2.875rem;
   grid-template-columns: repeat(1, 1fr);
 }
-
 
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
   border-bottom: 1px solid var(--west_chester-grey);
 }
-
-
 
 /*------------------------------------*\
   #marketing-SECTION
@@ -407,7 +402,7 @@ a {
 }
 .marketing-content {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   row-gap: 2.875rem;
   /* display: flex;
   justify-content: space-between; */
@@ -423,7 +418,7 @@ a {
   justify-content: space-between;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--west_chester-grey) ;
+  border-top: 1px solid var(--west_chester-grey);
 }
 .card .card-horizontal-left {
   display: flex;
@@ -470,13 +465,11 @@ a {
   margin: 0 2rem;
 }
 
-
-.cta-content .card-text{
+.cta-content .card-text {
   letter-spacing: -0, 89px;
   /* margin-bottom: 24px; */
   margin-bottom: 3rem;
 }
-
 
 .cta-content .card-footer {
   display: flex;
@@ -495,13 +488,11 @@ a {
   /* width: 100%; */
 }
 
-
 /* Cta__card-footer */
 /* button */
 .cta-content .card-footer .btn {
   margin-bottom: 1.5rem;
 }
-
 
 .cta-content .card-footer .btn:active {
   background: var(--white);
@@ -537,15 +528,15 @@ a {
   position: relative;
 }
 
-.footer .card .media{
+.footer .card .media {
   flex-direction: row;
- }
+}
 
 .footer .menu-list {
   display: flex;
   flex-direction: column;
 }
-.footer .menu-list>.item{
+.footer .menu-list > .item {
   padding-bottom: 1.25rem;
   font-weight: var(--font-weight-bold);
 }
@@ -575,20 +566,19 @@ a {
 .footer-content .card-body {
   flex: unset;
 }
-.media.menu-list .item{
+.media.menu-list .item {
   margin-right: 1rem;
 }
 
-
 /* <hr> line */
-.divider{
+.divider {
   margin: 0 2rem;
   height: 1px;
   background: var(--lucky-grey);
   opacity: 0.24;
 }
 
-.footer-rule .menu-list>.item {
+.footer-rule .menu-list > .item {
   color: var(--bauhaus);
   letter-spacing: 0.2px;
   padding: 0;
@@ -599,7 +589,7 @@ a {
   padding-top: 2rem;
 }
 
-.footer-rule .item{
+.footer-rule .item {
   margin-bottom: 2rem;
 }
 
@@ -641,21 +631,21 @@ a {
     background-position-y: -1rem;
   }
 }
-@media screen and (min-width:550px) {
+@media screen and (min-width: 550px) {
   .cta .card-footer {
     background-size: 125rem;
     background-position: -82rem;
     background-position-y: -2rem;
   }
 }
-@media screen and (min-width:700px) {
+@media screen and (min-width: 700px) {
   .cta .card-footer {
     background-size: 155rem;
     background-position: -100rem;
     background-position-y: -4rem;
   }
 }
-@media screen and (min-width :900px) {
+@media screen and (min-width: 900px) {
   .cta .card-footer {
     background-size: 185rem;
     background-position: -120rem;
@@ -672,21 +662,21 @@ a {
   /******************/
   /* products */
   .product-content {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.875rem;
     row-gap: 7.5rem;
   }
-    .card-header,
-    .card-body {
-      margin-bottom: 1.5rem;
-    }
+  .card-header,
+  .card-body {
+    margin-bottom: 1.5rem;
+  }
 
   /******************/
   /* footer */
   .footer-content {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  .footer-content .card{
+  .footer-content .card {
     grid-column: 1/3;
   }
 
@@ -723,9 +713,7 @@ a {
   }
 }
 
-
 @media screen and (min-width: 990px) {
-
   /* header */
   .header .container {
     padding-bottom: 0;
@@ -803,18 +791,18 @@ a {
   /******************/
   /* products */
   .product-content {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   /***********************/
   /* marketing */
   .marketing-content {
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     column-gap: 1.875rem;
     row-gap: 0;
     align-items: start;
   }
-  .marketing-content .card.card-horizontal{
+  .marketing-content .card.card-horizontal {
     flex-direction: row;
     align-items: flex-end;
   }
@@ -828,7 +816,7 @@ a {
     text-align: end;
   }
 
-  .marketing-content .card.card-img{
+  .marketing-content .card.card-img {
     grid-row: 1/4;
   }
 
@@ -843,7 +831,7 @@ a {
     align-items: center;
   }
   .cta .card-body {
-    margin:0;
+    margin: 0;
   }
   .cta-content {
     flex-direction: row;
@@ -860,9 +848,9 @@ a {
   /******************/
   /* footer */
   .footer-content {
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
   }
-  .footer-content .card{
+  .footer-content .card {
     grid-column: 1/3;
   }
 
@@ -876,10 +864,9 @@ a {
     flex-direction: row;
     margin-bottom: 2rem;
   }
-  .footer-rule .menu-list .item{
+  .footer-rule .menu-list .item {
     margin-right: 2rem;
   }
-
 
   .footer-rule .list-item {
     padding-bottom: 0;
@@ -889,7 +876,6 @@ a {
     grid-area: 1/3;
     justify-content: flex-end;
   }
-
 }
 
 /*Tablet(1024 x 768)*/
@@ -915,8 +901,6 @@ a {
   .marketing .container {
     margin-bottom: 7.5rem;
   }
-
-
 }
 
 @media screen and (min-width: 1240px) {
