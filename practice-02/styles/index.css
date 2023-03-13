@@ -878,11 +878,13 @@ a {
   .footer-about .menu-list .item{
     margin-right: 2rem;
   }
+
   .footer-about .nav-menu {
     grid-template-columns: 1fr auto 1fr;
     grid-template-rows: unset;
     padding-bottom: 0;
   }
+
   .footer-about .list-item {
     padding-bottom: 0;
   }
