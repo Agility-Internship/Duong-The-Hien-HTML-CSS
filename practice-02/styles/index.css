@@ -583,13 +583,11 @@ a {
 }
 
 /* <hr> line */
-.line {
+.divider{
   margin: 0 2rem;
   height: 1px;
   background: var(--lucky-grey);
-  mix-blend-mode: normal;
   opacity: 0.24;
-  align-items: center;
 }
 
 .footer-rule .menu-list>.item {
