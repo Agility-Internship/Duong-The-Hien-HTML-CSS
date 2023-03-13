@@ -540,19 +540,18 @@ a {
 .footer .card .media{
   flex-direction: row;
  }
- 
- .footer .menu-list {
-   display: flex;
-   flex-direction: column;
- }
- .footer .menu-list>.item{
-   padding-bottom: 1.25rem;
-   font-weight: var(--font-weight-bold);
- }
- .footer .list-item {
-   padding-bottom: 15px;
- }
 
+.footer .menu-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer .menu-list>.item{
+  padding-bottom: 1.25rem;
+  font-weight: var(--font-weight-bold);
+}
+.footer .list-item {
+  padding-bottom: 15px;
+}
 /* footer__content */
 .footer-content {
   /* display: flex; */
@@ -570,9 +569,6 @@ a {
   line-height: var(--line-height-medium);
 }
 
-.footer-content .menu-list{
-  display: flex;
-}
 .footer-content .media {
   margin-bottom: 1rem;
 }
