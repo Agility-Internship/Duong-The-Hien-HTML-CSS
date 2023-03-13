@@ -243,7 +243,7 @@ a {
   width: 100%;
 }
 
-.header-carousel .heading-lg {
+.header-carousel .text-lg {
   letter-spacing: -0.888889px;
 }
 
@@ -462,7 +462,7 @@ a {
   padding: 4.5rem 0;
   padding-bottom: 0;
 }
-.cta-content .card-text .heading-lg {
+.cta-content .card-text .text-lg {
   margin-bottom: 1rem;
 }
 
@@ -548,7 +548,7 @@ a {
   row-gap: 2rem;
 }
 
-.footer-content .heading-sm {
+.footer-content .text-sm {
   color: var(--bauhaus);
   line-height: var(--line-height-medium);
 }
