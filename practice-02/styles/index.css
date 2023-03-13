@@ -718,9 +718,6 @@ a {
   /* CTA */
   .cta-content {
     padding-top: 5rem;
-  }
-
-  .cta .cta-content {
     padding-left: 0;
     padding-right: 0;
   }
