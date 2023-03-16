@@ -4,8 +4,8 @@
 - TheHien
 ## Targets
 - Understand the responsive web design functionality and ability to build a website that adapts multiple screen sizes.
-- Understand the concepts of Grid system Bootstrap.
 - Get familiar with CSS libraries (Bootstrap) to boost up performance and can deliver a better UI/UX website.
+    - Understand the concepts of Grid system Bootstrap.
 - Some keywords or things you should be know below:
     - Why are smartphones important?
     - Media queries
