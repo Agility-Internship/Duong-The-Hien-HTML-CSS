@@ -1,0 +1,83 @@
+.nav-text {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-small);
+}
+
+.text-sm {
+  font-size: var(--font-size-small);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-small);
+}
+
+.text-md {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-medium);
+}
+
+.text-lg {
+  font-size: var(--font-size-x-large);
+  line-height: var(--line-height-x-large);
+  font-weight: var(--font-weight-bold);
+}
+
+/* Card */
+
+.card-header {
+  color: var(--west_chester-grey);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-small);
+}
+
+.card-text {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-x-medium);
+  line-height: var(--line-height-x-medium);
+  color: var(--black);
+}
+
+.card-footer {
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-small);
+  font-size: var(--font-size-base);
+}
+
+/************** Responsive **************/
+/* Breakpoint */
+/*
+** Vertical screen for small smartphone : 20rem < 30rem // [320px < 480px]
+** Horizontal screen for small smartphones : 30rem < 40rem // [480px < 640px]
+** Horizontal screen for medium smartphones : 40rem < 48rem //[640px < 768px ]
+** Screen horizontally for tablets (eg iPad) : 48rem < 64 rem // [768px < 1024px ]
+** Large screens and Desktops                 :  64rem < 75 rem [1024px < 1200px]
+** Extra large                                  : > 75rem
+*/
+/* ------------------------------------*\
+  @media queries -font.css
+\*------------------------------------*/
+/* mobile */
+@media screen and (min-width: 480px) {
+  .text-lg {
+    font-size: var(--font-size-xx-large);
+    line-height: var(--line-height-xx-large);
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  /* < 768px */
+  .text-lg {
+    font-size: var(--font-size-xxx-large);
+    line-height: var(--line-height-xxx-large);
+  }
+  .nav-text {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-medium);
+  }
+  .card-text {
+    font-size: var(--font-size-xx-medium);
+    line-height: var(--line-height-large);
+  }
+}
