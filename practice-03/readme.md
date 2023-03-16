@@ -37,16 +37,20 @@
     ~~~
     $git clone https://github.com/Agility-Internship/Duong-The-Hien-HTML-CSS.git.
     ~~~
-- Step 2: Move to folder which just cloned in your computer:
+- Step 2: Checkout into branch practice-03.
     ~~~
-    cd practice-02
+    $git checkout practice-03
     ~~~
-- Step 3: Install packages dependencies
+- Step 3: Move to folder which just cloned in your computer:
+    ~~~
+    cd practice-03
+    ~~~
+- Step 4: Install packages dependencies
     ~~~
     npm install
     ~~~
-- Step 4: Run Webpage
+- Step 5: Run Webpage
     ~~~
      npm start
     ~~~
-- Step 4: Open http://localhost:3000/ in browser
+- Step 6: Open http://localhost:3000/ in browser
