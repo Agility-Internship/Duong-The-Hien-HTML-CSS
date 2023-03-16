@@ -14,7 +14,7 @@
 - Mobile first:
   - [Yoora CMS - Pricing(mobile)](https://www.figma.com/proto/vxpGwXCoCTOmemQ77z9UYB/Yoora-CMS?node-id=0-764&scaling=min-zoom&page-id=0%3A1)
   - [Yoora CMS - Pricing(Desktop)](https://www.figma.com/proto/vxpGwXCoCTOmemQ77z9UYB/Yoora-CMS?node-id=0-2213&scaling=min-zoom&page-id=0%3A1)
-- [Trello Practice-03](https://trello.com/b/F6j0fCPm/html-css-practice-03)
+- [Trello Practice-03](https://trello.com/b/w335SKeb/html-css-practice-03)
 
 ## Technical stack
 - HTML5:
