@@ -1,0 +1,18 @@
+@import './abstracts/variable.css';
+
+
+@import 'vendors/bootstrap';
+
+@import './base/reset.css';
+@import './base/typography.css';
+
+@import 'layout/header';
+/* components */
+@import './components/button.css';
+@import './components/card.css';
+
+@import 'pages/home';
+@import 'pages/contact';
+
+@import 'themes/theme';
+@import 'themes/admin';
