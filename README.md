@@ -1,52 +1,29 @@
-# Practice-02
+# Intern-training
 ## Overview
-Update practice 1 to become responsive and can adapt multiple screen size
+Design a static blog page interface, display information related to marketing, sales and product market information
 ## Author
 - TheHien
 ## Targets
+- Achieve basic knowledge about HTML / CSS and can build static portfolio websites with only HTML/CSS.
 - Understand the responsive web design functionality and ability to build a website that adapts multiple screen sizes.
-- Understand the concepts of Grid
 - Get familiar with 3rds party CSS libraries (Bootstrap, Tailwind, Materialize, … ) to boost up performance and can deliver a better UI/UX website.
-- Some keywords or things you should be know below:
-    - How to set a viewport?
-    - Why are smartphones important?
-        -Why Mobile first/desktop first?
-    - Media queries
-    - Breakpoints
-    - Images responsive
+- (Optional) Build static websites with good [accessibility](https://developer.mozilla.org/en-US/docs/Web/Accessibility) and good SEO:
+    -[HTML: A good basis for accessibility](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
+    -[HTML tag and SEO](https://seranking.com/blog/html-tags-in-seo/)
 ## Design
 - [Yoora CMS - Blog](https://www.figma.com/file/vxpGwXCoCTOmemQ77z9UYB/Yoora-CMS?node-id=0%3A1988&t=T90XuWtTxa5ltOub-0)
-- [Trello Practice-02](https://trello.com/b/F6j0fCPm/html-css-practice-02)
 
-## Technical stack
-- HTML5:
-    - using new elements
-- CSS3:
-    - Reponsive
-    - Grid
-- Bootstrap:
+## Development Environment
+- Node:"v18.12.1"
+- NPM :"v8.19.2"
 ## Information
-- Time line: 8 days
-    - Time start: 20/2/2023
-    - Time end : 28/2/2023
+- Timeline: 14 days
 - Team size: Personal
 - Editor: Visual Studio Code.
 - Supported browser: Chrome latest
-## How to start (step by step)
-- Step 1: Clone repository.
-    ~~~
-    $git clone https://github.com/Agility-Internship/Duong-The-Hien-HTML-CSS.git.
-    ~~~
-- Step 2: Move to folder which just cloned in your computer:
-    ~~~
-    cd practice-02
-    ~~~
-- Step 3: Install packages dependencies
-    ~~~
-    npm install
-    ~~~
-- Step 4: Run Webpage
-    ~~~
-     npm start
-    ~~~
-- Step 4: Open http://localhost:3000/ in browser
+## Technical stack
+- HTML/CSS - design and build websites (3 days)
+- Flexbox in CSS (2 days)
+- Practice 1 (3 days)
+- Responsive Web Design (4 days)
+- Practice 2 (2 days)
