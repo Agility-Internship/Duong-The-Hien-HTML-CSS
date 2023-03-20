@@ -18,8 +18,11 @@
 }
 
 /* bg */
-.main,.header {
+.header, .plan {
   background-color: var(--lighthouse);
+}
+.question {
+  background-color: var(--bs-white);
 }
 /* container */
 .container {
