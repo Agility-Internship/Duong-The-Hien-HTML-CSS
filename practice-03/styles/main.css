@@ -1,18 +1,12 @@
+/* abstracts */
 @import './abstracts/variable.css';
 
-
-@import 'vendors/bootstrap';
-
+/* base */
 @import './base/reset.css';
 @import './base/typography.css';
 
-@import 'layout/header';
+/* layout */
+@import './layout/header.css';
+
 /* components */
 @import './components/button.css';
-@import './components/card.css';
-
-@import 'pages/home';
-@import 'pages/contact';
-
-@import 'themes/theme';
-@import 'themes/admin';

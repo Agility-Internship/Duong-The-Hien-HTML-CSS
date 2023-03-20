@@ -16,13 +16,3 @@
   background: var(--crab-nebula);
   border-radius: 4px;
 }
-
-/* bg */
-.main,.header {
-  background-color: var(--lighthouse);
-}
-/* container */
-.container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
