@@ -14,12 +14,8 @@
 
 /* tablet */
 @media screen and (min-width: 992px) {
-  .navbar-brand {
-    margin-right: 5rem;
-  }
   .navbar-nav {
     align-items: center;
-    width: max-content;
   }
   .nav-item {
     margin-right: 2.5rem;
