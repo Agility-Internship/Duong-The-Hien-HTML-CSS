@@ -1,19 +1,18 @@
-@import './abstracts/variable.css';
+@import "./abstracts/variable.css";
 
+@import "vendors/bootstrap";
 
-@import 'vendors/bootstrap';
+@import "./base/reset.css";
+@import "./base/typography.css";
 
-@import './base/reset.css';
-@import './base/typography.css';
-
-@import 'layout/header';
+@import "layout/header";
 /* components */
-@import './components/button.css';
-@import './components/card.css';
-@import './components/accordion.css';
+@import "./components/button.css";
+@import "./components/card.css";
+@import "./components/accordion.css";
 
-@import 'pages/home';
-@import 'pages/contact';
+@import "pages/home";
+@import "pages/contact";
 
-@import 'themes/theme';
-@import 'themes/admin';
+@import "themes/theme";
+@import "themes/admin";

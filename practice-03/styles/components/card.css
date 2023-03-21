@@ -1,4 +1,4 @@
-.card{
+.card {
   border-radius: 12px;
   border: none;
   padding: 0 1.5rem;
@@ -27,8 +27,5 @@
 .card-footer {
   background: none;
   border-top: none;
-  padding-top: 0
+  padding-top: 0;
 }
-
-
-

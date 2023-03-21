@@ -33,14 +33,14 @@ html {
   letter-spacing: -0.5px;
 }
 .display-2 {
-  font-size:var(--font-size-x-large);
+  font-size: var(--font-size-x-large);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-x-large);
 }
 .display-3 {
-    font-size: var(--font-size-xx-medium);
-    font-weight: var(--font-weight-bold);
-    line-height: var(--line-height-large);
+  font-size: var(--font-size-xx-medium);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-large);
 }
 .display-4 {
   font-size: var(--font-size-medium);
