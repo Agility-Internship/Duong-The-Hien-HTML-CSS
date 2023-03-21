@@ -26,10 +26,3 @@
 
 
 
-/* -----Responsive------ */
-/* tablet */
-@media screen and (min-width: 992px) {
-  .header .btn {
-      width: max-content;
-  }
-}
