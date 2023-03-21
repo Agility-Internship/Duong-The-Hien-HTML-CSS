@@ -32,15 +32,30 @@ html {
   font-weight: var(--font-weight-bold);
   letter-spacing: -0.5px;
 }
-
+.display-2 {
+  font-size:var(--font-size-x-large);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-x-large);
+}
 .display-3 {
     font-size: var(--font-size-xx-medium);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-large);
 }
-.fs-6 {
+.display-4 {
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-x-medium);
+  letter-spacing: -0.25 px;
+}
+.fs-5 {
   font-weight: var(--font-weight-small);
   font-size: var(--font-size-base);
+  line-height: var(--line-height-medium);
+}
+.fs-6 {
+  font-weight: var(--font-weight-small);
+  font-size: var(--font-size-small);
   line-height: var(--line-height-medium);
 }
 
