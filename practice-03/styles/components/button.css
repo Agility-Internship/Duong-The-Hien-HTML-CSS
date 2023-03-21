@@ -6,7 +6,7 @@
 }
 
 .btn.btn-primary {
-  background: #FFFFFF;
+  background: var(--bs-white);
   border: 1px solid var(--bs-white);
   border-radius: 4px;
   color: var(--black);
