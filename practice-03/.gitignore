@@ -1,1 +1,8 @@
 node_modules
+<<<<<<< HEAD
+=======
+
+/.settings.json
+/.prettierrc
+/.editorconfig
+>>>>>>> parent of 19781c5 (Feat : Fix comment)
