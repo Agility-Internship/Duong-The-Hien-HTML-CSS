@@ -1,26 +1,26 @@
+/*------------------------------------*\
+  #header
+\*------------------------------------*/
 .header {
   background: var(--lighthouse);
+}
+
+/* navbar */
+.navbar-toggler {
+  border: none;
 }
 .nav-item .nav-link:hover {
   color: var(--alienated);
 }
-.header .btn.btn-primary:hover {
-  background: var(--bs-white);
-  border: 1px solid var(--crab-nebula);
-}
-.header .btn.btn-primary:active {
-  color: var(--alienated);
-}
 
+
+/* -----Responsive------ */
 /* tablet */
 @media screen and (min-width: 992px) {
   .navbar-nav {
-    align-items: center;
+      align-items: center;
   }
   .nav-item {
-    margin-right: 2.5rem;
-  }
-  .header .btn {
-    width: max-content;
+      margin-right: 2.5rem;
   }
 }
