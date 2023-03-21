@@ -13,14 +13,17 @@
   color: var(--alienated);
 }
 
-
 /* -----Responsive------ */
 /* tablet */
 @media screen and (min-width: 992px) {
   .navbar-nav {
-      align-items: center;
+    align-items: center;
   }
   .nav-item {
-      margin-right: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
+  .header .btn {
+    width: max-content;
   }
 }
