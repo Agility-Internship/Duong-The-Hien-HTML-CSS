@@ -24,8 +24,8 @@
 /* tablet */
 @media screen and (min-width: 992px) {
     /* package-help */
-    .package-help .btn-primary,
-    .package-help .btn-secondary {
-        width: auto;
+    .package-help .btn{
+        width: max-content;
+
     }
 }
