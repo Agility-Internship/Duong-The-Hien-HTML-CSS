@@ -1,10 +1,59 @@
 /*------------------------------------*\
   Typography
 \*------------------------------------*/
+/*****heading******/
 /* typography heading 1 <h1> */
 .display-1 {
-  font-size: var(--font-size-x-large);
-  line-height: var(--line-height-x-large);
-  font-weight: var(--font-weight-bold);
-  letter-spacing: -0.5px;
+    font-size: var(--font-size-x-large);
+    line-height: var(--line-height-x-large);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -0.5px;
+}
+/* typography heading 2 <h2> */
+.display-2 {
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-x-large);
+}
+/* typography heading 3 <h3> */
+.display-3 {
+    font-size: var(--font-size-xx-medium);
+    font-weight: var(--font-weight-bold);
+    line-height: var(--line-height-large);
+}
+/* typography heading 4 <h4> */
+.display-4 {
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-x-medium);
+    letter-spacing: -0.25 px;
+}
+
+/*****paragraphs******/
+/* typography paragraphs base  */
+.fs-5 {
+    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-medium);
+}
+/* typography paragraphs small */
+.fs-6 {
+    font-weight: var(--font-weight-small);
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-medium);
+}
+
+/* -----Responsive------ */
+/* tablet */
+@media screen and (min-width: 992px) {
+    /* heading */
+    .display-1 {
+        font-size: var(--font-size-xxx-large);
+        line-height: var(--line-height-xxx-large);
+    }
+    /* paragraphs */
+    .fs-6 {
+        font-size: var(--font-size-base);
+        font-weight: var(--font-weight-medium);
+    }
 }
