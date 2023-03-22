@@ -1,0 +1,29 @@
+/*------------------------------------*\
+  #header
+\*------------------------------------*/
+.header {
+  background: var(--lighthouse);
+}
+
+/* navbar */
+.navbar-toggler {
+  border: none;
+}
+.nav-item .nav-link:hover {
+  color: var(--alienated);
+}
+
+/* -----Responsive------ */
+/* tablet */
+@media screen and (min-width: 992px) {
+  .navbar-nav {
+    align-items: center;
+  }
+  .nav-item {
+    margin-right: 2.5rem;
+  }
+
+  .header .btn {
+    width: max-content;
+  }
+}

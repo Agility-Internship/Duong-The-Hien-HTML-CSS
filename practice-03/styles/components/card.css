@@ -4,16 +4,6 @@
   padding: 0 1.5rem;
 }
 
-.card .btn {
-  border-radius: 8px;
-}
-
-.card .btn:hover {
-  background-color: var(--alienated);
-  color: var(--bs-white);
-  border: none;
-}
-
 .card-header,
 .card-body,
 .card-footer {

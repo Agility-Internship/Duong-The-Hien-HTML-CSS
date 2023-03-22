@@ -1,32 +1,37 @@
-.navbar-toggler {
-  border: none;
-}
+/*------------------------------------*\
+  .Buttons
+\*------------------------------------*/
 .btn {
   font-weight: var(--font-weight-bold);
 }
 
-.btn.btn-primary {
-  background: #ffffff;
+.btn-primary {
+  background: var(--bs-white);
   border: 1px solid var(--bs-white);
   border-radius: 4px;
   color: var(--black);
 }
 
-.btn.btn-secondary {
+.btn-primary:hover {
+  color: var(--bs-black);
+  background-color: transparent;
+  border: 1px solid var(--crab-nebula);
+}
+
+.btn-secondary {
   background: var(--crab-nebula);
   border-radius: 4px;
 }
 
-/* bg */
-.header,
-.plan {
-  background-color: var(--lighthouse);
+/* card .button */
+.card .btn {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+
+  padding: 1rem 0;
 }
-.question {
-  background-color: var(--bs-white);
-}
-/* container */
-.container {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.card .btn:hover {
+  background-color: var(--alienated);
+  color: var(--bs-white);
+  border: none;
 }
