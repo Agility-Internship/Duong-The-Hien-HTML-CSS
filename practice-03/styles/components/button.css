@@ -22,16 +22,3 @@
   background: var(--crab-nebula);
   border-radius: 4px;
 }
-
-/* card .button */
-.card .btn {
-  border: 1px solid #dcdcdc;
-  border-radius: 8px;
-
-  padding: 1rem 0;
-}
-.card .btn:hover {
-  background-color: var(--alienated);
-  color: var(--bs-white);
-  border: none;
-}
