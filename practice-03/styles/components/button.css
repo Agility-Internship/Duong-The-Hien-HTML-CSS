@@ -2,36 +2,36 @@
   .Buttons
 \*------------------------------------*/
 .btn {
-    font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .btn-primary {
-    background: var(--bs-white);
-    border: 1px solid var(--bs-white);
-    border-radius: 4px;
-    color: var(--black);
+  background: var(--bs-white);
+  border: 1px solid var(--bs-white);
+  border-radius: 4px;
+  color: var(--black);
 }
 
 .btn-primary:hover {
-    color: var(--bs-black);
-    background-color: transparent;
-    border: 1px solid var(--crab-nebula);
+  color: var(--bs-black);
+  background-color: transparent;
+  border: 1px solid var(--crab-nebula);
 }
 
 .btn-secondary {
-    background: var(--crab-nebula);
-    border-radius: 4px;
+  background: var(--crab-nebula);
+  border-radius: 4px;
 }
 
 /* card .button */
 .card .btn {
-    border: 1px solid #DCDCDC;
-    border-radius: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
 
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 .card .btn:hover {
-    background-color: var(--alienated);
-    color: var(--bs-white);
-    border: none;
+  background-color: var(--alienated);
+  color: var(--bs-white);
+  border: none;
 }
