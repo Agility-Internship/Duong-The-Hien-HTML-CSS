@@ -1,0 +1,21 @@
+.card {
+  border-radius: 12px;
+  border: none;
+  padding: 0 1.5rem;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  padding: 0;
+}
+.card-header {
+  background-color: var(--white);
+  border-bottom: none;
+}
+
+.card-footer {
+  background: none;
+  border-top: none;
+  padding-top: 0;
+}
