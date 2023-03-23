@@ -22,8 +22,8 @@
         width: max-content;
     }
     /* question */
-    .question .display-2 {
-        width: 40%;
+    .question .display-1 {
+        width: 60%;
     }
     .question-article .accordion {
         width: 70%;

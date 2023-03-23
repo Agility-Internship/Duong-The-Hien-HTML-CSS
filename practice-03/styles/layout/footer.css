@@ -1,6 +1,9 @@
 /*------------------------------------*\
   #footer
 \*------------------------------------*/
+.footer .container {
+  padding: 1.5rem;
+}
 /********CTA********/
 .cta .row > * {
   padding-right: unset;
@@ -39,7 +42,20 @@
 .cta-button .text-white:hover {
   text-decoration: underline var(--crab-nebula);
 }
-
+/********navigation********/
+.navigation .fs-6,
+.navigation .fs-5 {
+  color: var(--bs-black);
+}
+.navigation .fs-5:hover{
+  color: var(--crab-nebula);
+}
+.navigation .fs-6:hover{
+  color: var(--alienated);
+}
+.navigation .fs-5 {
+  font-weight: var(--font-weight-bold);
+}
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
