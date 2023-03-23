@@ -2,97 +2,98 @@
   #footer
 \*------------------------------------*/
 /********CTA********/
+.cta .row > * {
+  padding-right: unset;
+}
+
+/* background */
 .cta-content {
-    background-color: var(--crab-nebula);
-    padding: 4.5rem 0;
+  background-color: var(--crab-nebula);
+  padding: 4.5rem 1.5rem;
+}
+.cta .cta-button {
+  flex-direction: column;
+  background-image: url(../../img/BG.png);
+  background-position: -62.5rem;
+  background-repeat: no-repeat;
+  background-position-y: -1rem;
+  height: 358px;
 }
 
 /* button */
-.cta-button .btn:active {
-    background: var(--white);
-    transform: translateY(5px);
-    color: var(--black);
-}
-.cta .cta-button {
-    flex-direction: column;
-    background-image: url(../../img/BG.png);
-    background-position: -62.5rem;
-    background-repeat: no-repeat;
-    background-position-y: -1rem;
-    height: 358px;
-}
-.cta .btn-primary {
-    border-radius: 8px;
-    width: 198px;
-    height: 64px;
-    background: var(--bs-white);
-    filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
+.cta-button .btn-primary {
+  border-radius: 8px;
+  width: 198px;
+  height: 64px;
+  background: var(--bs-white);
+  filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
 }
 
-.cta .btn-primary:hover {
-    background-color: var(--crab-nebula);
-    color: var(--white);
-    border: none;
-    opacity: 1;
+.cta-button .btn-primary:active {
+  transform: translateY(5px);
+  background-color: var(--crab-nebula);
+  border: none;
 }
 
 /* span */
 .cta-button .text-white:hover {
-    text-decoration: underline var(--crab-nebula);
+  text-decoration: underline var(--crab-nebula);
 }
 
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
-/* CTA-button */
+/******CTA-button background *******/
 @media screen and (min-width: 400px) {
-    .cta .cta-button {
-        background-position: -56.25rem;
-        background-position-y: -1rem;
-    }
+  .cta .cta-button {
+    background-position: -56.25rem;
+    background-position-y: -1rem;
+  }
 }
 
-@media screen and (min-width: 550px) {
-    .cta .cta-button {
-        background-size: 125rem;
-        background-position: -82rem;
-        background-position-y: -2rem;
-    }
+@media screen and (min-width: 500px) {
+  .cta .cta-button {
+    background-size: 125rem;
+    background-position: -82rem;
+    background-position-y: -2rem;
+  }
 }
 
 @media screen and (min-width: 700px) {
-    .cta .cta-button {
-        background-size: 155rem;
-        background-position: -100rem;
-        background-position-y: -4rem;
-    }
+  .cta .cta-button {
+    background-size: 155rem;
+    background-position: -100rem;
+    background-position-y: -4rem;
+  }
 }
 
 @media screen and (min-width: 900px) {
-    .cta .cta-button {
-        background-size: 185rem;
-        background-position: -120rem;
-        background-position-y: -6rem;
-    }
+  .cta .cta-button {
+    background-size: 185rem;
+    background-position: -120rem;
+    background-position-y: -6rem;
+  }
 }
 
-/* background-responsive */
+/*******footer-responsive********/
 @media screen and (min-width: 992px) {
-    .cta {
-        background-image: url(../../img/BG.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-position: center;
+  .cta {
+    background-image: url(../../img/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
     /* padding: 7.5rem 0; */
     height: 468px;
-
-    }
-    .cta .cta-button{
-        background-image: none;
-        width: 20%;
-    }
-    .cta .cta-content{
-        background-color: unset;
-        width: 80%;
-    }
+  }
+  .cta .cta-button {
+    background-image: none;
+    width: 20%;
+  }
+  .cta-button .fs-6 {
+    width: max-content;
+  }
+  .cta-content {
+    background-color: unset;
+    width: 80%;
+  }
 }
