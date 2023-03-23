@@ -25,31 +25,18 @@
   background-position-y: -1rem;
 
   flex-direction: column;
-  height: 358px;
+  height: 22.375rem;
 }
 
 /* button */
 .cta-button .btn-primary {
-  border-radius: 8px;
-  width: 198px;
-  height: 64px;
+  border-radius: 0.5rem;
+  width: 12.375rem;
+  height: 4rem;
   background: var(--bs-white);
   filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
 }
 
-.cta-button .btn-primary:hover {
-  background: var(--bs-white);
-}
-
-.cta-button .btn-primary:active {
-  transform: translateY(5px);
-  background-color: var(--crab-nebula);
-  border: none;
-}
-
-.cta-button .text-white:hover {
-  text-decoration: underline var(--crab-nebula);
-}
 
 /* ------------------------------------*\
   @media queries
