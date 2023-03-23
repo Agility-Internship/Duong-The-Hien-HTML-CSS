@@ -1,0 +1,27 @@
+.card {
+  border-radius: 12px;
+  border: none;
+  padding: 0 1.5rem;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+
+/* card .button */
+.card .btn {
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+
+  padding: 1rem 0;
+}
+.card .btn:hover {
+  background-color: var(--alienated);
+  color: var(--bs-white);
+  border: none;
+}

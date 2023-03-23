@@ -10,6 +10,8 @@
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+  <!-- Bootstrap-icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
   <!-- index CSS -->
   <link rel="stylesheet" href="./styles/index.css" />
 </head>
@@ -59,39 +61,265 @@
         </div>
       </nav>
     </div>
-    <!-------------------
+  </header>
+  <!-------------------
      Header end
     --------------------->
 
-    <!-------------------
+  <!-------------------
      main
     --------------------->
     <main class="main">
-        <!-- introduce -->
-        <section class="main-introduce pt-3 pt-lg-5 pb-3">
-            <div class="container">
-                <div class=" row-cols-lg-2 d-lg-flex justify-content-between align-items-end  " tabindex="-1">
-                    <h1 class="display-1 col-md-7 col-lg-6 text-black-50 pb-3 pb-lg-0">
-                        <a class="text-black">Choose the right plan</a> for your business
-                    </h1>
-                    <p class="fs-6 col-lg-3 pn-5 pb-lg-0">
-                        Built with love for growing businesses. Check out the Yoora CRM pricing grid below. Switch
-                        between plans at any time.
+      <!-- introduce -->
+      <section class="main-introduce pt-3 pt-lg-5 pb-3">
+          <div class="container">
+              <div class=" row-cols-lg-2 d-lg-flex justify-content-between align-items-end  " tabindex="-1">
+                  <h1 class="display-1 col-md-7 col-lg-6 text-black-50 pb-3 pb-lg-0">
+                      <a class="text-black">Choose the right plan</a> for your business
+                  </h1>
+                  <p class="fs-6 col-lg-3 pn-5 pb-lg-0">
+                      Built with love for growing businesses. Check out the Yoora CRM pricing grid below. Switch between plans at any time.
+                  </p>
+              </div>
+          </div>
+      </section>
+    <!--Choose type plan  -->
+    <section class="package pt-3 pt-lg-5 pb-3">
+      <!-- plan-card -->
+      <article class="package-card">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-3 gap-3 flex-gra flex-lg-nowrap  mb-5">
+            <!-- card-1 -->
+            <div class="col col-lg-4 card mb-4 rounded-3 shadow-lg">
+              <!-- card-header -->
+              <div class="card-header mt-2 py-3">
+                <h3 class="my-0 display-3">Starter</h3>
+                <p class="mt-2 fs-5">
+                  Get organized and set up simple sales processes lorem ipsum
+                </p>
+              </div>
+              <!-- card-body -->
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title mb-3">
+                  <strong class="display-1"> $8,90 </strong>
+                  <small class="text-muted">/month</small>
+                </h1>
+                <button type="button" class="w-100 btn btn-lg btn-primary mb-3">
+                  Try for Free
+                </button>
+                <p class="text-muted">Free 14-day trial. No credit card required.</p>
+              </div>
+              <hr class="divider" />
+              <!-- card-footer -->
+              <div class="card-footer">
+                <ul class="list mt-3 mb-4">
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>2 team members</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>1,000 Contacts & Companies</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>5 Campaign Workflows</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>10 Nodes Per Campaign</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>5 Automation Rules (Triggers)</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>3 Plugins/Integrations</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Marketing Automation
                     </p>
-                </div>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Custom Deal Tracks
+                    </p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Automated Voicemails
+                    </p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Post-call Automation
+                    </p>
+                  </li>
+                </ul>
+              </div>
             </div>
-        </section>
-        <!--Choose type plan  -->
+            <!-- card-2 -->
+            <div class="col col-lg-4 card mb-4 rounded-3 shadow-lg">
+              <!-- card-header -->
+              <div class="card-header mt-2 py-3">
+                <h3 class="my-0 display-3">Professional
+                  <span class="badge bg-success bg-opacity-10 text-uppercase fs-6"
+                    style="color: var(--alienated)">Recommended
+                  </span>
+                </h3>
+                <p class="mt-2 fs-5">
+                  Everything you need to boost performance and revenue lorem ips
+                </p>
+              </div>
+              <!-- card-body -->
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title mb-3">
+                  <strong class="display-1">$29,90 </strong>
+                  <small class="text-muted">/month</small>
+                </h1>
+                <button type="button" class="w-100 btn btn-lg btn-primary mb-3">
+                  Try for Free
+                </button>
+                <p class="text-muted">Free 14-day trial. No credit card required.</p>
+              </div>
+              <hr class="divider" />
+              <!-- card-footer -->
+              <div class="card-footer">
+                <ul class="list mt-3 mb-4">
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>10 team members</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>2,500 Contacts & Companies</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>5 Campaign Workflows</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>10 Nodes Per Campaigns</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>5 Automation Rules (Triggers)</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>3 Plugins/Integrations</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Marketing Automation</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Custom Deal Tracks</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Automated Voicemails
+                    </p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center opacity-25">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p class="text-decoration-line-through text-black-50">
+                      Post-call Automation
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div class="col col-lg-4 card mb-4 rounded-3 shadow-lg">
+              <!-- card-header -->
+              <div class="card-header mt-2 py-3">
+                <h3 class="my-0 display-3">Enterprise</h3>
+                <p class="mt-2 fs-5">
+                  Customize without limits and access unrivaled support lorem ipsum
+                </p>
+              </div>
+              <!-- card-body -->
+              <div class="card-body">
+                <h1 class="card-title pricing-card-title mb-3">
+                  <strong class="display-1">$39,90 </strong>
+                  <small class="text-muted">/month</small>
+                </h1>
+                <button type="button" class="w-100 btn btn-lg btn-primary mb-3">
+                  Try for Free
+                </button>
+                <p class="text-muted">Free 14-day trial. No credit card required.</p>
+              </div>
+              <hr class="divider" />
+              <!-- card-footer -->
+              <div class="card-footer">
+                <ul class="list mt-3 mb-4">
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Unlimited team members</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Marketing Automation</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>25 Campaign Workflows</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>20 Nodes Per Campaigns</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>15 Automation Rules (Triggers)</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>10 Plugins/Integrations</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Marketing Automation</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Custom Deal Tracks</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Automated Voicemails</p>
+                  </li>
+                  <li class="mb-3 d-flex align-items-center">
+                    <i class="bi bi-check2 fs-1 me-2" style="color: var(--alienated)"></i>
+                    <p>Post-call Automation</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <hr class="divider mb-4" />
+        </div>
+      </article>
+      <!-- need help -->
 
-        <!-- Asked question -->
-    </main>
+    </section>
+    <!-- Asked question -->
+  </main>
 
-    <!-------------------
+  <!-------------------
      main end
     --------------------->
-
-
-    <!-- Script -->
+  <!-- Script -->
 
     <!-- jquery/thu vien ho tro -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
