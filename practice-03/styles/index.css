@@ -13,5 +13,4 @@
 
 /* components */
 @import "./components/button.css";
-@import "./components/card.css";
-@import "./components/accordion.css";
+@import "./components/card.css"
