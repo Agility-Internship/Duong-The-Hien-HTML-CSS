@@ -21,12 +21,4 @@
     .package-help .btn{
         width: max-content;
     }
-    /* question */
-    .question .display-2 {
-        width: 40%;
-    }
-    .question-article .accordion {
-        width: 70%;
-        align-items: end;
-    }
 }
