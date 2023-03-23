@@ -19,4 +19,12 @@
     .package-help .btn{
         width: max-content;
     }
+    /* question */
+    .question .display-1 {
+        width: 60%;
+    }
+    .question-article .accordion {
+        width: 70%;
+        align-items: end;
+    }
 }
