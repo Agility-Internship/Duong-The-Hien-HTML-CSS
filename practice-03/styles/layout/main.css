@@ -1,3 +1,6 @@
+/*------------------------------------*\
+  #main
+\*------------------------------------*/
 .main-introduce,
 .package {
     background-color: var(--lighthouse);
@@ -9,6 +12,11 @@
   }
 
 
-/*------------------------------------*\
-  #main introduce-section
-\*------------------------------------*/
+/* -----Responsive------ */
+/* tablet */
+@media screen and (min-width: 992px) {
+    /* package*/
+    .package-help .btn{
+        width: max-content;
+    }
+}
