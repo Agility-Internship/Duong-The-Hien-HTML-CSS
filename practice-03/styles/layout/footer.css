@@ -6,8 +6,10 @@
 }
 
 /********CTA********/
-.cta .row>* {
+.cta .row>*,
+.container-lg {
   padding-right: unset;
+  padding-left: unset;
 }
 
 /* background */
