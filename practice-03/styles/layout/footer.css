@@ -6,7 +6,6 @@
 }
 
 /********CTA********/
-.cta .row>*,
 .container-lg {
   padding-right: unset;
   padding-left: unset;
@@ -80,7 +79,7 @@
     background-repeat: no-repeat;
     background-position: center;
     /* padding: 7.5rem 0; */
-    height: 468px;
+    height: 29.25rem;
   }
 
   .cta .cta-button {
