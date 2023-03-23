@@ -355,9 +355,9 @@ a {
 
 .service-left,
 .service-right {
-  width: 100%;
+  padding-left: unset;
+  padding-right: unset;
 }
-
 /* service-left */
 .service-left {
   border-bottom: 1px solid var(--west_chester-grey);
@@ -398,15 +398,6 @@ a {
 \*------------------------------------*/
 .product .container {
   margin-bottom: 5rem;
-}
-
-.product-content {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
-  display: grid;
-  row-gap: 2.875rem;
-  grid-template-columns: repeat(1, 1fr);
 }
 
 .product .card-title {
@@ -696,13 +687,6 @@ a {
     height: 45vh;
   }
 
-  /******************/
-  /* products */
-  .product-content {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.875rem;
-    row-gap: 7.5rem;
-  }
 
   .card-header,
   .card-body {
@@ -744,7 +728,9 @@ a {
     line-height: var(--line-height-xx-large);
     letter-spacing: -0.555556px;
   }
-
+  .service-img {
+    height: 100%;
+  }
   /***********************/
   /* CTA */
   .cta-content {
@@ -811,29 +797,6 @@ a {
 
   .header-tab .nav-menu {
     display: flex;
-  }
-
-  /***********************/
-  /* service */
-  .service .container {
-    display: flex;
-    gap: 1.875rem;
-  }
-
-  .service-img {
-    height: 100%;
-  }
-
-  .service-left,
-  .service-right {
-    width: 50%;
-    margin: 0;
-  }
-
-  /******************/
-  /* products */
-  .product-content {
-    grid-template-columns: repeat(3, 1fr);
   }
 
   /***********************/
@@ -961,7 +924,7 @@ a {
   }
 
   .service-left .card-text {
-    width: 90%;
+    width: 80%;
   }
 
   .cta .container {
