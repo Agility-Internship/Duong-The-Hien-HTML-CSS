@@ -83,7 +83,7 @@
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
   .cta .cta-button {
     background-size: 185rem;
     background-position: -120rem;
