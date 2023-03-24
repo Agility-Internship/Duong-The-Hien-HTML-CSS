@@ -1,0 +1,101 @@
+/*------------------------------------*\
+  #footer
+\*------------------------------------*/
+.footer .container {
+  padding: 1.5rem;
+}
+
+/********CTA********/
+.container-lg {
+  padding-right: unset;
+  padding-left: unset;
+}
+
+/* background */
+.cta-content {
+  background-color: var(--crab-nebula);
+  padding: 4.5rem 0;
+}
+
+.cta .cta-button {
+  background-image: url(../../img/BG.png);
+  background-position: -62.5rem;
+  background-repeat: no-repeat;
+  background-position-y: -1rem;
+
+  flex-direction: column;
+  height: 22.375rem;
+}
+
+/* button */
+.cta-button .btn-primary {
+  border-radius: 0.5rem;
+  width: 12.375rem;
+  height: 4rem;
+  background: var(--bs-white);
+  filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
+}
+
+
+/* ------------------------------------*\
+  @media queries
+\*------------------------------------*/
+/******CTA-button background *******/
+@media screen and (min-width: 400px) {
+  .cta .cta-button {
+    background-position: -56.25rem;
+    background-position-y: -1rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .cta .cta-button {
+    background-size: 125rem;
+    background-position: -82rem;
+    background-position-y: -2rem;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .cta .cta-button {
+    background-size: 155rem;
+    background-position: -100rem;
+    background-position-y: -4rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .cta .cta-button {
+    background-size: 185rem;
+    background-position: -120rem;
+    background-position-y: -6rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cta {
+    background-image: url(../../img/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* padding: 7.5rem 0; */
+    height: 29.25rem;
+  }
+
+  .cta .cta-button {
+    background-image: none;
+  }
+
+  .cta-button .fs-6 {
+    width: max-content;
+  }
+
+  .cta-content {
+    background-color: unset;
+    width: 90%;
+  }
+
+  .cta-content .fs-5 {
+    width: 85%;
+  }
+}
