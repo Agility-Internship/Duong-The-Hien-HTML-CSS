@@ -143,6 +143,8 @@ a {
   background-repeat: no-repeat;
 }
 
+
+
 /* menu__list */
 
 .nav-menu .item {
@@ -353,13 +355,8 @@ a {
   margin-bottom: 5rem;
 }
 
-.service-left,
-.service-right {
-  padding-left: unset;
-  padding-right: unset;
-}
 /* service-left */
-.service-left {
+.service-left .card {
   border-bottom: 1px solid var(--west_chester-grey);
   border-top: 1px solid var(--west_chester-grey);
 
@@ -380,7 +377,7 @@ a {
 }
 
 .service-left .card-text {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 0.875rem;
   letter-spacing: -0.555556px;
 }
