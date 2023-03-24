@@ -669,7 +669,7 @@ a {
 /*Small tablet(480 x 640)*/
 @media screen and (min-width: 480px) {
   .service-img {
-    height: 45vh;
+    height: 25vh;
   }
 
 
@@ -715,6 +715,11 @@ a {
   }
   .service-img {
     height: 100%;
+  }
+  /***********************/
+  /* product */
+  .product-content {
+    row-gap: 5rem;
   }
   /***********************/
   /* CTA */
