@@ -54,6 +54,8 @@
     /* paragraphs */
     .fs-6 {
         font-size: var(--font-size-base);
-        font-weight: var(--font-weight-medium);
+    }
+    .fs-5 {
+      font-weight: var(--font-weight-medium);
     }
 }
