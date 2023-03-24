@@ -38,10 +38,6 @@
 
 
 /********navigation********/
-.navigation .fs-6,
-.navigation .fs-5 {
-  color: var(--bs-black);
-}
 .navigation .fs-5:hover{
   color: var(--crab-nebula);
 }
