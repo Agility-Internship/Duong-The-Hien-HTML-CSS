@@ -37,6 +37,17 @@
 }
 
 
+/********navigation********/
+.navigation .fs-5:hover{
+  color: var(--crab-nebula);
+}
+.navigation .fs-6:hover{
+  color: var(--alienated);
+}
+.navigation .fs-5 {
+  font-weight: var(--font-weight-bold);
+}
+
 /* ------------------------------------*\
   @media queries
 \*------------------------------------*/
