@@ -51,6 +51,9 @@
         font-size: var(--font-size-xxx-large);
         line-height: var(--line-height-xxx-large);
     }
+    .display-4 {
+      font-size: var(--font-size-large);
+    }
     /* paragraphs */
     .fs-6 {
         font-size: var(--font-size-base);
