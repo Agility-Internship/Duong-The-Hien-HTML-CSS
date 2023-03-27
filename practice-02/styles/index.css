@@ -667,7 +667,7 @@ a {
 /*Small tablet(480 x 640)*/
 @media screen and (min-width: 480px) {
   .service-img {
-    height: 25vh;
+    height: 50vh;
   }
 
 
