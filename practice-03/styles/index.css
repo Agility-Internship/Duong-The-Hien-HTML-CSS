@@ -15,3 +15,6 @@
 @import "./components/button.css";
 @import "./components/card.css";
 @import "./components/accordion.css";
+
+/* Pages */
+@import "./pages/blogs.css"

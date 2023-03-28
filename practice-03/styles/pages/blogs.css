@@ -1,0 +1,332 @@
+/* menu__list */
+
+.nav-menu .item {
+  color: var(--black);
+}
+
+.nav-menu .item:hover {
+  color: var(--crab-nebula);
+}
+
+.nav-menu .item:active {
+  color: var(--alienated);
+}
+
+/*------------------------------------*\
+  #Header-SECTION
+\*------------------------------------*/
+
+/* header-carousel */
+.header-carousel {
+  padding-top: 3.125rem;
+  padding-bottom: 2rem;
+  width: 100%;
+}
+
+.header-carousel .text-lg {
+  letter-spacing: -0.888889px;
+}
+
+/* header__tab */
+.header-tab {
+  /* err: padding-top > border-box */
+  width: 100%;
+}
+
+.nav-mark {
+  color: var(--black);
+}
+
+.nav-pills .nav-link.active {
+  color: var(--west_chester-grey);
+  background-color: transparent;
+}
+
+.nav-menu .nav-pills .nav-link {
+  padding-bottom: 1.875rem;
+  position: relative;
+}
+
+.header-tab .nav-pills ::before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: var(--alienated);
+  transition: all 0.5s;
+}
+
+.nav-menu {
+  display: block;
+}
+
+.nav-menu .nav-pills .nav-link {
+  padding: unset;
+}
+
+.header-tab .nav-tabs {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.header-tab .nav-tabs .nav-mark {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: var(--white);
+  border: 0.0625rem solid var(--gainsboro);
+  /* 0.0625 = 1px */
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.shape {
+  display: inline;
+}
+
+.nav-tabs .item {
+  display: none;
+  margin-right: 0;
+}
+
+.nav-menu .nav-pills .nav-link.active {
+  color: var(--black);
+}
+
+.nav-tabs {
+  border-bottom: unset;
+}
+
+.nav-tabs .item {
+  color: var(--lucky-grey);
+}
+
+.nav-tabs .item:hover {
+  color: var(--black);
+}
+
+/*------------------------------------*\
+  #service-SECTION
+\*------------------------------------*/
+.service {
+  background: var(--white);
+}
+
+.service .container {
+  margin-bottom: 5rem;
+}
+
+/* service-left */
+.service-left .card {
+  border-bottom: 1px solid var(--west_chester-grey);
+  border-top: 1px solid var(--west_chester-grey);
+
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.service-left .card-body {
+  width: 90%;
+}
+
+.service-left .card:hover {
+  border: 3px solid transparent;
+  border-radius: 8px;
+  background-color: var(--white);
+  box-shadow: 1px 0 3.125rem rgb(0 0 0 / 10%);
+}
+
+.service-left .card-text {
+  margin-bottom: 1rem;
+  margin-top: 0.875rem;
+  letter-spacing: -0.555556px;
+}
+
+/* service-right */
+.service-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* ? */
+}
+
+/*------------------------------------*\
+  #Product-SECTION
+\*------------------------------------*/
+.product .container {
+  margin-bottom: 5rem;
+}
+
+.product .card-title {
+  padding-bottom: 0.875rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid var(--west_chester-grey);
+}
+
+/*------------------------------------*\
+  #marketing-SECTION
+\*------------------------------------*/
+.marketing .container {
+  margin-bottom: 5rem;
+}
+
+
+.marketing-content .card.card-horizontal {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  padding-top: 1rem;
+  border-top: 1px solid var(--west_chester-grey);
+}
+
+.card .card-horizontal-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/*------------------------------------*\
+  #article-SECTION
+\*------------------------------------*/
+.Blog_Article .container {
+  padding-top: 7.5rem;
+}
+
+.article__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.article__content .card__body {
+  width: 30%;
+}
+
+.article__content .article__pic {
+  width: 100%;
+  height: 241px;
+}
+
+
+/************** Responsive **************/
+/* Breakpoint */
+/*
+** Vertical screen for small smartphone : 20rem < 30rem // [320px < 480px]
+** Horizontal screen for small smartphones : 30rem < 40rem // [480px < 640px]
+** Horizontal screen for medium smartphones : 40rem < 48rem //[640px < 768px ]
+** Screen horizontally for tablets (eg iPad) : 48rem < 64 rem // [768px < 1024px ]
+** Large screens and Desktops                 :  64rem < 75 rem [1024px < 1200px]
+** Extra large                                  : > 75rem
+*/
+
+
+/* container */
+/*Small tablet(480 x 640)*/
+@media screen and (min-width: 480px) {
+  .service-img {
+    height: 50vh;
+  }
+
+
+  .card-header,
+  .card-body {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/*Vertical iPad(768 x 1024)*/
+@media screen and (min-width: 768px) {
+  .service-left .card-text {
+    font-size: var(--font-size-large);
+    line-height: var(--line-height-xx-large);
+    letter-spacing: -0.555556px;
+  }
+  .service-img {
+    height: 100%;
+  }
+  /***********************/
+  /* product */
+  .product-content {
+    row-gap: 5rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  /* -navbar */
+  .header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 3.75rem;
+  }
+
+  .header-navbar .nav-menu .navbar-nav {
+    margin-bottom: 0rem;
+  }
+
+  .nav-menu .nav-item {
+    margin-right: 2.5rem;
+  }
+
+  .header-navbar .btn-secondary {
+    margin-left: 1rem;
+    width: max-content;
+  }
+
+  /* __tab */
+  .header-tab .nav-tabs .nav-mark {
+    width: unset;
+    padding: unset;
+    background-color: unset;
+    border: unset;
+    border-radius: unset;
+    display: none;
+  }
+
+  .header .shape {
+    display: none;
+  }
+
+  .header-tab .nav-tabs .nav-item {
+    display: flex;
+    padding-bottom: 1.875rem;
+  }
+
+  .header-tab .nav-menu {
+    display: flex;
+  }
+
+  .marketing-content .card.card-horizontal {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
+  .card-horizontal {
+    margin-top: 2rem;
+  }
+
+  .card-horizontal .card-header {
+    margin-bottom: 0;
+    width: 20%;
+    text-align: end;
+  }
+
+}
+
+@media screen and (min-width: 1240px) {
+  .service-left .card-text {
+    width: 80%;
+  }
+
+}

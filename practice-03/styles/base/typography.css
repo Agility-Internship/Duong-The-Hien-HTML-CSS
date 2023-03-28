@@ -30,17 +30,23 @@
 }
 
 /*****paragraphs******/
+/* typography paragraphs small */
+.fs-6 {
+  font-weight: var(--font-weight-small);
+  font-size: var(--font-size-small);
+  line-height: var(--line-height-medium);
+}
 /* typography paragraphs base  */
 .fs-5 {
     font-weight: var(--font-weight-small);
     font-size: var(--font-size-base);
     line-height: var(--line-height-medium);
 }
-/* typography paragraphs small */
-.fs-6 {
-    font-weight: var(--font-weight-small);
-    font-size: var(--font-size-small);
-    line-height: var(--line-height-medium);
+/* typography paragraphs medium */
+.fs-4{
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-small);
 }
 
 /* -----Responsive------ */
