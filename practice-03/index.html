@@ -62,19 +62,17 @@
     </div>
   </header>
   <!-------------------
-       Header end
-      --------------------->
+   Header end
+  --------------------->
   <main>
     <section class="main-introduce">
       <div class="container">
-        <div class="header-carousel">
-          <h1 class="text-black display-1">New and insights <br>
-            <span class="text-black-50">form our experts</span>
-          </h1>
-        </div>
-        <div class="header-tab nav-menu ">
+        <h1 class="text-black display-1">New and insights <br>
+          <span class="text-black-50">form our experts</span>
+        </h1>
+        <div class="main-menu nav-menu ">
           <ul class="nav-tabs nav-list nav nav-pills mb-3" role="tablist">
-            <li class="nav-item item fs-4nav-mark " role="presentation">
+            <li class="nav-item item nav-text nav-mark " role="presentation">
               <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button"
                 role="tab" aria-controls="pills-contact" aria-selected="false">All Articles
               </button>
@@ -114,14 +112,39 @@
         </div>
       </div>
     </section>
+    <section class="service">
+      <div class="container">
+        <div class="row row-cols-md-2 gap-2 flex-md-nowrap">
+          <div class="service-left d-flex col-12 col-md-6 mb-md-0 ">
+            <div class="card w-100 mb-md-0">
+              <h3 class="card-header">SERVICE</h3>
+              <div class="card-body">
+                <h4 class="card-text">
+                  <a class="text-black" href="#">
+                    CRM insights: Selecting the Right One for Your Organization
+                  </a>
+                </h4>
+              </div>
+              <p class="card-footer">
+                05 Sep 2022, <span class="text-black-50">by Joshua Nash</span>
+              </p>
+            </div>
+          </div>
+          <div class="service-right col-12 col-md-6">
+            <picture>
+              <!-- mobile -->
+              <source media="(max-width:768px)" srcset="./img/service_img-0.5.jpg">
+              <!-- desktop -->
+              <source media="(min-width:768px)" srcset="./img/service_img-1.5.jpg">
+              <img src="./img/service_img-0.5.jpg" alt="This is the service's photo" class="service-img"
+                sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
-
-
-
-  <!-------------------
-     Header end
-    --------------------->
-
 
 
 
@@ -129,37 +152,7 @@
   <!-------------------
      Service section
     --------------------->
-  <section class="service">
-    <div class="container">
-      <div class="row row-cols-md-2 gap-2 flex-md-nowrap">
-        <div class="service-left d-flex col-12 col-md-6 mb-md-0 ">
-          <div class="card w-100 mb-md-0">
-            <h3 class="card-header">SERVICE</h3>
-            <div class="card-body">
-              <h4 class="card-text">
-                <a class="text-black" href="#">
-                  CRM insights: Selecting the Right One for Your Organization
-                </a>
-              </h4>
-            </div>
-            <p class="card-footer">
-              05 Sep 2022, <span class="text-black-50">by Joshua Nash</span>
-            </p>
-          </div>
-        </div>
-        <div class="service-right col-12 col-md-6">
-          <picture>
-            <!-- mobile -->
-            <source media="(max-width:768px)" srcset="./img/service_img-0.5.jpg">
-            <!-- desktop -->
-            <source media="(min-width:768px)" srcset="./img/service_img-1.5.jpg">
-            <img src="./img/service_img-0.5.jpg" alt="This is the service's photo" class="service-img"
-              sizes="(min-width: 66em) 33vw, (min-width: 44em) 50vw, 100vw">
-          </picture>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-------------------
      Service end

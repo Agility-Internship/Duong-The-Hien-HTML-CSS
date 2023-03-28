@@ -1,34 +1,46 @@
 /* menu__list */
-
+/*------------------------------------*\
+  #
+\*------------------------------------*/
 .nav-menu .item {
   color: var(--black);
-}
-
-.nav-menu .item:hover {
-  color: var(--crab-nebula);
 }
 
 .nav-menu .item:active {
   color: var(--alienated);
 }
-
-/*------------------------------------*\
-  #Header-SECTION
-\*------------------------------------*/
-
-/* header-carousel */
-.header-carousel {
-  padding-top: 3.125rem;
-  padding-bottom: 2rem;
+ .nav-menu .item::before {
+  content: "";
+  width: 0px;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: var(--alienated);
+  transition: all 0.5s;
+}
+.nav-menu .item:hover::before {
   width: 100%;
 }
 
-.header-carousel .text-lg {
-  letter-spacing: -0.888889px;
+.nav-link {
+  padding: unset;
+  color: unset;
 }
 
+.nav-link:hover {
+  color: unset;
+}
+
+.nav-menu .item {
+  position: relative;
+}
+
+/* header-carousel */
+
+
 /* header__tab */
-.header-tab {
+.main-menu {
   /* err: padding-top > border-box */
   width: 100%;
 }
@@ -47,7 +59,7 @@
   position: relative;
 }
 
-.header-tab .nav-pills ::before {
+.main-menu .nav-pills ::before {
   content: "";
   width: 0px;
   height: 3px;
@@ -66,14 +78,14 @@
   padding: unset;
 }
 
-.header-tab .nav-tabs {
+.main-menu .nav-tabs {
   width: 100%;
   margin: auto;
   text-align: center;
   align-items: center;
 }
 
-.header-tab .nav-tabs .nav-mark {
+.main-menu .nav-tabs .nav-mark {
   width: 100%;
   padding: 0.875rem;
   background-color: var(--white);
@@ -109,7 +121,6 @@
 .nav-tabs .item:hover {
   color: var(--black);
 }
-
 /*------------------------------------*\
   #service-SECTION
 \*------------------------------------*/
@@ -257,35 +268,17 @@
   .product-content {
     row-gap: 5rem;
   }
+  /*  */
 }
 
 @media screen and (min-width: 990px) {
   /* -navbar */
-  .header-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .logo {
-    margin-right: 3.75rem;
-  }
-
-  .header-navbar .nav-menu .navbar-nav {
-    margin-bottom: 0rem;
-  }
-
   .nav-menu .nav-item {
     margin-right: 2.5rem;
   }
 
-  .header-navbar .btn-secondary {
-    margin-left: 1rem;
-    width: max-content;
-  }
-
   /* __tab */
-  .header-tab .nav-tabs .nav-mark {
+  .main-menu .nav-tabs .nav-mark {
     width: unset;
     padding: unset;
     background-color: unset;
@@ -294,16 +287,16 @@
     display: none;
   }
 
-  .header .shape {
+  .nav-menu .shape {
     display: none;
   }
 
-  .header-tab .nav-tabs .nav-item {
+  .main-menu .nav-tabs .nav-item {
     display: flex;
     padding-bottom: 1.875rem;
   }
 
-  .header-tab .nav-menu {
+  .main-menu .nav-menu {
     display: flex;
   }
 
