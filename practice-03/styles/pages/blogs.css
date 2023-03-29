@@ -10,6 +10,10 @@
   font-weight: var(--font-weight-bold);
 }
 
+.blog-page .card-header,
+.blog-page .card-body {
+  margin-bottom: 1rem;
+}
 /*------------------------------------*\
   #main-introduce
 \*------------------------------------*/
@@ -241,7 +245,7 @@
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .service-left .card-text {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-x-large);
     line-height: var(--line-height-xx-large);
     letter-spacing: -0.555556px;
   }
