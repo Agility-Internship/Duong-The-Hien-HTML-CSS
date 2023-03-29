@@ -1,8 +1,4 @@
 .card {
-  border-radius: 12px;
-  border: none;
-  padding: 0 1.5rem;
-
   cursor: pointer;
   border: none;
   border-radius: unset;

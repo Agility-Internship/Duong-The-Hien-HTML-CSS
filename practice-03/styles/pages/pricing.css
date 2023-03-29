@@ -1,0 +1,10 @@
+/* card */
+.pricing-page .card {
+  border-radius: 12px;
+  padding: 0 1.5rem;
+}
+/* row */
+.pricing-page .row {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
