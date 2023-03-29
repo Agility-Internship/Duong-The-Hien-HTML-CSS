@@ -12,6 +12,14 @@
   border: none;
 }
 
+.card:active .card-body .card-text {
+  color: var(--alienated);
+}
+
+.card-body:hover .card-text {
+  color: var(--crab-nebula);
+}
+
 
 /* card .button */
 .card .btn {

@@ -11,7 +11,7 @@
 }
 /* typography heading 2 <h2> */
 .display-2 {
-    font-size: var(--font-size-x-large);
+    font-size: var(--font-size-xx-medium);
     font-weight: var(--font-weight-bold);
     line-height: var(--line-height-x-large);
 }
@@ -23,10 +23,17 @@
 }
 /* typography heading 4 <h4> */
 .display-4 {
-    font-size: var(--font-size-medium);
+    font-size: var(--font-size-x-medium);
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-x-medium);
     letter-spacing: -0.25 px;
+}
+/* typography heading 4 <h4> */
+.display-5 {
+  font-size: var(--font-size-x-medium);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-x-medium);
+  letter-spacing: -0.333333px;
 }
 
 /*****paragraphs******/
@@ -57,6 +64,9 @@
         font-size: var(--font-size-xxx-large);
         line-height: var(--line-height-xxx-large);
     }
+    .display-2 {
+      font-size: var(--font-size-x-large);
+  }
     .display-4 {
       font-size: var(--font-size-large);
     }
