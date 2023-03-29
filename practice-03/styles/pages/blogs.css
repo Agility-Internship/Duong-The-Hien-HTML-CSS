@@ -233,15 +233,6 @@
 ** Extra large                                  : > 75rem
 */
 
-
-/* container */
-/*Small tablet(480 x 640)*/
-@media screen and (min-width: 480px) {
-  .service-img {
-    height: 30vh;
-  }
-}
-
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
   .service-left .card-text {
@@ -289,6 +280,10 @@
   .main-menu .nav-tabs .nav-item {
     display: flex;
     padding-bottom: 1.875rem;
+  }
+  /********service********/
+  .service-left .card-body {
+    width: 70%;
   }
 
   /********marketing********/
