@@ -55,6 +55,9 @@
   font-size: var(--font-size-base);
   line-height: var(--line-height-small);
 }
+.fs-1 {
+  font-weight: var(--font-weight-bold);
+}
 
 /* -----Responsive------ */
 /* tablet */
