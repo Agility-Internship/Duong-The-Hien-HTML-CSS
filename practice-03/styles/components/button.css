@@ -15,11 +15,11 @@
 .btn-primary:hover {
   color: var(--bs-black);
   background-color: transparent;
-  border: 1px solid var(--crab-nebula);
+  border: 1px solid var(--secondary);
 }
 
 .btn-secondary {
-  background: var(--crab-nebula);
+  background: var(--secondary);
   border-radius: 4px;
 }
 
@@ -32,10 +32,10 @@
 
 .cta-button .btn-primary:active {
   transform: translateY(5px);
-  background-color: var(--crab-nebula);
+  background-color: var(--secondary);
   border: none;
 }
 
 .cta-button .text-white:hover {
-  text-decoration: underline var(--crab-nebula);
+  text-decoration: underline var(--secondary);
 }

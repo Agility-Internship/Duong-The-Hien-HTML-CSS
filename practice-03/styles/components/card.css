@@ -13,24 +13,24 @@
 }
 
 .card-body:hover .card-text {
-  color: var(--alienated);
+  color: var(--primary);
 }
 
 .card:hover .card-header {
-  color: var(--crab-nebula);
+  color: var(--secondary);
 }
 
 
 /* card .button */
 .card .btn {
-  border: 1px solid var(--gainsboro);
+  border: 1px solid var(--gray-300);
   border-radius: 8px;
 
   padding: 1rem 0;
 }
 
 .card .btn:hover {
-  background-color: var(--alienated);
+  background-color: var(--primary);
   color: var(--bs-white);
   border: none;
 }

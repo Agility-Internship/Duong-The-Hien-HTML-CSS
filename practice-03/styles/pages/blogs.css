@@ -26,7 +26,7 @@
   width: 100%;
   padding: 0.875rem;
   background-color: var(--bs-white);
-  border: 0.0625rem solid var(--gainsboro);
+  border: 0.0625rem solid var(--gray-300);
   /* 0.0625 = 1px */
   border-radius: 0.5rem;
   display: flex;
@@ -46,7 +46,7 @@
 
 .nav-tabs .item {
   position: relative;
-  color: var(--lucky-grey);
+  color: var(--gray-500);
   display: none;
   margin-right: 0;
 }
@@ -73,7 +73,7 @@
 
 /*! animation nav */
 .nav-menu .item:active {
-  color: var(--alienated);
+  color: var(--primary);
 }
 
 .nav-menu .item::before {
@@ -83,7 +83,7 @@
   bottom: 0;
   left: 0;
   position: absolute;
-  background-color: var(--alienated);
+  background-color: var(--primary);
   transition: all 0.5s;
 }
 
@@ -112,7 +112,7 @@
   bottom: 0;
   left: 0;
   position: absolute;
-  background-color: var(--alienated);
+  background-color: var(--primary);
   transition: all 0.5s;
 }
 

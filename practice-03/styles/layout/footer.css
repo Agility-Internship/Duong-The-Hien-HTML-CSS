@@ -13,7 +13,7 @@
 
 /* background */
 .cta-content {
-  background-color: var(--crab-nebula);
+  background-color: var(--secondary);
   padding: 4.5rem 0;
 }
 
@@ -39,10 +39,10 @@
 
 /********navigation********/
 .navigation .fs-5:hover{
-  color: var(--crab-nebula);
+  color: var(--secondary);
 }
 .navigation .fs-6:hover{
-  color: var(--alienated);
+  color: var(--primary);
 }
 .navigation .fs-5 {
   font-weight: var(--font-weight-bold);
