@@ -5,7 +5,7 @@
 
 .blog-page .card-header {
   position: relative;
-  color: var(--west_chester-grey);
+  color: var(--gray-500);
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
 }
@@ -92,7 +92,7 @@
 }
 
 .nav-pills .nav-link.active {
-  color: var(--west_chester-grey);
+  color: var(--gray-500);
   background-color: transparent;
 }
 
@@ -129,8 +129,8 @@
 
 /* service-left */
 .service-left .card {
-  border-bottom: 1px solid var(--west_chester-grey);
-  border-top: 1px solid var(--west_chester-grey);
+  border-bottom: 1px solid var(--gray-500);
+  border-top: 1px solid var(--gray-500);
 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -172,7 +172,7 @@
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--west_chester-grey);
+  border-bottom: 1px solid var(--gray-500);
 }
 
 /*------------------------------------*\
@@ -190,7 +190,7 @@
   justify-content: space-between;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--west_chester-grey);
+  border-top: 1px solid var(--gray-500);
 }
 
 .card .card-horizontal-left {

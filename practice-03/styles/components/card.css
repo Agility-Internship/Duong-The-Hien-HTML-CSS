@@ -48,7 +48,7 @@
   left: 0;
 
   position: absolute;
-  background-color: var(--west_chester-grey);
+  background-color: var(--gray-500);
 }
 
 .card-img-top {
