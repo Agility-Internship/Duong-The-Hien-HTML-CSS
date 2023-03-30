@@ -25,6 +25,6 @@
 
 .accordion-button:after,
 .accordion-button:not(.collapsed)::after {
-  background-image: url(../../img/plus-lg.svg);
+  background-image: url(../../imgx/plus-lg.svg);
   margin-left: 1rem;
 }
