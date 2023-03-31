@@ -17,6 +17,10 @@
 /* -----Responsive------ */
 /* tablet */
 @media screen and (min-width: 992px) {
+    /*introduce  */
+    .main-introduce .display-1 {
+      width: 55%;
+    }
     /* package*/
     .package-help .btn{
         width: max-content;
@@ -26,7 +30,7 @@
         width: 60%;
     }
     .question-article .accordion {
-        width: 70%;
+        width: 80%;
         align-items: end;
     }
 }

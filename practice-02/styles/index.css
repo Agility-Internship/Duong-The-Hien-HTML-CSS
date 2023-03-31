@@ -353,13 +353,8 @@ a {
   margin-bottom: 5rem;
 }
 
-.service-left,
-.service-right {
-  width: 100%;
-}
-
 /* service-left */
-.service-left {
+.service-left .card {
   border-bottom: 1px solid var(--west_chester-grey);
   border-top: 1px solid var(--west_chester-grey);
 
@@ -380,7 +375,7 @@ a {
 }
 
 .service-left .card-text {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-top: 0.875rem;
   letter-spacing: -0.555556px;
 }
@@ -400,15 +395,6 @@ a {
   margin-bottom: 5rem;
 }
 
-.product-content {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
-  display: grid;
-  row-gap: 2.875rem;
-  grid-template-columns: repeat(1, 1fr);
-}
-
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
@@ -422,18 +408,6 @@ a {
   margin-bottom: 5rem;
 }
 
-.marketing-content {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  row-gap: 2.875rem;
-  /* display: flex;
-  justify-content: space-between; */
-  /* align-items: center; */
-}
-
-.marketing .card {
-  width: 100%;
-}
 
 .marketing-content .card.card-horizontal {
   display: flex;
@@ -693,16 +667,9 @@ a {
 /*Small tablet(480 x 640)*/
 @media screen and (min-width: 480px) {
   .service-img {
-    height: 45vh;
+    height: 50vh;
   }
 
-  /******************/
-  /* products */
-  .product-content {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.875rem;
-    row-gap: 7.5rem;
-  }
 
   .card-header,
   .card-body {
@@ -744,7 +711,14 @@ a {
     line-height: var(--line-height-xx-large);
     letter-spacing: -0.555556px;
   }
-
+  .service-img {
+    height: 100%;
+  }
+  /***********************/
+  /* product */
+  .product-content {
+    row-gap: 5rem;
+  }
   /***********************/
   /* CTA */
   .cta-content {
@@ -813,39 +787,6 @@ a {
     display: flex;
   }
 
-  /***********************/
-  /* service */
-  .service .container {
-    display: flex;
-    gap: 1.875rem;
-  }
-
-  .service-img {
-    height: 100%;
-  }
-
-  .service-left,
-  .service-right {
-    width: 50%;
-    margin: 0;
-  }
-
-  /******************/
-  /* products */
-  .product-content {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  /***********************/
-  /* marketing */
-  .marketing-content {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    column-gap: 1.875rem;
-    row-gap: 0;
-    align-items: start;
-  }
-
   .marketing-content .card.card-horizontal {
     flex-direction: row;
     align-items: flex-end;
@@ -861,9 +802,6 @@ a {
     text-align: end;
   }
 
-  .marketing-content .card.card-img {
-    grid-row: 1/4;
-  }
 
   /************************/
   /* cta */
@@ -961,7 +899,7 @@ a {
   }
 
   .service-left .card-text {
-    width: 90%;
+    width: 80%;
   }
 
   .cta .container {

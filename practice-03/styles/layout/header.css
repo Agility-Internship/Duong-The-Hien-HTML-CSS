@@ -27,3 +27,7 @@
     width: max-content;
   }
 }
+/* off canvas */
+.header .offcanvas {
+  background-color: var(--gainsboro);
+}

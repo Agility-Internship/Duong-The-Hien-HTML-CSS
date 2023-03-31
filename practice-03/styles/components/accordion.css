@@ -1,3 +1,8 @@
+/*------------------------------------*\
+  .accordion
+\*------------------------------------*/
+
+/* Custom style accordion */
 .question .accordion-button:not(.collapsed) {
   color: unset;
   background-color: unset;

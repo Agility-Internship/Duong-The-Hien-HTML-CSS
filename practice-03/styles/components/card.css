@@ -2,6 +2,10 @@
   border-radius: 12px;
   border: none;
   padding: 0 1.5rem;
+
+  cursor: pointer;
+  border: none;
+  border-radius: unset;
 }
 
 .card-header,
@@ -12,6 +16,14 @@
   border: none;
 }
 
+.card-body:hover .card-text {
+  color: var(--alienated);
+}
+
+.card:hover .card-header {
+  color: var(--crab-nebula);
+}
+
 
 /* card .button */
 .card .btn {
@@ -20,8 +32,39 @@
 
   padding: 1rem 0;
 }
+
 .card .btn:hover {
   background-color: var(--alienated);
   color: var(--bs-white);
   border: none;
+}
+
+/* card-img */
+.card-img .card-header {
+  padding-bottom: 0.875rem;
+}
+/* hr */
+.card-img .card-header::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+
+  position: absolute;
+  background-color: var(--west_chester-grey);
+}
+
+.card-img-top {
+  max-inline-size: 100%;
+  block-size: auto;
+  inline-size: 100%;
+
+  margin-bottom: 1rem;
+
+  border-radius: unset;
+  /* padding: -1.875rem; background padding */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
