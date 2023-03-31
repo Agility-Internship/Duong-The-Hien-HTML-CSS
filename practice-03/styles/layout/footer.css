@@ -18,7 +18,7 @@
 }
 
 .cta .cta-button {
-  background-image: url(../../imgx/background-CTA.png);
+  background-image: url(../../imgs/background-CTA.png);
   background-position: -62.5rem;
   background-repeat: no-repeat;
   background-position-y: -1rem;
@@ -85,7 +85,7 @@
 
 @media screen and (min-width: 992px) {
   .cta {
-    background-image: url(../../imgx/background-CTA.png);
+    background-image: url(../../imgs/background-CTA.png);
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
