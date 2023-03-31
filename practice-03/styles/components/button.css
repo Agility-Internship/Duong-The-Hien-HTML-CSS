@@ -7,20 +7,20 @@
 
 .btn-primary {
   background: var(--bs-white);
-  border: 1px solid var(--bs-white);
-  border-radius: 4px;
+  border: 0.0625rem solid var(--bs-white);
+  border-radius: 0.25rem;
   color: var(--black);
 }
 
 .btn-primary:hover {
   color: var(--bs-black);
   background-color: transparent;
-  border: 1px solid var(--secondary);
+  border: 0.0625rem solid var(--secondary);
 }
 
 .btn-secondary {
   background: var(--secondary);
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 
@@ -31,7 +31,7 @@
 }
 
 .cta-button .btn-primary:active {
-  transform: translateY(5px);
+  transform: translateY(0.3125rem);
   background-color: var(--secondary);
   border: none;
 }

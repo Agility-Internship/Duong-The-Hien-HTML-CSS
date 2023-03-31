@@ -27,7 +27,7 @@
   padding: 0.875rem;
   background-color: var(--bs-white);
   border: 0.0625rem solid var(--gray-300);
-  /* 0.0625 = 1px */
+  /* 0.0625 = 0.0625rem */
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@
 .nav-menu .item::before {
   content: "";
   width: 0px;
-  height: 3px;
+  height: 0.1875rem;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -108,7 +108,7 @@
 .main-menu .nav-pills ::before {
   content: "";
   width: 0px;
-  height: 3px;
+  height: 0.1875rem;
   bottom: 0;
   left: 0;
   position: absolute;
@@ -129,8 +129,8 @@
 
 /* service-left */
 .service-left .card {
-  border-bottom: 1px solid var(--gray-500);
-  border-top: 1px solid var(--gray-500);
+  border-bottom: 0.0625rem solid var(--gray-500);
+  border-top: 0.0625rem solid var(--gray-500);
 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -142,10 +142,10 @@
 }
 
 .service-left .card:hover {
-  border: 3px solid transparent;
+  border: 0.1875rem solid transparent;
 
   background-color: var(--white);
-  box-shadow: 1px 0 3.125rem rgb(0 0 0 / 10%);
+  box-shadow: 0.0625rem 0 3.125rem rgb(0 0 0 / 10%);
 }
 
 .service-left .card-text {
@@ -172,7 +172,7 @@
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--gray-500);
+  border-bottom: 0.0625rem solid var(--gray-500);
 }
 
 /*------------------------------------*\
@@ -190,7 +190,7 @@
   justify-content: space-between;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--gray-500);
+  border-top: 0.0625rem solid var(--gray-500);
 }
 
 .card .card-horizontal-left {

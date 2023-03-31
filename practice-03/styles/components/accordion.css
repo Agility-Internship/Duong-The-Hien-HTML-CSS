@@ -12,7 +12,7 @@
 .accordion-flush .accordion-item:first-child,
 .accordion-flush .accordion-item {
   border: unset;
-  border-top: 1px solid var(--bs-accordion-border-color);
+  border-top: 0.0625rem solid var(--bs-accordion-border-color);
 }
 
 .accordion-button,
