@@ -5,7 +5,7 @@
 
 .blog-page .card-header {
   position: relative;
-  color: var(--west_chester-grey);
+  color: var(--gray-500);
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
 }
@@ -26,8 +26,8 @@
   width: 100%;
   padding: 0.875rem;
   background-color: var(--bs-white);
-  border: 0.0625rem solid var(--gainsboro);
-  /* 0.0625 = 1px */
+  border: 0.0625rem solid var(--gray-300);
+  /* 0.0625 = 0.0625rem */
   border-radius: 0.5rem;
   display: flex;
   align-items: center;
@@ -46,7 +46,7 @@
 
 .nav-tabs .item {
   position: relative;
-  color: var(--lucky-grey);
+  color: var(--gray-500);
   display: none;
   margin-right: 0;
 }
@@ -73,17 +73,17 @@
 
 /*! animation nav */
 .nav-menu .item:active {
-  color: var(--alienated);
+  color: var(--primary);
 }
 
 .nav-menu .item::before {
   content: "";
   width: 0px;
-  height: 3px;
+  height: 0.1875rem;
   bottom: 0;
   left: 0;
   position: absolute;
-  background-color: var(--alienated);
+  background-color: var(--primary);
   transition: all 0.5s;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .nav-pills .nav-link.active {
-  color: var(--west_chester-grey);
+  color: var(--gray-500);
   background-color: transparent;
 }
 
@@ -108,11 +108,11 @@
 .main-menu .nav-pills ::before {
   content: "";
   width: 0px;
-  height: 3px;
+  height: 0.1875rem;
   bottom: 0;
   left: 0;
   position: absolute;
-  background-color: var(--alienated);
+  background-color: var(--primary);
   transition: all 0.5s;
 }
 
@@ -129,8 +129,8 @@
 
 /* service-left */
 .service-left .card {
-  border-bottom: 1px solid var(--west_chester-grey);
-  border-top: 1px solid var(--west_chester-grey);
+  border-bottom: 0.0625rem solid var(--gray-500);
+  border-top: 0.0625rem solid var(--gray-500);
 
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -142,10 +142,10 @@
 }
 
 .service-left .card:hover {
-  border: 3px solid transparent;
+  border: 0.1875rem solid transparent;
 
   background-color: var(--white);
-  box-shadow: 1px 0 3.125rem rgb(0 0 0 / 10%);
+  box-shadow: 0.0625rem 0 3.125rem rgb(0 0 0 / 10%);
 }
 
 .service-left .card-text {
@@ -172,7 +172,7 @@
 .product .card-title {
   padding-bottom: 0.875rem;
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid var(--west_chester-grey);
+  border-bottom: 0.0625rem solid var(--gray-500);
 }
 
 /*------------------------------------*\
@@ -190,7 +190,7 @@
   justify-content: space-between;
 
   padding-top: 1rem;
-  border-top: 1px solid var(--west_chester-grey);
+  border-top: 0.0625rem solid var(--gray-500);
 }
 
 .card .card-horizontal-left {
@@ -218,7 +218,7 @@
 
 .article__content .article__pic {
   width: 100%;
-  height: 241px;
+  height: 15rem;
 }
 
 
@@ -232,15 +232,6 @@
 ** Large screens and Desktops                 :  64rem < 75 rem [1024px < 1200px]
 ** Extra large                                  : > 75rem
 */
-
-
-/* container */
-/*Small tablet(480 x 640)*/
-@media screen and (min-width: 480px) {
-  .service-img {
-    height: 30vh;
-  }
-}
 
 /*Vertical iPad(768 x 1024)*/
 @media screen and (min-width: 768px) {
@@ -289,6 +280,10 @@
   .main-menu .nav-tabs .nav-item {
     display: flex;
     padding-bottom: 1.875rem;
+  }
+  /********service********/
+  .service-left .card-body {
+    width: 70%;
   }
 
   /********marketing********/

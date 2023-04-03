@@ -1,5 +1,5 @@
 /* abstracts */
-@import "./abstracts/variable.css";
+@import "./abstracts/variables.css";
 
 /* base */
 @import "./base/reset.css";
