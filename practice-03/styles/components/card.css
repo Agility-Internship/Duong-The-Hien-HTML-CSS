@@ -1,8 +1,4 @@
 .card {
-  border-radius: 12px;
-  border: none;
-  padding: 0 1.5rem;
-
   cursor: pointer;
   border: none;
   border-radius: unset;
@@ -17,24 +13,24 @@
 }
 
 .card-body:hover .card-text {
-  color: var(--alienated);
+  color: var(--primary);
 }
 
 .card:hover .card-header {
-  color: var(--crab-nebula);
+  color: var(--secondary);
 }
 
 
 /* card .button */
 .card .btn {
-  border: 1px solid var(--gainsboro);
-  border-radius: 8px;
+  border: 0.0625rem solid var(--gray-300);
+  border-radius: 0.5rem;
 
   padding: 1rem 0;
 }
 
 .card .btn:hover {
-  background-color: var(--alienated);
+  background-color: var(--primary);
   color: var(--bs-white);
   border: none;
 }
@@ -46,13 +42,13 @@
 /* hr */
 .card-img .card-header::after {
   content: "";
-  height: 1px;
+  height: 0.0625rem;
   width: 100%;
   bottom: 0;
   left: 0;
 
   position: absolute;
-  background-color: var(--west_chester-grey);
+  background-color: var(--gray-500);
 }
 
 .card-img-top {

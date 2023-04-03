@@ -2,7 +2,7 @@
   #header
 \*------------------------------------*/
 .header {
-  background: var(--lighthouse);
+  background: var(--light);
 }
 
 /* navbar */
@@ -10,7 +10,7 @@
   border: none;
 }
 .nav-item .nav-link:hover {
-  color: var(--alienated);
+  color: var(--primary);
 }
 
 /* -----Responsive------ */
@@ -29,5 +29,5 @@
 }
 /* off canvas */
 .header .offcanvas {
-  background-color: var(--gainsboro);
+  background-color: var(--gray-300);
 }

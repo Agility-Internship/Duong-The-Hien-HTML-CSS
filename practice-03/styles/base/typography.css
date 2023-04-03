@@ -26,14 +26,14 @@
     font-size: var(--font-size-x-medium);
     font-weight: var(--font-weight-medium);
     line-height: var(--line-height-x-medium);
-    letter-spacing: -0.25 px;
+    letter-spacing: -0.25px;
 }
 /* typography heading 5 <h5> */
 .display-5 {
   font-size: var(--font-size-x-medium);
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-x-medium);
-  letter-spacing: -0.333333px;
+  letter-spacing: -0.333330.1875rem;
 }
 
 /*****paragraphs******/

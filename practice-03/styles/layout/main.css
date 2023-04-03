@@ -3,7 +3,7 @@
 \*------------------------------------*/
 .main-introduce,
 .package {
-    background-color: var(--lighthouse);
+    background-color: var(--light);
 }
 /* container */
 .main .container {

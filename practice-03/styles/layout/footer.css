@@ -13,12 +13,12 @@
 
 /* background */
 .cta-content {
-  background-color: var(--crab-nebula);
+  background-color: var(--secondary);
   padding: 4.5rem 0;
 }
 
 .cta .cta-button {
-  background-image: url(../../img/BG.png);
+  background-image: url(../../images/background-CTA.png);
   background-position: -62.5rem;
   background-repeat: no-repeat;
   background-position-y: -1rem;
@@ -33,16 +33,16 @@
   width: 12.375rem;
   height: 4rem;
   background: var(--bs-white);
-  filter: drop-shadow(0px 1.5rem 2rem rgba(0, 0, 0, 0.1));
+  filter: drop-shadow(0rem 1.5rem 2rem rgba(0, 0, 0, 0.1));
 }
 
 
 /********navigation********/
 .navigation .fs-5:hover{
-  color: var(--crab-nebula);
+  color: var(--secondary);
 }
 .navigation .fs-6:hover{
-  color: var(--alienated);
+  color: var(--primary);
 }
 .navigation .fs-5 {
   font-weight: var(--font-weight-bold);
@@ -84,7 +84,7 @@
 
 @media screen and (min-width: 992px) {
   .cta {
-    background-image: url(../../img/BG.png);
+    background-image: url(../../images/background-CTA.png);
     background-position: center;
     background-repeat: no-repeat;
     background-position: center;
