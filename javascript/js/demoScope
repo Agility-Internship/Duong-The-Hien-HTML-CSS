@@ -1,0 +1,83 @@
+/**
+ * var
+ * + Cho đặt tên trùng 
+ * + Cho gán lại giá trị 
+ * 
+ * const (Hằng số)
+ * + Không cho đặt trùng tên
+ * + Không cho gán lại giá
+ * 
+ * let (ES6)
+ */
+
+//!Có cho khai báo trùng tên không? => dữ liệu bị sai
+var age = 10;
+// console.log("var 1",age);
+
+//?khai báo biến
+var age = 20;//!ghi đè giá trị của biến ở trên
+console.log("var 2",age);
+
+//Có cho gán lại giá trị không? 
+var fullName = "Nguyễn Thi Khách Hàng";
+
+//lưu giá trị mới cho biến
+fullName = "Nguyễn Văn A"
+console.log(fullName);
+
+
+//? HẰNG SỐ: lưu các giá trị được dùng ở nhiều chỗ trong ứng dụng
+//muốn đổi giá trị thì sửa ở dòng khai báo biến const
+//!Không cho đặt tên trùng
+const PI = 3.14; 
+
+// const PI = 3.141414;//lỗi cú pháp
+// console.log(PI);
+
+//!Không cho gán lại giá trị
+// PI = 3.14141414;
+// console.log(PI);
+
+
+/**
+ * Phạm vi biến
+ * var 
+ *  + global (toàn cục) , function/local (cục bộ)
+ * const 
+ *   + global (toàn cục) , function/local (cục bộ), block scope (giới hạn trong 1 block {})
+ */
+
+//biến khai báo ngoài hàm => toàn cục
+var username = "beba123";
+
+console.log("toàn cục - gọi ngoài hàm", username);
+function showInfo(){
+    console.log("toàn cục - gọi trong hàm", username);
+
+    //Cục bộ/ function scope
+    //?Biến khai báo trong hàm nào thì chỉ dùng được trong hàm đó
+    var ageUser = 20;
+    console.log("cục bộ - gọi trong hàm", ageUser) ;
+
+}
+
+showInfo();
+
+// console.log("cục bộ - gọi ngoài hàm", ageUser) 
+
+var age2= 20;
+function showInfo2() {
+    //block scope
+    if(age2 >= 20){
+        const MGS = "đã đủ tuổi";
+        var name = "tên user";
+        console.log("block - gọi trong block", MGS);
+        console.log("block - gọi trong block", name);
+    }
+
+    // console.log("block - gọi trong hàm", MGS); //!lỗi
+    console.log("block - gọi trong hàm", name);//var chỉ có 2 phạm vi nên khi khai báo trong block vẫn dùng được trong hàm
+}
+
+showInfo2()
+// console.log("block - gọi ngoài hàm", MGS);//!lỗi
