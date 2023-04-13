@@ -50,7 +50,7 @@ This is the design of the webpage interface of yoora website according to the mo
     ~~~
     npm install
     ~~~
-- Step 5: Run Webpag
+- Step 5: Run Webpage
     ~~~
      npm start
     ~~~
